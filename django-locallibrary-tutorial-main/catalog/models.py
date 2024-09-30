@@ -42,6 +42,7 @@ class Genre(models.Model):
     name = models.CharField(
         max_length=200,
         unique=True,
+        verbose_name='Название:',
         help_text="Введите жанр книги (Например, научная фантастика, зарубежная поэзия)"
     )
 
@@ -63,9 +64,12 @@ class Genre(models.Model):
         ]
 
 class Language(models.Model):
-    name = models.CharField(max_length=200,
-                            unique=True,
-                            help_text="Введите язык, на котором написана книга (например, Английский)")
+    name = models.CharField(
+        max_length=200,
+        unique=True,
+        verbose_name="Название:",
+        help_text="Введите язык, на котором написана книга (например, Английский)"
+    )
 
     def get_absolute_url(self):
         """Returns the url to access a particular language instance."""
@@ -86,25 +90,50 @@ class Language(models.Model):
 
 class Book(models.Model):
     """Модель книги (только в базе, не на руках)."""
-    title = models.CharField(max_length=200)
-    author = models.ForeignKey('Author', on_delete=models.RESTRICT, null=True)
-    path_to_icon = models.CharField(max_length=200, help_text="Введите путь к изображению")
-    path_to_file = models.CharField(max_length=255)
+    title = models.CharField(
+        max_length=200,
+        verbose_name="Название книги"
+    )
+    author = models.ForeignKey(
+        'Author',
+        on_delete=models.RESTRICT,
+        verbose_name='Автор:',
+        null=True
+    )
+    path_to_icon = models.CharField(
+        max_length=200,
+        verbose_name="Обложка книги (расположение):",
+        help_text="Введите путь к изображению"
+    )
+    path_to_file = models.CharField(
+        max_length=255,
+        verbose_name="Печатная книга (расположение):"
+    )
     rating = models.IntegerField(null=True, blank=True)   # Добавляем поле для рейтинга (по сути заглушка)
     # Foreign Key used because book can only have one author, but authors can have multiple books.
     # Author as a string rather than object because it hasn't been declared yet in file.
     summary = models.TextField(
-        max_length=1000, help_text="Введите описание книги")
-    isbn = models.CharField('ISBN', max_length=13,
-                            unique=True,
-                            help_text='13 Character <a href="https://www.isbn-international.org/content/what-isbn'
+        max_length=1000,
+        verbose_name="Описание книги"
+    )
+    isbn = models.CharField(
+        verbose_name="Номер ISBN",
+        max_length=13,
+        unique=True,
+        help_text='13 Character <a href="https://www.isbn-international.org/content/what-isbn'
                                       '">ISBN number</a>')
     genre = models.ManyToManyField(
-        Genre, help_text="Выберите жанр книги")
+        Genre, help_text="Выберите жанр книги (возможно выбрать несколько)",
+        verbose_name="Жанр"
+    )
     # ManyToManyField used because a genre can contain many books and a Book can cover many genres.
     # Genre class has already been defined so we can specify the object above.
     language = models.ForeignKey(
-        'Language', on_delete=models.SET_NULL, null=True)
+        'Language',
+        on_delete=models.SET_NULL,
+        null=True,
+        verbose_name="Язык"
+    )
     #models.ImageField
 
     class Meta:
@@ -196,10 +225,23 @@ class BookInstance(models.Model):
 
 class Author(models.Model):
     """Модель автора книги."""
-    first_name = models.CharField(max_length=100)
-    last_name = models.CharField(max_length=100)
-    date_of_birth = models.DateField(null=True, blank=True)
-    date_of_death = models.DateField('died', null=True, blank=True)
+    first_name = models.CharField(
+        max_length=100,
+        verbose_name="Имя"
+    )
+    last_name = models.CharField(
+        max_length=100,
+        verbose_name="Фамилия"
+    )
+    date_of_birth = models.DateField(
+        null=True,
+        blank=True,
+        verbose_name="Дата рождения"
+    )
+    date_of_death = models.DateField(
+        null=True,
+        blank=True,
+        verbose_name="Дата смерти")
 
     class Meta:
         ordering = ['last_name', 'first_name']

@@ -6,12 +6,12 @@
 {% block content %}
     <h1>Список книг</h1>
 
-    <a href="?sort=title">Сортировать по названию (А-Я)</a> |
-    <a href="?sort=-title">Сортировать по названию (Я-А)</a> |
-    <select id="sort-author">
-        <option value="">Сортировать по автору</option>
-        <option value="author">По алфавиту</option>
-        <option value="-author">В обратном алфавитном порядке</option>
+    <!--<a href="?sort=title">Сортировать по названию (А-Я)</a> | 
+    <a href="?sort=-title">Сортировать по названию (Я-А)</a> |-->
+    <select id="sorting">
+        <option value="">По умолчанию</option>
+        <option value="title">По алфавиту</option>
+        <option value="-title">В обратном алфавитном порядке</option>
     </select>
     <style>
       table {
@@ -77,7 +77,7 @@
     {% endif %}
 
     <script>
-        document.getElementById('sort-author').addEventListener('change', function() {
+        document.getElementById('sorting').addEventListener('change', function() {
             const sortValue = this.value;
             let url = window.location.href; // Получаем текущий URL
 

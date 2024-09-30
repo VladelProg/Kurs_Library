@@ -1,15 +1,14 @@
 {% extends "base_generic.html" %}
-
+{% load django_bootstrap5 %}
 {% block content %}
 
 {% if form.errors %}
-<p>Логин или пароль неверные. Попробуйте ещё раз.</p>
+    <p>Логин или пароль неверные. Попробуйте ещё раз.</p>
 {% endif %}
 
 {% if next %}
     {% if user.is_authenticated %}
-    <p>Your account doesn't have access to this page. To proceed,
-    please login with an account that has access.</p>
+        <p> Недостаточно прав для просмотра данной страницы. Зарегистрируйтесь под правами админа.</p>
     {% else %}
     <p>Please login to see this page.</p>
     {% endif %}
@@ -17,8 +16,9 @@
 
 <form method="post" action="{% url 'login' %}">
 {% csrf_token %}
-<table>
+<!--<table>
 <tr>
+    
     <td>{{ form.username.label_tag }}</td>
     <td>{{ form.username }}</td>
 </tr>
@@ -27,8 +27,9 @@
     <td>{{ form.password }}</td>
 </tr>
 </table>
-
-<input type="submit" value="login">
+-->
+{% bootstrap_form form %}
+{% bootstrap_button button_type="submit" content="Войти" %}
 <input type="hidden" name="next" value="{{ next }}">
 </form>
 
