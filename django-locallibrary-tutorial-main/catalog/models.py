@@ -11,31 +11,6 @@ import os
 from django.conf import settings
 
 
-class UserActionLog(models.Model):
-    user = models.ForeignKey(User, on_delete=models.CASCADE)
-    action = models.CharField(max_length=255)  # Описание действия
-    timestamp = models.DateTimeField(default=timezone.now)  # Время действия
-
-    def __str__(self):
-        return f"{self.user.username} - {self.action} - {self.timestamp}"
-    
-    #def save(self, *args, **kwargs):
-    #    super().save(*args, **kwargs) # Правильно: *args здесь используется для передачи аргументов
-    #    log_user_action(self.user, self.action)
-
-
-def log_user_action(user, action):
-    """Записывает действия пользователя в текстовый файл."""
-
-    # Получаем путь к файлу логов из настроек Django
-    log_file_path = os.path.join(settings.BASE_DIR, 'logs', 'user_actions.txt')
-
-    # Создаем директорию для логов, если ее нет
-    os.makedirs(os.path.dirname(log_file_path), exist_ok=True)
-
-    # Открываем файл в режиме добавления (a)
-    with open(log_file_path, 'a') as log_file:
-        log_file.write(f"{timezone.now()} - {user.username} - {action}\n")
 
 class Genre(models.Model):
     """Модель жанра книги"""
@@ -64,6 +39,7 @@ class Genre(models.Model):
         ]
 
 class Language(models.Model):
+    
     name = models.CharField(
         max_length=200,
         unique=True,
@@ -87,6 +63,7 @@ class Language(models.Model):
                 violation_error_message = "Язык уже есть в базе"
             ),
         ]
+from django.db.models import Avg
 
 class Book(models.Model):
     """Модель книги (только в базе, не на руках)."""
@@ -110,12 +87,14 @@ class Book(models.Model):
         verbose_name="Печатная книга (расположение):"
     )
     rating = models.IntegerField(null=True, blank=True)   # Добавляем поле для рейтинга (по сути заглушка)
+    
     # Foreign Key used because book can only have one author, but authors can have multiple books.
     # Author as a string rather than object because it hasn't been declared yet in file.
     summary = models.TextField(
         max_length=1000,
         verbose_name="Описание книги"
     )
+    
     isbn = models.CharField(
         verbose_name="Номер ISBN",
         max_length=13,
@@ -126,24 +105,19 @@ class Book(models.Model):
         Genre, help_text="Выберите жанр книги (возможно выбрать несколько)",
         verbose_name="Жанр"
     )
-    # ManyToManyField used because a genre can contain many books and a Book can cover many genres.
-    # Genre class has already been defined so we can specify the object above.
+    
+    # Много книг может иметь много жанров
+    
     language = models.ForeignKey(
         'Language',
         on_delete=models.SET_NULL,
         null=True,
         verbose_name="Язык"
     )
-    #models.ImageField
-
+    
     class Meta:
         ordering = ['title', 'author']
 
-    def get_average_rating(self):
-        ratings = self.ratings.all()  # Связь с моделью Rating
-        if ratings.exists():
-            return sum([rating.value for rating in ratings]) / ratings.count()
-        return 0
     
     def display_genre(self):
         """Creates a string for the Genre. This is required to display genre in Admin."""
@@ -165,15 +139,15 @@ class Book(models.Model):
         """String for representing the Model object."""
         return self.title
     
-#class Rating(models.Model):
-#    user = models.ForeignKey(User, on_delete=models.CASCADE)
-#    book = models.ForeignKey(Book, related_name='ratings', on_delete=models.CASCADE)
-#    value = models.IntegerField()  # Оценка, например от 1 до 5
 
-#    class Meta:
-#        unique_together = ('user', 'book')  # Один пользователь может оставить одну оценку для каждой книги
+class Rating(models.Model):
+    book = models.ForeignKey('Book', on_delete=models.CASCADE, related_name='ratings')
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    rating = models.IntegerField()
+    timestamp = models.DateTimeField(auto_now_add=True)
 
-
+    def __str__(self):
+        return f"{self.book.title} - {self.rating}"
 
 import uuid  # Required for unique book instances
 from datetime import date

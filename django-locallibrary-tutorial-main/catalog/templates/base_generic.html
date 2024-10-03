@@ -14,7 +14,6 @@
   <link rel="stylesheet" href="{% static 'css/styles.css' %}">
 </head>
 <body>
-
 <div class="container-fluid">
 
 <div class="row">
@@ -44,28 +43,7 @@
    {% endif %}
   </ul>
 
-   {% if user.is_staff %}
-   <hr>
-   <ul class="sidebar-nav">
-   <li>Управление библиотекой:</li>
-   <!--<li><a href="{% url 'all-borrowed' %}">Коллекция</a></li> -->
-   {% if perms.catalog.add_genre %}
-     <li><a href="{% url 'genre-create' %}">Добавить новый жанр книг</a></li>
-   {% endif %}
-   {% if perms.catalog.add_language %}
-     <li><a href="{% url 'language-create' %}">Добавить язык</a></li>
-   {% endif %}
-   {% if perms.catalog.add_author %}
-     <li><a href="{% url 'author-create' %}">Добавить автора</a></li>
-   {% endif %}
-   {% if perms.catalog.add_book %}
-     <li><a href="{% url 'book-create' %}">Добавить книгу</a></li>
-   {% endif %}
-   {% if perms.catalog.add_bookinstance %}
-     <!--<li><a href="{% url 'bookinstance-create' %}">Создать экземпляр книги</a></li>-->
-   {% endif %}
-   </ul>
-   {% endif %}
+    {% include "base_generic_copy.html" %}
 
 {% endblock %}
   </div>

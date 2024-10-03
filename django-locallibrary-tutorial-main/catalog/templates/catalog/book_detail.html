@@ -10,6 +10,7 @@
 <p><strong>Язык:</strong> {{ book.language }}</p>
 <p><strong>Жанр:</strong> {{ book.genre.all|join:", " }}</p>
 
+
 <div style="margin-left:20px;margin-top:20px">
   <h1>Добавить рейтинг для книги "{{ book.title }}"</h1>
   <form method="post" id="rating-form">
@@ -32,6 +33,11 @@
     {% empty %}
         <p>В библиотеке не осталось копий этой книги.</p>
     {% endfor %}
+    {% if average_rating %}
+    <p>Средний рейтинг: {{ average_rating|floatformat:1 }}</p>
+{% else %}
+    <p>Нет оценок.</p>
+{% endif %}
 </div>
 
 <script>
