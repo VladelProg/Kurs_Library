@@ -11,7 +11,6 @@ import os
 from django.conf import settings
 
 
-
 class Genre(models.Model):
     """Модель жанра книги"""
     name = models.CharField(
@@ -227,3 +226,11 @@ class Author(models.Model):
     def __str__(self):
         """String for representing the Model object."""
         return f'{self.last_name}, {self.first_name}'
+
+class logs(models.Model):
+    timestamp = models.DateTimeField()
+    user = models.TextField()
+    action = models.TextField()
+    
+    def __str__(self):
+        return f"{self.timestamp} -{self.user} - {self.action}"

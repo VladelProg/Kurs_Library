@@ -1,8 +1,9 @@
 from django.contrib import admin
-
+from django.shortcuts import render
+from django.urls import path
 # Register your models here.
 
-from .models import Author, Genre, Book, BookInstance, Language
+from .models import Author, Genre, Book, BookInstance, Language, logs
 
 """Minimal registration of Models.
 admin.site.register(Book)
@@ -73,3 +74,9 @@ class BookInstanceAdmin(admin.ModelAdmin):
             'fields': ('status', 'due_back', 'borrower')
         }),
     )
+
+#@admin.register(AdminPanel)
+#class UserActionLogAdmin(admin.ModelAdmin):
+#    list_display = ('action', 'timestamp')
+#    list_filter = ('timestamp')
+#    search_fields = ('action')

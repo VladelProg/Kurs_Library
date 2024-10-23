@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
+  {% if user.is_staff %}
   {% block title %}<title>Библиотека</title>{% endblock %}
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,22 +12,10 @@
   {% load static %}
   {% load django_bootstrap5 %}
   <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+  {%endif%}
 </head>
 <body>
-<div class="container-fluid">
-
-<div class="row">
-  <div class="col-sm-2">
-  {% block sidebar %}
-  <ul class="sidebar-nav">
-    <li><a href="{% url 'index' %}">Главная страница</a></li>
-    <!--<li><a href="{% url 'bookinstances' %}">Книги на руках</a></li> -->
-    <li><a href="{% url 'books' %}">Коллекция книг</a></li>
-    <li><a href="{% url 'authors' %}">Авторы книг</a></li>
-    <li><a href="{% url 'genres' %}">Подборка жанров</a></li>
-    <li><a href="{% url 'languages' %}">Выбор языка</a></li>
-  </ul>
-
+  {% if user.is_staff %}
   <ul class="sidebar-nav">
    {% if user.is_authenticated %}
      <li>Пользователь: {{ user.get_username }}</li>
@@ -43,32 +31,44 @@
    {% endif %}
   </ul>
 
-    {% include "base_generic_copy.html" %}
 
-{% endblock %}
+   {% include "index_user copy.html" %}
+   <!--<hr>
+   
+   <ul class="sidebar-nav">
+   <li>Управление библиотекой:</li>
+   <!--<li><a href="{% url 'all-borrowed' %}">Коллекция</a></li> -->
+
+   {% if perms.catalog.add_bookinstance %}
+     <!--<li><a href="{% url 'bookinstance-create' %}">Создать экземпляр книги</a></li>-->
+   {% endif %}
+   </ul>
+   {%endif%}
+   {% if not user.is_staff %}
+    {% include 'base_generic_copy.html'%}
+   <div class="container-fluid">
+
+    <div class="row">
+      <div class="col-sm-2">
+      {% block sidebar %}
+      <ul class="sidebar-nav">
+        <li><a href="{% url 'index' %}">Главная страница</a></li>
+        <!--<li><a href="{% url 'bookinstances' %}">Книги на руках</a></li> -->
+        <li><a href="{% url 'books' %}">Коллекция книг</a></li>
+        <li><a href="{% url 'authors' %}">Авторы книг</a></li>
+        <li><a href="{% url 'genres' %}">Подборка жанров</a></li>
+        <li><a href="{% url 'languages' %}">Выбор языка</a></li> 
+      </ul>
+    </div>
+  </div>
+  {% endblock %}
+   {%endif%}
+
+
   </div>
   <div class="col-sm-10 ">
-  {% block content %}{% endblock %}
-
-  {% block pagination %}
-    {% if is_paginated %}
-        <div class="pagination">
-            <span class="page-links">
-                {% if page_obj.has_previous %}
-                    <a href="{{ request.path }}?page={{ page_obj.previous_page_number }}">previous</a>
-                {% endif %}
-                <span class="page-current">
-                    Страница {{ page_obj.number }} номер {{ page_obj.paginator.num_pages }}.
-                </span>
-                {% if page_obj.has_next %}
-                    <a href="{{ request.path }}?page={{ page_obj.next_page_number }}">next</a>
-                {% endif %}
-            </span>
-        </div>
-    {% endif %}
+  {% block content %}
   {% endblock %}
-  </div>
-</div>
 
 </div>
 </body>

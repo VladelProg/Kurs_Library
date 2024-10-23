@@ -45,7 +45,6 @@
                 <th scope="col">Название</th>
                 <th scope="col">Автор</th>
                 <th scope="col">Жанр</th>
-                <th scope="col">Язык</th>
                 <th scope="col">Рейтинг</th>
                 <th scope="col">Скачать</th>
             </tr>
@@ -62,7 +61,6 @@
               </td>
               <td>{{ book.author }}</td>
               <td>{{ book.genre.all|join:", " }}</td>
-              <td>{{ book.language }}</td>
               <td>{{ book.rating }} / 5</td>
               <td>
                   <a href="{% static book.path_to_file %}" download="{{ book.title }}.pdf">Скачать</a>
@@ -71,14 +69,37 @@
             {% endfor %}
         </tbody>
     </table>
-    
-    <!--<p>Нет таких книг в библиотеке.</p> -->
+    {% else %}
+    <p>Нет таких книг в библиотеке.</p>
   {% endif %}
-
-  {% include 'pagination.html'%}
     {% endblock %}
     
-    
+    {% block pagination %}
+    <!-- Пагинация -->
+    <nav aria-label="Page navigation">
+      <ul class="pagination justify-content-center">
+        {% if page_obj.has_previous %}
+          <!--<li class="page-item">
+            <a class="page-link" href="?page=1{% if request.GET.sort %}&sort={{ request.GET.sort }}{% endif %}">Первая</a>
+          </li> -->
+          <li class="page-item">
+            <a class="page-link" href="?page={{ page_obj.previous_page_number }}{% if request.GET.sort %}&sort={{ request.GET.sort }}{% endif %}">Предыдущая</a>
+          </li>
+        {% endif %}
+
+        <li class="page-item active">
+          <span class="page-link">{{ page_obj.number }} из {{ page_obj.paginator.num_pages }}</span>
+        </li>
+
+        {% if page_obj.has_next %}
+    <a href="?page={{ page_obj.next_page_number }}{% if request.GET.sort %}&sort={{ request.GET.sort }}{% endif %}" class="btn btn-primary">Следующая страница</a>
+          <!--<li class="page-item">
+            <a class="page-link" href="?page={{ page_obj.paginator.num_pages }}{% if request.GET.sort %}&sort={{ request.GET.sort }}{% endif %}">Последняя</a>
+          </li> -->
+        {% endif %}
+      </ul>
+    </nav>
+    {% endblock %}
 
     <script>
         document.getElementById('sorting').addEventListener('change', function() {

@@ -66,6 +66,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'catalog.middleware.LogUserActionsMiddleware'
 ]
 
 ROOT_URLCONF = 'locallibrary.urls'

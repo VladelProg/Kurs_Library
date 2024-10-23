@@ -2,14 +2,14 @@ from django.shortcuts import render
 from django.shortcuts import get_object_or_404, redirect
 # Create your views here.
 
-from .models import Book, Author, BookInstance, Genre, Language, Rating
+from .models import Book, Author, BookInstance, Genre, Language, Rating, logs
 from django.contrib.auth import get_user_model
 from django.db.models import Avg, Count
     
 
-import logging
+#import logging
 
-logger = logging.getLogger(__name__)
+#logger = logging.getLogger('main')
 
 def index(request):
     """Информация о сайте"""
@@ -36,6 +36,7 @@ def index(request):
     
 from django.http import JsonResponse
 from decimal import Decimal
+
 
 def book_detail(request, book_id):
     book = get_object_or_404(Book, pk=book_id)
@@ -72,7 +73,6 @@ def book_list(request):
 
 def add_rating(request, book_id):
     book = get_object_or_404(Book, pk=book_id)
-    logger.info(f'Обновлен рейтинг книги {book}')
 
     if request.method == 'POST':
         rating = request.POST.get('rating')
@@ -81,32 +81,30 @@ def add_rating(request, book_id):
             try:
                 rating = int(rating)
                 if 0 <= rating <= 5:
-                    book.rating = rating
+                    # Обновляем сумму рейтингов и количество голосов
+                    book.rating += rating
+                    #book.rating_count += 1
                     book.save()
-                    logger.info(f'Рейтинг книги {book} успешно обновлен до {rating}')
-                    return JsonResponse({'success': True, 'message': 'Рейтинг успешно обновлен.'})
+
+                    return redirect('book_detail', book_id=book_id)
                 else:
-                    logger.warning(f'Некорректный рейтинг ({rating}) для книги {book}')
                     return JsonResponse({'success': False, 'message': 'Рейтинг должен быть от 0 до 5.'})
             except ValueError:
-                logger.warning(f'Некорректный формат рейтинга для книги {book}: {rating}')
-                return JsonResponse({'success': False, 'message': 'Введите корректный рейтинг (целое число от 0 до 5).'})
+                return JsonResponse({'success': False, 'message': 'Введите корректный рейтинг.'})
         else:
-            logger.warning(f'Рейтинг не был введен для книги {book}')
             return JsonResponse({'success': False, 'message': 'Пожалуйста, введите рейтинг.'})
 
     return render(request, 'catalog/book_detail.html', {'book': book})
 
 
-
 from django.views import generic
-
+   
 
 class BookListView(generic.ListView):
     """Коллекция книг."""
-    logger.info('Заход на страницу Просмотр коллекции книг')
+    #logger.info('Заход на страницу Просмотр коллекции книг')
     model = Book
-    paginate_by = 5 # Выводим по 5 книг на страницу
+    paginate_by = 2 # Выводим по 5 книг на страницу
     template_name = 'book_list.html'
     context_object_name = 'book_list'
 
@@ -114,26 +112,74 @@ class BookListView(generic.ListView):
         sort = self.request.GET.get('sort', 'title') # Получаем параметр сортировки
         queryset = Book.objects.all().order_by(sort) # Сортируем книги
         return queryset
+    
+class BookListUserView(generic.ListView):
+    """Коллекция книг."""
+    #logger.info('Заход на страницу Просмотр коллекции книг')
+    model = Book
+    paginate_by = 2 # Выводим по 5 книг на страницу
+    #template_name = 'insex_user.html'
+    #context_object_name = 'book_list_user'
 
+    def get_queryset(self):
+        sort = self.request.GET.get('sort', 'title') # Получаем параметр сортировки
+        queryset = Book.objects.all().order_by(sort) # Сортируем книги
+        return queryset
+    
 class BookDetailView(generic.DetailView):
     model = Book
        
     def get_object(self):
         book = super().get_object()
-        logger.info(f'Заход на страницу Просмотр информации о книге {book.title}')
+        #logger.info(f'Заход на страницу Просмотр информации о книге {book.title}')
         return book
 
 
 class AuthorListView(generic.ListView):
     """Generic class-based list view for a list of authors."""
     model = Author
-    paginate_by = 10
+    paginate_by = 2
     template_name = 'author_list.html'
     context_object_name = 'author_list'
-    logger.info('Заход на страницу Просмотр списках авторов')
+    #logger.info('Заход на страницу Просмотр списках авторов')
     def get_queryset(self):
         sort = self.request.GET.get('sort', 'last_name')  # Получаем параметр сортировки
         return Author.objects.all().order_by(sort)  # Сортировка по выбранному элементу
+
+def action_logs_view(request):
+    if request.user.is_authenticated:
+        logs.objects.create(
+            user=request.user,
+            action="Visited home page",
+            timestamp=datetime.datetime.now()
+    )
+    logss = logs.objects.all()  # Получаем все записи из таблицы логов
+    return render(request, 'index_user.html', {'logs': logss})
+
+
+
+class AdminShowData(generic.ListView):
+    model = logs
+    paginate_by = 20 # Выводим по 5 книг на страницу
+    template_name = 'catalog/index_user.html'
+    context_object_name = 'index_user'
+    def get_queryset(self):
+        sort = self.request.GET.get('sort', 'action')  # Получаем параметр сортировки
+        return logs.objects.all().order_by(sort)
+
+def user_logs_view(request):
+    logs_list = logs.objects.all().order_by('-timestamp')  # Сортировка по дате
+    paginator = Paginator(logs_list, 10)  # Показывать по 10 логов на странице
+
+    page_number = request.GET.get('page')
+    page_obj = paginator.get_page(page_number)
+
+    return render(request, 'catalog/index_user.html', {'page_obj': page_obj, 'logs': page_obj})
+
+def some_view(request):
+    # Ваш код обработки действий пользователя
+    logs.objects.create(user=request.user, action="Visited the page", timestamp=datetime.datetime.now())
+    return render(request, 'catalog/book_list.html')
 
 class AuthorDetailView(generic.DetailView):
     """Generic class-based detail view for an author."""
@@ -142,7 +188,7 @@ class AuthorDetailView(generic.DetailView):
        
     def get_object(self):
         author = super().get_object()
-        logger.info(f'Заход на страницу Просмотр информации о авторе {author.first_name} {author.last_name}')
+        #logger.info(f'Заход на страницу Просмотр информации о авторе {author.first_name} {author.last_name}')
         return author
 
 class GenreDetailView(generic.DetailView):
@@ -151,7 +197,7 @@ class GenreDetailView(generic.DetailView):
     
     def get_object(self):
         genre = super().get_object()
-        logger.info(f'Заход на страницу Просмотр информации о жанре {genre.name}')
+        #logger.info(f'Заход на страницу Просмотр информации о жанре {genre.name}')
         return genre
 
 class GenreListView(generic.ListView):
@@ -165,7 +211,7 @@ class LanguageDetailView(generic.DetailView):
     
     def get_object(self):
         language = super().get_object()
-        logger.info(f'Заход на страницу Просмотр книг на языке {language.name}')
+        #logger.info(f'Заход на страницу Просмотр книг на языке {language.name}')
         return language
 
 class LanguageListView(generic.ListView):
@@ -264,7 +310,7 @@ class AuthorCreate(PermissionRequiredMixin, CreateView):
     initial = {'date_of_death': '11/11/2023'}
     permission_required = 'catalog.add_author'
     
-    logger.info('Добавление автора в базу')
+    #logger.info('Добавление автора в базу')
 
 class AuthorUpdate(PermissionRequiredMixin, UpdateView):
     model = Author
@@ -274,7 +320,7 @@ class AuthorUpdate(PermissionRequiredMixin, UpdateView):
     
     def get_object(self):
         author = super().get_object()
-        logger.info(f'Обновление информации об авторе {author.name}')
+        #logger.info(f'Обновление информации об авторе {author.name}')
         return author
 
 class AuthorDelete(PermissionRequiredMixin, DeleteView):
@@ -284,7 +330,7 @@ class AuthorDelete(PermissionRequiredMixin, DeleteView):
 
     def get_object(self):
         author = super().get_object()
-        logger.info(f'Удаление автора {author.name}')
+        #logger.info(f'Удаление автора {author.name}')
         return author
     
     def form_valid(self, form):
@@ -303,7 +349,7 @@ class BookCreate(PermissionRequiredMixin, CreateView):
     fields = ['title', 'author', 'summary', 'isbn', 'genre', 'language']
     permission_required = 'catalog.add_book'
     
-    logger.info('Создание новой книги')
+    #logger.info('Создание новой книги')
 
 
 class BookUpdate(PermissionRequiredMixin, UpdateView):
@@ -313,7 +359,7 @@ class BookUpdate(PermissionRequiredMixin, UpdateView):
     
     def get_object(self):
         book = super().get_object()
-        logger.info(f'Обновление информации о книге {book.title}')
+        #logger.info(f'Обновление информации о книге {book.title}')
         return book
 
 def book_list_view(request):
@@ -331,7 +377,7 @@ class BookDelete(PermissionRequiredMixin, DeleteView):
 
     def get_object(self):
         book = super().get_object()
-        logger.info(f'Удаление книги {book.title}')
+        #logger.info(f'Удаление книги {book.title}')
         return book
     
     def form_valid(self, form):
@@ -349,7 +395,7 @@ class GenreCreate(PermissionRequiredMixin, CreateView):
     fields = ['name', ]
     permission_required = 'catalog.add_genre'
     
-    logger.info('Создание нового жанра')
+    #logger.info('Создание нового жанра')
 
 
 class GenreUpdate(PermissionRequiredMixin, UpdateView):
@@ -359,7 +405,7 @@ class GenreUpdate(PermissionRequiredMixin, UpdateView):
 
     def get_object(self):
         genre = super().get_object()
-        logger.info(f'Обновление информации о жанре {genre.name}')
+        #logger.info(f'Обновление информации о жанре {genre.name}')
         return genre
 
 class GenreDelete(PermissionRequiredMixin, DeleteView):
@@ -369,7 +415,7 @@ class GenreDelete(PermissionRequiredMixin, DeleteView):
 
     def get_object(self):
         genre = super().get_object()
-        logger.info(f'Удаление жанра {genre.name}')
+        #logger.info(f'Удаление жанра {genre.name}')
         return genre
 
 class LanguageCreate(PermissionRequiredMixin, CreateView):
@@ -377,7 +423,7 @@ class LanguageCreate(PermissionRequiredMixin, CreateView):
     fields = ['name', ]
     permission_required = 'catalog.add_language'
 
-    logger.info('Создание нового языка')
+    #logger.info('Создание нового языка')
 
 class LanguageUpdate(PermissionRequiredMixin, UpdateView):
     model = Language
@@ -386,7 +432,7 @@ class LanguageUpdate(PermissionRequiredMixin, UpdateView):
 
     def get_object(self):
         language = super().get_object()
-        logger.info(f'Обновление информации о языке {language.name}')
+        #logger.info(f'Обновление информации о языке {language.name}')
         return language
 
 class LanguageDelete(PermissionRequiredMixin, DeleteView):
@@ -396,7 +442,7 @@ class LanguageDelete(PermissionRequiredMixin, DeleteView):
 
     def get_object(self):
         language = super().get_object()
-        logger.info(f'Удаление языка {language.name}')
+        #logger.info(f'Удаление языка {language.name}')
         return language
 
 class BookInstanceCreate(PermissionRequiredMixin, CreateView):

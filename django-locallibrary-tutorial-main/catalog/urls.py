@@ -5,6 +5,7 @@ from . import views
 
 urlpatterns = [
     path('', views.index, name='index'),
+    path('logs/', views.AdminShowData.as_view(), name='index_user'),
     path('books/', views.BookListView.as_view(), name='books'),
     path('book/<int:pk>', views.BookDetailView.as_view(), name='book-detail'),
     path('authors/', views.AuthorListView.as_view(), name='authors'),
@@ -19,13 +20,13 @@ urlpatterns += [
 ]
 
 
-# Add URLConf for librarian to renew a book.
+# Ссылки на возврат книги
 urlpatterns += [
     path('book/<uuid:pk>/renew/', views.renew_book_librarian, name='renew-book-librarian'),
 ]
 
 
-# Add URLConf to create, update, and delete authors
+# Ссылки на добавление, обновление, удаление информации об авторах книг
 urlpatterns += [
     path('author/create/', views.AuthorCreate.as_view(), name='author-create'),
     path('author/<int:pk>/update/', views.AuthorUpdate.as_view(), name='author-update'),

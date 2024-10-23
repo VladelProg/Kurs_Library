@@ -1,0 +1,108 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+
+<h1>{{ book.title }}</h1>
+
+<p><strong>Автор:</strong> <a href="{{ book.author.get_absolute_url }}">{{ book.author }}</a></p>
+<p><strong>Описание:</strong> {{ book.summary }}</p>
+<p><strong>ISBN:</strong> {{ book.isbn }}</p>
+<p><strong>Язык:</strong> {{ book.language }}</p>
+<p><strong>Жанр:</strong> {{ book.genre.all|join:", " }}</p>
+
+
+<div style="margin-left:20px;margin-top:20px">
+  <h1>Добавить рейтинг для книги "{{ book.title }}"</h1>
+  <form method="post" id="rating-form">
+      {% csrf_token %}
+      <label for="rating">Рейтинг (от 0 до 5):</label>
+      <input type="number" id="rating" name="rating" min="0" max="5" step="1" required>
+      <button type="submit">Добавить</button>
+  </form>
+  <div id="rating-message"></div>
+</div>
+
+<div style="margin-left:20px;margin-top:20px">
+    <h4>Кол-во</h4>
+    {% for copy in book.bookinstance_set.all %}
+        <hr>
+        <p class="{% if copy.status == 'a' %}text-success{% elif copy.status == 'd' %}text-danger{% else %}text-warning{% endif %}">{{ copy.get_status_display }}</p>
+        {% if copy.status != 'a' %}<p><strong>Подлежащий возврату:</strong> {{copy.due_back}}</p>{% endif %}
+        <p><strong>Издательство:</strong> {{copy.imprint}}</p>
+        <p class="text-muted"><strong>Id:</strong> <a href="{{ copy.get_absolute_url }}">{{copy.id}}</a></p>
+    {% empty %}
+        <p>В библиотеке не осталось копий этой книги.</p>
+    {% endfor %}
+    {% if average_rating %}
+    <p>Средний рейтинг: {{ average_rating|floatformat:1 }}</p>
+{% else %}
+    <p>Нет оценок.</p>
+{% endif %}
+</div>
+
+<script>
+    document.getElementById('rating-form').addEventListener('submit', function(event) {
+        event.preventDefault(); // Предотвращаем стандартную отправку формы
+
+        const form = this;
+        const ratingInput = form.querySelector('#rating');
+        const rating = parseInt(ratingInput.value, 10); // Преобразуем в целое число
+        const csrfToken = document.querySelector('[name=csrfmiddlewaretoken]').value;
+
+        if (!isNaN(rating)) { // Проверяем, что rating - число
+            // Используем fetch для отправки AJAX-запроса
+            fetch('{% url 'add_rating' book.id %}', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                    'X-CSRFToken': csrfToken
+                },
+                body: new URLSearchParams({
+                    'rating': rating,
+                    'csrfmiddlewaretoken': csrfToken
+                })
+            })
+            .then(response => {
+                if (response.ok) {
+                    return response.json();
+                } else {
+                    // Обработка ошибки
+                    console.error('Ошибка:', response.status);
+                    return response.json(); // Вернуть сообщение об ошибке
+                }
+            })
+            .then(data => {
+                const messageDiv = document.getElementById('rating-message');
+                messageDiv.textContent = data.message;
+            })
+            .catch(error => {
+                console.error('Ошибка:', error);
+                const messageDiv = document.getElementById('rating-message');
+                messageDiv.textContent = 'Произошла ошибка при отправке рейтинга.';
+            });
+        } else {
+            // Ошибка - введен некорректный рейтинг
+            const messageDiv = document.getElementById('rating-message');
+            messageDiv.textContent = 'Введите корректный рейтинг.';
+        }
+    });
+</script>
+
+{% endblock %}
+
+{% block sidebar %}
+    {{ block.super }}
+
+    {% if perms.catalog.change_book or perms.catalog.delete_book %}
+        <hr>
+        <ul class="sidebar-nav">
+            {% if perms.catalog.change_book %}
+                <li><a href="{% url 'book-update' book.id %}">Обновить данные о книге</a></li>
+            {% endif %}
+            {% if not book.bookinstance_set.all and perms.catalog.delete_book %}
+                <li><a href="{% url 'book-delete' book.id %}">Delete Book</a></li>
+            {% endif %}
+        </ul>
+    {% endif %}
+
+{% endblock %}

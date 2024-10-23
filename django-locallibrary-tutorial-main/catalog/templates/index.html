@@ -2,11 +2,11 @@
 {% load django_bootstrap5 %}
 
 {% block content %}
-<h1 ALIGN="center">Библиотека</h1>
 
+<!--<h1 ALIGN="center">Библиотека</h1> -->
 <div ALIGN="center">
 {% load static %}
-<img src="{% static 'images/main_logo.png' %}" alt="My image" width="600px">
+<!--<img src="{% static 'images/main_logo.png' %}" alt="My image" width="600px"> -->
 </div>
 
 <h2>Сбор статистики</h2>
@@ -18,7 +18,6 @@
 <li><strong>Книг в хранилище:</strong> {{ num_instances_available }}</li>
 <li><strong>Авторов зарегистрировано:</strong> {{ num_authors }}</li>
 </ul>
-
 
 <p>Вы заходили на эту страницу: {{ num_visits }} раз{{ num_visits|pluralize }}.</p>
 
