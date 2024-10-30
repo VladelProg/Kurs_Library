@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Библиотека{% endblock %}</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    {% load static %}
+    <style>
+        /* Убедитесь, что боковая панель и основной контент занимают весь экран */
+        .container-fluid, .row {
+            height: 100vh;
+        }
+        /* Стиль для боковой панели */
+        .sidebar {
+            background-color: #f8f9fa;
+            padding-top: 20px;
+        }
+        /* Основной контент */
+        .main-content {
+            overflow-y: auto; /* Добавить прокрутку, если контент длинный */
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="text-center">Библиотека</h1>
+    
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Боковая панель -->
+            <div class="col-md-2 sidebar">
+                {% block sidebar %}
+                <ul class="list-unstyled">
+                    <li><a href="{% url 'index' %}">Главная страница</a></li>
+                    <li><a href="{% url 'books' %}">Коллекция книг</a></li>
+                    <li><a href="{% url 'authors' %}">Авторы книг</a></li>
+                    <li><a href="{% url 'genres' %}">Подборка жанров</a></li>
+                    <li><a href="{% url 'languages' %}">Выбор языка</a></li>
+                    <form id="logout-form" method="post" action="{% url 'logout' %}">
+                      {% csrf_token %}
+                      <button type="submit" class="btn btn-link">Выйти</button>
+                    </form>
+                </ul>
+                {% endblock %}
+            </div>
+
+            <!-- Основное содержимое -->
+            <div class="col-md-10 main-content">
+                {% block content %}
+                {% endblock %}
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

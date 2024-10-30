@@ -1,31 +1,24 @@
-{% extends "base_generic.html" %}
+{% extends "admin_panel.html" %}
 
 {% block content %}
-
-<h1>Список авторов</h1>
+<h1>Список авторов (Админка)</h1>
 <a href="?sort=date_of_birth">Сортировать по дате рождения</a> |
 <a href="?sort=last_name">Сортировать по фамилии (от А до Я)</a> |
 <a href="?sort=-last_name">Сортировать по фамилии (от Я до А)</a>
 
-{% if author_list %}
+{% if admin_author_list %}
   <ul>
-  <!--<input type="text"> -->
-  {% for author in author_list %}
+  {% for author in admin_author_list %}
     <li>
-      
-      <a href="{{ author.get_absolute_url }}">
-      {{ author }} ({{author.date_of_birth}} - {% if author.date_of_death %}{{author.date_of_death}}{% endif %})
+      <a href="{{ author.get_admin_url }}">
+      {{ author }} ({{ author.date_of_birth }} - {% if author.date_of_death %}{{ author.date_of_death }}{% endif %})
       </a>
     </li>
   {% endfor %}
-
- </ul>
-
+  </ul>
 {% else %}
   <p>Не найдено писателей.</p>
 {% endif %}
-{% include 'pagination.html' %}
-              
-        
-{% endblock %}
 
+{% include 'pagination.html' %}
+{% endblock %}

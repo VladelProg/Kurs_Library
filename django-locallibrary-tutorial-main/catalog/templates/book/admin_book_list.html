@@ -1,7 +1,8 @@
-{% extends "base_generic.html" %}
+{% extends "admin_panel.html" %} 
 
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    {% load django_bootstrap5 %}
 </head>
 
 {% block content %}
@@ -14,28 +15,6 @@
         <option value="-rating" {% if request.GET.sort == "-rating" %}selected{% endif %}>По рейтингу (от лучшего к худшему)</option>
         <option value="rating" {% if request.GET.sort == "rating" %}selected{% endif %}>По рейтингу (от худшего к лучшему)</option>
     </select>
-
-    <style>
-      table {
-        border-collapse: collapse;
-        width: 100%;
-    }
-
-    th, td {
-        text-align: left;
-        padding: 8px;
-        border: 1px solid #ddd;
-    }
-
-    th {
-        background-color: #f2f2f2;
-    }
-
-    img {
-        max-width: 100px;
-    }
-
-    </style>
 
     {% if page_obj.object_list %}
     <table class="table table-striped table-hover">
@@ -58,12 +37,13 @@
                   <img src="{% static book.path_to_icon %}" alt="Обложка" width="100px">
               </td>
               <td>
-                  <a href="{{ book.get_absolute_url }}" style="text-decoration:none">{{ book.title }}</a>
+                  <a href="{{ book.get_admin_url}}" style="text-decoration:none">{{ book.title }}</a>
               </td>
               <td>{{ book.author }}</td>
               <td>{{ book.genre.all|join:", " }}</td>
               <td>{{ book.language }}</td>
               <td>{{ book.rating }} / 5</td>
+              <td>{{ book.path_to_icon }}</td>
               <td>
                   <a href="{% static book.path_to_file %}" download="{{ book.title }}.pdf">Скачать</a>
               </td>
@@ -75,11 +55,10 @@
     <!--<p>Нет таких книг в библиотеке.</p> -->
   {% endif %}
 
-  {% include 'pagination.html'%}
+    {% include 'pagination.html'%}
     {% endblock %}
     
-    
-
+<!--
     <script>
         document.getElementById('sorting').addEventListener('change', function() {
             const sortValue = this.value;
@@ -100,3 +79,4 @@
             window.location.href = url; // Перенаправляем на новый URL
         });
     </script>
+    -->

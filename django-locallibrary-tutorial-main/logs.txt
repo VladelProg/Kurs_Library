@@ -1,0 +1,1518 @@
+2024-10-24 18:09:52.525648 - TestUser - Visited book list, page 1
+2024-10-24 18:09:53.290360 - TestUser - Visited book list, page 1
+2024-10-24 18:10:20.361817 - TestUser - Visited book list, page 1
+2024-10-24 18:10:21.056619 - TestUser - Visited /catalog/
+2024-10-24 18:10:28.403175 - TestUser - Visited /accounts/login/
+2024-10-24 18:10:28.442102 - TestUser - Visited /
+2024-10-24 18:10:28.477896 - TestUser - Visited /catalog/
+2024-10-24 18:32:04.260365 - admin - Visited /accounts/login/
+2024-10-24 18:32:04.281436 - admin - Visited /
+2024-10-24 18:32:04.301356 - admin - Visited /catalog/
+2024-10-24 18:33:45.755023 - admin - Visited log list, page 1
+2024-10-24 18:34:17.414824 - admin - Visited log list, page 1
+2024-10-24 18:34:19.648033 - admin - Visited log list, page 51
+2024-10-24 18:34:21.024644 - admin - Visited log list, page 50
+2024-10-24 18:34:26.990965 - admin - Visited log list, page 49
+2024-10-24 18:35:39.809478 - admin - Visited log list, page 1
+2024-10-24 18:35:47.867598 - admin - Visited /accounts/login/
+2024-10-24 18:35:47.904155 - admin - Visited /
+2024-10-24 18:35:47.943183 - admin - Visited /catalog/
+2024-10-24 18:35:49.842648 - admin - Visited log list, page 1
+2024-10-24 18:35:58.262649 - admin - Visited log list, page 51
+2024-10-24 18:36:03.916739 - admin - Visited log list, page 51
+2024-10-24 18:37:54.469476 - admin - Visited /accounts/login/
+2024-10-24 18:37:54.524408 - admin - Visited /
+2024-10-24 18:37:54.561471 - admin - Visited /catalog/
+2024-10-24 18:41:24.258583 - admin - Visited language list, page 1
+2024-10-24 18:41:25.583121 - admin - Visited language: Русский
+2024-10-24 18:41:49.538332 - admin - Visited log list, page 1
+2024-10-24 18:41:58.077968 - admin - Visited log list, page 51
+2024-10-24 18:42:52.896226 - admin - Visited log list, page 50
+2024-10-24 18:44:06.042482 - TestUser - Visited /accounts/login/
+2024-10-24 18:44:06.105841 - TestUser - Visited /
+2024-10-24 18:44:06.143771 - TestUser - Visited /catalog/
+2024-10-24 18:44:14.933032 - TestUser - Visited log list, page 1
+2024-10-24 18:44:14.970439 - TestUser - Visited /accounts/login/?next=/catalog/logs/
+2024-10-24 18:44:15.850707 - TestUser - Visited log list, page 1
+2024-10-24 18:44:15.890534 - TestUser - Visited /accounts/login/?next=/catalog/logs/
+2024-10-24 18:47:17.560575 - admin - Visited /accounts/login/
+2024-10-24 18:47:17.595137 - admin - Visited /
+2024-10-24 18:47:17.629755 - admin - Visited /catalog/
+2024-10-24 19:00:10.322204 - admin - Visited /catalog/
+2024-10-24 19:00:45.314013 - admin - Visited /catalog/
+2024-10-24 19:01:45.915498 - admin - Visited /catalog/
+2024-10-24 19:04:23.352078 - admin - Visited /catalog/
+2024-10-24 19:09:08.190292 - admin - Visited /catalog/
+2024-10-24 19:09:09.227713 - admin - Visited log list, page 1
+2024-10-24 19:09:10.162192 - admin - Visited book list, page 1
+2024-10-24 19:09:49.332857 - admin - Visited log list, page 1
+2024-10-24 19:09:51.009368 - admin - Visited log list, page 2
+2024-10-24 19:09:52.531671 - admin - Visited log list, page 3
+2024-10-24 19:12:10.305702 - admin - Visited log list, page 3
+2024-10-24 19:13:56.517505 - admin - Visited log list, page 3
+2024-10-24 19:15:01.238070 - admin - Visited log list, page 3
+2024-10-24 19:15:02.367107 - admin - Visited log list, page 3
+2024-10-24 19:15:24.836734 - admin - Visited log list, page 3
+2024-10-24 19:15:26.931020 - admin - Visited log list, page 1
+2024-10-24 19:15:28.866798 - admin - Visited book list, page 1
+2024-10-24 19:17:17.653290 - admin - Visited /catalog/genre/create/
+2024-10-24 19:17:20.172356 - admin - Visited book list, page 1
+2024-10-24 19:17:35.778007 - admin - Visited book list, page 1
+2024-10-24 19:17:36.640630 - admin - Visited book list, page 1
+2024-10-24 19:17:38.463347 - admin - Visited log list, page 1
+2024-10-24 19:17:57.176858 - admin - Visited log list, page 1
+2024-10-24 19:17:59.671767 - admin - Visited log list, page 1
+2024-10-24 19:18:05.928173 - admin - Visited /catalog/author/create/
+2024-10-24 19:20:09.652381 - admin - Visited /catalog/author/create/
+2024-10-24 19:20:10.470132 - admin - Visited book list, page 1
+2024-10-24 19:20:11.176512 - admin - Visited author list, page 1
+2024-10-24 19:20:27.643616 - admin - Visited /catalog/genre/create/
+2024-10-24 19:20:28.123248 - admin - Visited author list, page 1
+2024-10-24 19:20:40.981242 - admin - Visited author list, page 1
+2024-10-24 19:24:53.285813 - admin - Visited author list, page 1
+2024-10-24 19:29:12.734109 - admin - Visited /catalog/admin_zone/login/
+2024-10-24 19:29:14.820946 - admin - Visited /catalog/admin_zone/login/
+2024-10-24 19:29:17.404796 - admin - Visited /accounts/logout/
+2024-10-24 19:29:28.434354 - admin - Visited author list, page 1
+2024-10-24 19:29:29.277144 - admin - Visited author list, page 1
+2024-10-24 19:31:04.201651 - admin - Visited /catalog/admin_zone/login/
+2024-10-24 19:35:24.332721 - admin - Visited /catalog/admin_zone/login/
+2024-10-24 19:35:26.271194 - admin - Visited /catalog/
+2024-10-24 19:35:44.311576 - admin - Visited /catalog/admin_zone/login/
+2024-10-24 19:38:52.884903 - admin - Visited /catalog/admin_zone/login/
+2024-10-24 19:38:52.939300 - admin - Visited /catalog/admin_panel/
+2024-10-24 19:40:38.091499 - admin - Visited /catalog/admin_panel/
+2024-10-24 19:40:40.158332 - admin - Visited log list, page 1
+2024-10-24 19:40:56.219723 - admin - Visited /catalog/admin_panel/
+2024-10-24 19:40:57.081672 - admin - Visited /catalog/admin_panel/
+2024-10-24 19:41:01.321335 - admin - Visited /catalog/admin_panel/
+2024-10-24 19:41:25.751662 - admin - Visited /catalog/admin_panel/
+2024-10-24 19:41:26.716464 - admin - Visited log list, page 1
+2024-10-24 19:41:28.721590 - admin - Visited log list, page 1
+2024-10-24 19:41:29.462727 - admin - Visited log list, page 1
+2024-10-24 19:41:30.019448 - admin - Visited log list, page 1
+2024-10-24 19:41:30.712195 - admin - Visited /catalog/genre/create/
+2024-10-24 19:41:32.918660 - admin - Visited /catalog/genre/create/
+2024-10-24 19:41:33.640215 - admin - Visited log list, page 1
+2024-10-24 19:41:42.440952 - admin - Visited log list, page 1
+2024-10-24 19:41:43.343853 - admin - Visited log list, page 1
+2024-10-24 19:41:44.251651 - admin - Visited log list, page 1
+2024-10-24 19:41:44.635415 - admin - Visited log list, page 1
+2024-10-24 19:41:44.811120 - admin - Visited log list, page 1
+2024-10-24 19:41:44.963783 - admin - Visited log list, page 1
+2024-10-24 19:41:46.477409 - admin - Visited log list, page 1
+2024-10-24 19:42:04.045800 - admin - Visited log list, page 1
+2024-10-24 19:42:17.253041 - admin - Visited log list, page 1
+2024-10-24 19:42:17.882985 - admin - Visited log list, page 1
+2024-10-24 19:43:39.662471 - admin - Visited log list, page 1
+2024-10-24 19:43:41.145403 - admin - Visited log list, page 1
+2024-10-24 19:43:42.054102 - admin - Visited log list, page 1
+2024-10-24 19:43:42.672524 - admin - Visited log list, page 1
+2024-10-24 19:43:46.837138 - admin - Visited /catalog/genre/create/
+2024-10-24 19:44:05.015008 - admin - Visited log list, page 2
+2024-10-24 19:44:13.108203 - admin - Visited log list, page 2
+2024-10-24 19:44:14.389488 - admin - Visited log list, page 1
+2024-10-24 19:45:00.114624 - admin - Visited /catalog/language/create/
+2024-10-24 19:45:14.078539 - admin - Visited /catalog/author/create/
+2024-10-24 19:45:15.833599 - admin - Visited /catalog/book/create/
+2024-10-24 19:45:25.815753 - admin - Visited /catalog/genre/create/
+2024-10-24 19:45:27.619237 - admin - Visited log list, page 1
+2024-10-24 19:45:33.628532 - admin - Visited /catalog/genre/create/
+2024-10-24 19:45:40.919684 - admin - Visited log list, page 1
+2024-10-24 19:46:59.032068 - admin - Visited log list, page 1
+2024-10-24 19:47:16.794332 - admin - Visited log list, page 1
+2024-10-24 19:49:51.298862 - admin - Visited log list, page 1
+2024-10-24 19:49:51.941107 - admin - Visited log list, page 1
+2024-10-24 19:49:53.130615 - admin - Visited log list, page 1
+2024-10-24 19:49:53.722802 - admin - Visited /catalog/genre/create/
+2024-10-24 19:49:56.892045 - admin - Visited log list, page 1
+2024-10-24 19:49:57.688423 - admin - Visited /catalog/language/create/
+2024-10-24 19:50:01.313307 - admin - Visited /catalog/genre/create/
+2024-10-24 19:50:26.827564 - admin - Visited /catalog/genre/create/
+2024-10-24 19:50:28.150367 - admin - Visited /catalog/genre/create/
+2024-10-24 19:50:28.725529 - admin - Visited /catalog/language/create/
+2024-10-24 19:50:29.713232 - admin - Visited /catalog/genre/create/
+2024-10-24 19:50:30.553054 - admin - Visited /catalog/language/create/
+2024-10-24 19:50:31.259417 - admin - Visited log list, page 1
+2024-10-24 19:51:06.452153 - admin - Visited /catalog/genre/create/
+2024-10-24 19:52:08.510168 - admin - Visited /catalog/genre/create/
+2024-10-24 19:52:18.288095 - admin - Visited /catalog/
+2024-10-24 19:52:41.051351 - admin - Visited log list, page 1
+2024-10-24 19:52:53.310355 - admin - Visited log list, page 2
+2024-10-24 19:52:55.539559 - admin - Visited log list, page 57
+2024-10-24 19:52:59.213356 - admin - Visited log list, page 56
+2024-10-24 19:53:20.092844 - admin - Visited log list, page 56
+2024-10-24 19:53:34.758812 - admin - Visited log list, page 56
+2024-10-24 19:53:41.258394 - admin - Visited /catalog/admin_zone/login/
+2024-10-24 19:53:55.893999 - admin - Visited /catalog/admin_zone/login/
+2024-10-24 19:53:55.920750 - admin - Visited /catalog/admin_panel/
+2024-10-24 19:54:46.338353 - admin - Visited /catalog/admin_panel/
+2024-10-24 19:54:48.828137 - admin - Visited log list, page 1
+2024-10-24 19:54:53.147958 - admin - Visited log list, page 1
+2024-10-24 19:54:55.156079 - admin - Visited /catalog/admin_zone/login/
+2024-10-24 19:55:10.889231 - admin - Visited /catalog/admin_zone/login/
+2024-10-24 19:55:10.912519 - admin - Visited /catalog/admin_panel/
+2024-10-24 19:55:13.594375 - admin - Visited /catalog/genre/create/
+2024-10-24 19:55:15.429575 - admin - Visited /catalog/language/create/
+2024-10-24 19:55:18.513130 - admin - Visited log list, page 1
+2024-10-24 19:55:19.799861 - admin - Visited /catalog/genre/create/
+2024-10-24 19:55:21.152878 - admin - Visited /catalog/language/create/
+2024-10-24 19:55:53.909196 - admin - Visited /catalog/language/create/
+2024-10-24 19:55:55.733148 - admin - Visited log list, page 1
+2024-10-24 19:55:57.521516 - admin - Visited /catalog/genre/create/
+2024-10-24 19:55:58.462109 - admin - Visited /catalog/language/create/
+2024-10-24 19:55:59.601529 - admin - Visited /catalog/author/create/
+2024-10-24 19:56:13.244156 - admin - Visited /catalog/author/create/
+2024-10-24 19:56:14.316940 - admin - Visited /catalog/book/create/
+2024-10-24 19:56:16.419350 - admin - Visited /catalog/author/create/
+2024-10-24 19:56:17.078551 - admin - Visited /catalog/language/create/
+2024-10-24 19:56:17.746414 - admin - Visited /catalog/genre/create/
+2024-10-24 20:03:27.769383 - admin - Visited log list, page 1
+2024-10-24 20:03:28.137120 - admin - Visited /catalog/genre/create/
+2024-10-24 20:03:52.246194 - admin - Visited /catalog/genre/create/
+2024-10-24 20:03:52.311495 - admin - Visited /catalog/genre/11
+2024-10-24 20:04:23.996097 - admin - Visited /catalog/admin_zone/login/
+2024-10-24 20:07:57.879594 - admin - Visited /catalog/admin_zone/login/
+2024-10-24 20:07:57.935578 - admin - Visited /catalog/admin_panel/
+2024-10-24 20:07:59.891555 - admin - Visited log list, page 1
+2024-10-24 20:08:00.810762 - admin - Visited /catalog/genre/create/
+2024-10-24 20:08:01.555821 - admin - Visited /catalog/language/create/
+2024-10-24 20:08:02.512933 - admin - Visited /catalog/author/create/
+2024-10-24 20:08:03.189319 - admin - Visited /catalog/book/create/
+2024-10-24 20:08:05.132550 - admin - Visited /catalog/author/create/
+2024-10-24 20:08:06.123218 - admin - Visited log list, page 1
+2024-10-24 20:10:01.202172 - admin - Visited /catalog/author/create/
+2024-10-24 20:10:01.705585 - admin - Visited /catalog/language/create/
+2024-10-24 20:10:16.463214 - admin - Visited /catalog/language/create/
+2024-10-24 20:10:16.562778 - admin - Visited language: Японский
+2024-10-24 20:11:33.014629 - admin - Visited /catalog/language/create/
+2024-10-24 20:11:44.804581 - admin - Visited /catalog/language/create/
+2024-10-24 20:11:44.885779 - admin - Visited language: Сопроменто
+2024-10-24 20:11:54.635547 - admin - Visited /catalog/author/create/
+2024-10-24 20:12:07.946211 - admin - Visited /catalog/author/create/
+2024-10-24 20:12:17.780378 - admin - Visited /catalog/author/create/
+2024-10-24 20:12:17.876654 - admin - Visited author: 1 2
+2024-10-24 20:16:28.847101 - admin - Visited /catalog/
+2024-10-24 20:16:30.446916 - admin - Visited /catalog/admin_zone/login/
+2024-10-24 20:18:19.752822 - admin - Visited /catalog/admin_zone/login/
+2024-10-24 20:18:19.807296 - admin - Visited /catalog/admin_panel/
+2024-10-24 20:18:21.585928 - admin - Visited log list, page 1
+2024-10-24 20:18:22.390066 - admin - Visited /catalog/genre/create/
+2024-10-24 20:18:24.392224 - admin - Visited /catalog/language/create/
+2024-10-24 20:18:25.123565 - admin - Visited /catalog/author/create/
+2024-10-24 20:18:25.976410 - admin - Visited /catalog/book/create/
+2024-10-24 20:19:40.957983 - admin - Visited /catalog/author/create/
+2024-10-24 20:19:41.715982 - admin - Visited /
+2024-10-24 20:19:41.766896 - admin - Visited /catalog/
+2024-10-24 20:19:43.480639 - admin - Visited /catalog/
+2024-10-24 20:19:46.255146 - admin - Visited /catalog/admin_zone/login/
+2024-10-24 20:22:04.523874 - admin - Visited /catalog/admin_zone/login/
+2024-10-24 20:22:04.595621 - admin - Visited /catalog/admin_panel/
+2024-10-24 20:22:16.898360 - admin - Visited log list, page 1
+2024-10-24 20:22:21.196327 - admin - Visited /catalog/book/create/
+2024-10-24 20:23:58.855942 - admin - Visited log list, page 1
+2024-10-24 20:24:00.134978 - admin - Visited /catalog/
+2024-10-24 20:24:09.885656 - TestUser - Visited /accounts/login/
+2024-10-24 20:24:10.057600 - TestUser - Visited /
+2024-10-24 20:24:10.210248 - TestUser - Visited /catalog/
+2024-10-24 20:24:12.327859 - TestUser - Visited book list, page 1
+2024-10-24 20:24:18.207345 - TestUser - Visited book: 1984
+2024-10-28 18:20:40.667681 - admin - Visited /catalog/admin_zone/login/
+2024-10-28 18:20:40.788795 - admin - Visited /catalog/admin_panel/
+2024-10-28 18:20:43.258533 - admin - Visited log list, page 1
+2024-10-28 18:20:44.301939 - admin - Visited /catalog/genre/create/
+2024-10-28 18:21:45.229497 - admin - Visited log list, page 1
+2024-10-28 18:21:47.973223 - admin - Visited /catalog/genre/create/
+2024-10-28 18:22:37.617831 - admin - Visited /catalog/genre/create/
+2024-10-28 18:22:38.970943 - admin - Visited /catalog/admin_zone/author/create/
+2024-10-28 18:26:33.126321 - admin - Visited /catalog/admin_zone/author/create/
+2024-10-28 18:26:38.492800 - admin - Visited /catalog/admin_zone/genre/create/
+2024-10-28 18:26:47.279219 - admin - Visited /catalog/admin_zone/genre/create/
+2024-10-28 18:26:47.332731 - admin - Visited /catalog/genre/12
+2024-10-28 18:26:51.353789 - admin - Visited /catalog/admin_zone/genre/12/update/
+2024-10-28 18:33:29.732788 - admin - Visited /catalog/admin_zone/genre/12/update/
+2024-10-28 18:33:30.615704 - admin - Visited /catalog/admin_zone/genre/12/update/
+2024-10-28 18:33:32.901908 - admin - Visited /catalog/admin_zone/genre/12/update/
+2024-10-28 18:33:32.947471 - admin - Visited /catalog/genre/12
+2024-10-28 18:34:48.799857 - admin - Visited log list, page 1
+2024-10-28 18:35:17.493253 - admin - Visited /catalog/admin_zone/language/create/
+2024-10-28 18:35:19.841684 - admin - Visited log list, page 1
+2024-10-28 18:38:00.072052 - admin - Visited log list, page 1
+2024-10-28 18:38:01.781812 - admin - Visited author list, page 1
+2024-10-28 18:39:23.890018 - admin - Visited log list, page 1
+2024-10-28 18:39:25.475579 - admin - Visited author list, page 1
+2024-10-28 18:40:16.331748 - admin - Visited author list, page 1
+2024-10-28 18:40:17.072517 - admin - Visited author list, page 1
+2024-10-28 18:40:36.281622 - admin - Visited author list, page 1
+2024-10-28 18:40:37.007569 - admin - Visited author list, page 1
+2024-10-28 18:40:50.296400 - admin - Visited log list, page 1
+2024-10-28 18:40:51.439519 - admin - Visited author list, page 1
+2024-10-28 18:41:05.026976 - admin - Visited author list, page 1
+2024-10-28 18:41:05.664925 - admin - Visited author list, page 1
+2024-10-28 18:41:18.644301 - admin - Visited author list, page 1
+2024-10-28 18:43:27.860355 - admin - Visited author list, page 1
+2024-10-28 18:44:07.970827 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 18:44:09.074374 - admin - Visited log list, page 1
+2024-10-28 18:44:10.405455 - admin - Visited author list, page 1
+2024-10-28 18:44:23.328877 - admin - Visited author list, page 1
+2024-10-28 18:44:24.024692 - admin - Visited author list, page 1
+2024-10-28 18:44:24.546666 - admin - Visited author list, page 1
+2024-10-28 18:44:25.413944 - admin - Visited author list, page 1
+2024-10-28 18:44:29.493749 - admin - Visited log list, page 1
+2024-10-28 18:44:31.249648 - admin - Visited author list, page 1
+2024-10-28 18:44:47.523012 - admin - Visited author list, page 1
+2024-10-28 18:44:50.676302 - admin - Visited book list, page 1
+2024-10-28 18:44:51.293616 - admin - Visited log list, page 1
+2024-10-28 18:44:52.882235 - admin - Visited author list, page 1
+2024-10-28 18:47:34.042305 - admin - Visited author list, page 1
+2024-10-28 18:47:35.696997 - admin - Visited log list, page 1
+2024-10-28 18:47:36.434893 - admin - Visited author list, page 1
+2024-10-28 18:48:17.165947 - admin - Visited author list, page 1
+2024-10-28 18:48:18.526246 - admin - Visited log list, page 1
+2024-10-28 18:48:19.414405 - admin - Visited author list, page 1
+2024-10-28 18:48:22.047992 - admin - Visited author list, page 1
+2024-10-28 18:48:22.883070 - admin - Visited author list, page 1
+2024-10-28 18:48:46.432000 - admin - Visited author list, page 1
+2024-10-28 18:48:47.744583 - admin - Visited author list, page 1
+2024-10-28 18:49:51.346043 - admin - Visited author list, page 1
+2024-10-28 18:56:45.255814 - admin - Visited author list, page 1
+2024-10-28 18:56:47.653125 - admin - Visited log list, page 1
+2024-10-28 18:56:48.382189 - admin - Visited book list, page 1
+2024-10-28 18:56:50.613291 - admin - Visited author list, page 1
+2024-10-28 18:58:27.395337 - admin - Visited author list, page 1
+2024-10-28 18:58:30.954948 - admin - Visited book list, page 1
+2024-10-28 18:58:31.685166 - admin - Visited language list, page 1
+2024-10-28 18:58:37.670319 - admin - Visited language: Русский
+2024-10-28 18:58:39.977189 - admin - Visited /catalog/admin_zone/language/1/update/
+2024-10-28 18:58:41.785286 - admin - Visited /catalog/admin_zone/author/create/
+2024-10-28 18:58:42.526958 - admin - Visited /catalog/book/create/
+2024-10-28 18:58:44.190108 - admin - Visited language list, page 1
+2024-10-28 18:58:45.802590 - admin - Visited author list, page 1
+2024-10-28 18:58:46.581826 - admin - Visited /catalog/admin_zone/genre/create/
+2024-10-28 18:58:48.335157 - admin - Visited author list, page 1
+2024-10-28 18:58:50.817218 - admin - Visited author: Михаил Булгаков
+2024-10-28 18:58:54.781922 - admin - Visited book: Белая гвардия
+2024-10-28 19:02:26.122409 - admin - Visited /catalog/admin_zone/author/create/
+2024-10-28 19:02:27.830886 - admin - Visited log list, page 1
+2024-10-28 19:02:29.324405 - admin - Visited /catalog/admin_zone/author/create/
+2024-10-28 19:02:30.277238 - admin - Visited log list, page 1
+2024-10-28 19:02:32.145556 - admin - Visited author list, page 1
+2024-10-28 19:02:33.097565 - admin - Visited log list, page 1
+2024-10-28 19:08:11.698633 - admin - Visited log list, page 1
+2024-10-28 19:08:12.491674 - admin - Visited log list, page 1
+2024-10-28 19:08:14.430439 - admin - Visited author list, page 1
+2024-10-28 19:08:32.672182 - admin - Visited author list, page 1
+2024-10-28 19:09:34.781793 - admin - Visited log list, page 1
+2024-10-28 19:09:36.488395 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 19:09:37.896708 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 19:09:38.202624 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 19:09:38.667011 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 19:09:53.361340 - admin - Visited log list, page 1
+2024-10-28 19:09:56.382980 - admin - Visited book list, page 1
+2024-10-28 19:09:59.833392 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 19:10:01.593812 - admin - Visited language list, page 1
+2024-10-28 19:10:03.700008 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 19:10:57.722962 - admin - Visited book list, page 1
+2024-10-28 19:10:58.358632 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 19:10:59.157483 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 19:12:06.806932 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 19:12:12.210938 - admin - Visited log list, page 1
+2024-10-28 19:17:17.573431 - admin - Visited log list, page 1
+2024-10-28 19:17:38.750182 - admin - Visited log list, page 1
+2024-10-28 19:17:39.794569 - admin - Visited log list, page 1
+2024-10-28 19:17:40.415415 - admin - Visited /catalog/admin_panel/books/
+2024-10-28 19:17:43.691738 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 19:17:48.700932 - admin - Visited /catalog/admin_zone/languages/
+2024-10-28 19:17:51.391586 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 19:18:26.529390 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 19:18:28.648582 - admin - Visited log list, page 1
+2024-10-28 19:18:29.461480 - admin - Visited /catalog/admin_panel/books/
+2024-10-28 19:18:30.356641 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 19:21:09.357174 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 19:21:11.618518 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 19:21:12.705555 - admin - Visited log list, page 1
+2024-10-28 19:21:13.865160 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 19:21:15.530978 - admin - Visited /catalog/admin_zone/languages/
+2024-10-28 19:21:16.546054 - admin - Visited /catalog/admin_zone/language/create/
+2024-10-28 19:21:17.561793 - admin - Visited /catalog/admin_zone/genre/create/
+2024-10-28 19:22:56.402741 - admin - Visited /catalog/admin_zone/genre/create/
+2024-10-28 19:22:57.610346 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 19:23:21.986225 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 19:23:23.073011 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 19:25:05.780597 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 19:25:07.395632 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 19:25:29.952789 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 19:25:30.798164 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 19:25:31.575474 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 19:25:32.072122 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 19:25:32.694098 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 19:25:33.142849 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 19:25:44.856703 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 19:25:45.539290 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 19:25:46.126598 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 19:25:46.737046 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 19:25:47.738560 - admin - Visited log list, page 1
+2024-10-28 19:25:48.673860 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 19:32:26.249176 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 19:32:29.159043 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 19:32:30.029678 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 19:32:30.568870 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 19:32:31.157054 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 19:33:58.701174 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 19:33:59.545003 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 19:34:01.102736 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 19:34:01.924645 - admin - Visited /catalog/admin_zone/languages/
+2024-10-28 19:34:02.762123 - admin - Visited log list, page 1
+2024-10-28 19:34:03.579458 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 19:34:49.619294 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 19:35:07.646641 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 19:35:09.023400 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 19:35:11.078737 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 19:35:11.860768 - admin - Visited /catalog/admin_panel/books/
+2024-10-28 19:35:12.795134 - admin - Visited log list, page 1
+2024-10-28 19:35:13.709113 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 19:37:25.541577 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 19:37:26.217996 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 19:37:46.131942 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 19:37:46.935701 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 19:37:48.182890 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 19:38:48.680326 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 19:40:03.346779 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 19:40:48.192179 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 19:40:48.739478 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 19:40:48.963283 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 19:40:49.144087 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 19:40:49.324803 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 19:40:49.866982 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 19:40:51.555185 - admin - Visited log list, page 1
+2024-10-28 19:40:54.175548 - admin - Visited log list, page 70
+2024-10-28 19:41:02.875879 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 19:41:07.662641 - admin - Visited /catalog/admin_panel/authors/?page=4
+2024-10-28 19:41:08.791838 - admin - Visited /catalog/admin_panel/authors/?page=3
+2024-10-28 19:41:09.722486 - admin - Visited /catalog/admin_panel/authors/?page=2
+2024-10-28 19:47:08.308751 - admin - Visited /catalog/admin_panel/authors/?page=2
+2024-10-28 19:47:41.524248 - admin - Visited /catalog/admin_panel/authors/?page=2
+2024-10-28 19:53:27.429160 - admin - Visited /catalog/admin_panel/authors/?page=2
+2024-10-28 19:53:33.193474 - admin - Visited /catalog/admin_panel/authors/?page=1
+2024-10-28 19:54:55.366141 - admin - Visited /catalog/admin_panel/authors/?page=1
+2024-10-28 19:55:09.703465 - admin - Visited /catalog/admin_panel/authors/?page=1
+2024-10-28 19:55:12.535811 - admin - Visited /catalog/admin_panel/authors/?page=2
+2024-10-28 19:55:13.586722 - admin - Visited /catalog/admin_panel/authors/?page=1
+2024-10-28 19:56:15.534473 - admin - Visited /catalog/admin_zone/login/
+2024-10-28 19:58:56.033531 - admin - Visited /catalog/admin_zone/login/
+2024-10-28 19:58:56.134065 - admin - Visited /catalog/admin_panel/
+2024-10-28 19:58:59.579462 - admin - Visited /catalog/admin_zone/login/
+2024-10-28 20:00:54.611782 - admin - Visited /catalog/admin_zone/login/
+2024-10-28 20:00:54.713177 - admin - Visited /catalog/admin_panel/
+2024-10-28 20:01:58.358199 - admin - Visited /catalog/admin_zone/login/
+2024-10-28 20:14:48.250445 - admin - Visited /catalog/admin_zone/login/
+2024-10-28 20:14:48.358137 - admin - Visited /catalog/admin_panel/
+2024-10-28 21:54:28.521626 - admin - Visited /catalog/admin_panel/
+2024-10-28 21:54:29.542326 - admin - Visited log list, page 1
+2024-10-28 21:54:30.774469 - admin - Visited /catalog/admin_panel/books/
+2024-10-28 21:54:34.145922 - admin - Visited /catalog/admin_zone/languages/
+2024-10-28 21:54:34.985313 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 21:57:39.327919 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 21:57:40.146606 - admin - Visited /catalog/admin_zone/languages/
+2024-10-28 21:57:41.423134 - admin - Visited /catalog/admin_panel/books/
+2024-10-28 21:57:55.946125 - admin - Visited /catalog/admin_panel/books/
+2024-10-28 21:57:59.195010 - admin - Visited /catalog/admin_panel/books/?page=2
+2024-10-28 21:58:26.173413 - admin - Visited /catalog/admin_panel/books/?page=1
+2024-10-28 21:58:28.355033 - admin - Visited /catalog/admin_panel/books/?page=2
+2024-10-28 21:58:29.784915 - admin - Visited /catalog/admin_panel/books/?page=3
+2024-10-28 21:58:42.063618 - admin - Visited /catalog/admin_panel/books/?page=4
+2024-10-28 21:58:43.501333 - admin - Visited /catalog/admin_panel/books/?page=3
+2024-10-28 21:59:26.495828 - admin - Visited /catalog/admin_panel/books/?page=3
+2024-10-28 21:59:28.338249 - admin - Visited /catalog/admin_panel/books/?page=2
+2024-10-28 21:59:41.817338 - admin - Visited /catalog/admin_panel/books/?page=2
+2024-10-28 21:59:45.681352 - admin - Visited /catalog/admin_panel/books/?page=1
+2024-10-28 22:01:03.019503 - admin - Visited /catalog/admin_panel/books/?page=2
+2024-10-28 22:09:10.811338 - admin - Visited /catalog/admin_panel/books/?page=2
+2024-10-28 22:09:12.450202 - admin - Visited log list, page 1
+2024-10-28 22:09:15.477018 - admin - Visited /catalog/admin_panel/books/
+2024-10-28 22:09:38.277913 - admin - Visited /catalog/admin_panel/books/
+2024-10-28 22:09:39.140782 - admin - Visited /catalog/admin_panel/books/
+2024-10-28 22:09:39.703870 - admin - Visited /catalog/admin_panel/books/
+2024-10-28 22:09:42.842503 - admin - Visited log list, page 1
+2024-10-28 22:09:44.731620 - admin - Visited /catalog/admin_panel/books/
+2024-10-28 22:10:38.935071 - admin - Visited /catalog/admin_panel/books/
+2024-10-28 22:11:09.894064 - admin - Visited /catalog/admin_panel/books/
+2024-10-28 22:11:26.966887 - admin - Visited /catalog/admin_panel/books/
+2024-10-28 22:12:29.091355 - admin - Visited /catalog/admin_panel/books/
+2024-10-28 22:12:54.017590 - admin - Visited book: 1984
+2024-10-28 22:12:57.111552 - admin - Visited /catalog/book/2/update/
+2024-10-28 22:14:25.243566 - admin - Visited /catalog/admin_panel/books/
+2024-10-28 22:31:48.733570 - admin - Visited /catalog/admin_panel/books/
+2024-10-28 22:32:27.678420 - admin - Visited /catalog/admin_panel/books/
+2024-10-28 22:32:29.206671 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 22:32:30.321766 - admin - Visited log list, page 1
+2024-10-28 22:32:31.320793 - admin - Visited /catalog/admin_panel/books/
+2024-10-28 22:32:33.332147 - admin - Visited /catalog/admin_zone/author/create/
+2024-10-28 22:33:14.089332 - admin - Visited /catalog/admin_zone/author/create/
+2024-10-28 22:33:16.740460 - admin - Visited /catalog/admin_panel/books/
+2024-10-28 22:34:53.440501 - admin - Visited /catalog/admin_panel/books/
+2024-10-28 22:34:56.407857 - admin - Visited log list, page 1
+2024-10-28 22:34:58.786463 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 22:35:12.517988 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 22:35:15.320645 - admin - Visited log list, page 1
+2024-10-28 22:37:19.170484 - admin - Visited log list, page 1
+2024-10-28 22:37:20.570497 - admin - Visited log list, page 1
+2024-10-28 22:37:21.236983 - admin - Visited /catalog/admin_panel/books/
+2024-10-28 22:37:22.111406 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 22:37:23.114509 - admin - Visited /catalog/admin_panel/books/
+2024-10-28 22:37:24.674886 - admin - Visited log list, page 1
+2024-10-28 22:37:27.083222 - admin - Visited log list, page 2
+2024-10-28 22:37:28.606829 - admin - Visited /catalog/admin_zone/author/create/
+2024-10-28 22:37:29.496395 - admin - Visited /catalog/admin_zone/author/create/
+2024-10-28 22:37:30.118961 - admin - Visited /catalog/book/create/
+2024-10-28 22:37:43.013765 - admin - Visited /catalog/book/create/
+2024-10-28 22:37:43.874890 - admin - Visited /catalog/admin_zone/author/create/
+2024-10-28 22:37:44.783755 - admin - Visited /catalog/admin_zone/language/create/
+2024-10-28 22:37:45.419693 - admin - Visited /catalog/admin_zone/genre/create/
+2024-10-28 22:37:45.930284 - admin - Visited /catalog/admin_zone/languages/
+2024-10-28 22:37:46.511708 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 22:37:47.169768 - admin - Visited /catalog/admin_panel/books/
+2024-10-28 22:37:49.551822 - admin - Visited /catalog/admin_panel/books/
+2024-10-28 22:39:50.528946 - admin - Visited /catalog/admin_panel/books/
+2024-10-28 22:40:23.347875 - admin - Visited /catalog/admin_panel/books/
+2024-10-28 22:40:23.894196 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 22:40:25.524761 - admin - Visited /catalog/admin_panel/authors/?page=2
+2024-10-28 22:40:26.355016 - admin - Visited /catalog/admin_panel/authors/?page=3
+2024-10-28 22:40:27.209520 - admin - Visited /catalog/admin_panel/authors/?page=2
+2024-10-28 22:40:28.143023 - admin - Visited author: Джордж Оруэлл
+2024-10-28 22:40:32.243603 - admin - Visited /catalog/admin_zone/author/2/update/
+2024-10-28 22:41:18.256094 - admin - Visited author: Джордж Оруэлл
+2024-10-28 22:41:43.964996 - admin - Visited author: Джордж Оруэлл
+2024-10-28 22:42:13.443452 - admin - Visited author: Джордж Оруэлл
+2024-10-28 22:54:23.690240 - admin - Visited author: Джордж Оруэлл
+2024-10-28 22:54:24.390020 - admin - Visited log list, page 1
+2024-10-28 22:54:24.911757 - admin - Visited /catalog/admin_panel/books/
+2024-10-28 22:54:25.577707 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 22:54:26.223664 - admin - Visited /catalog/admin_zone/languages/
+2024-10-28 22:54:27.016252 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 22:54:28.227043 - admin - Visited /catalog/admin_panel/books/
+2024-10-28 22:54:31.330739 - admin - Visited /catalog/admin_panel/books/?page=2
+2024-10-28 22:54:33.793945 - admin - Visited /catalog/admin_zone/genre/create/
+2024-10-28 22:54:34.462925 - admin - Visited /catalog/admin_zone/languages/
+2024-10-28 22:54:35.930406 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 22:54:37.120472 - admin - Visited /catalog/admin_panel/books/
+2024-10-28 22:54:38.467541 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 22:54:39.225319 - admin - Visited /catalog/admin_zone/languages/
+2024-10-28 22:57:34.464552 - admin - Visited log list, page 1
+2024-10-28 22:57:35.006896 - admin - Visited /catalog/admin_panel/books/
+2024-10-28 22:57:35.558901 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 22:57:36.366755 - admin - Visited /catalog/admin_panel/languages/
+2024-10-28 22:58:09.640514 - admin - Visited /catalog/admin_panel/languages/
+2024-10-28 22:58:11.103140 - admin - Visited log list, page 1
+2024-10-28 22:58:11.670840 - admin - Visited /catalog/admin_panel/books/
+2024-10-28 22:58:12.216438 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 22:58:12.769664 - admin - Visited /catalog/admin_panel/languages/
+2024-10-28 22:58:13.704382 - admin - Visited /catalog/admin_panel/languages/
+2024-10-28 22:58:14.382222 - admin - Visited /catalog/admin_zone/genre/create/
+2024-10-28 22:58:30.852622 - admin - Visited /catalog/admin_zone/genre/create/
+2024-10-28 22:58:31.791458 - admin - Visited /catalog/admin_panel/languages/
+2024-10-28 22:58:33.775209 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 22:58:35.178283 - admin - Visited /catalog/admin_panel/books/
+2024-10-28 22:58:36.428215 - admin - Visited /catalog/admin_panel/books/
+2024-10-28 22:59:16.288395 - admin - Visited book: Белая гвардия
+2024-10-28 22:59:19.116231 - admin - Visited book: Белая гвардия
+2024-10-28 23:01:06.072725 - admin - Visited book: Белая гвардия
+2024-10-28 23:01:55.042522 - admin - Visited book: Белая гвардия
+2024-10-28 23:01:55.993057 - admin - Visited book: Белая гвардия
+2024-10-28 23:01:56.780714 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 23:01:57.596466 - admin - Visited /catalog/admin_panel/books/
+2024-10-28 23:01:59.007582 - admin - Visited book: 1984
+2024-10-28 23:03:17.473847 - admin - Visited book: 1984
+2024-10-28 23:03:18.589063 - admin - Visited /catalog/admin_panel/books/
+2024-10-28 23:03:20.140111 - admin - Visited book: 1984
+2024-10-28 23:03:27.138242 - admin - Visited log list, page 1
+2024-10-28 23:03:29.009359 - admin - Visited /catalog/admin_panel/books/
+2024-10-28 23:03:34.518112 - admin - Visited book: 1984
+2024-10-28 23:04:22.044440 - admin - Visited book: 1984
+2024-10-28 23:04:24.412133 - admin - Visited /catalog/admin_panel/books/
+2024-10-28 23:04:25.625867 - admin - Visited book: 1984
+2024-10-28 23:05:26.318736 - admin - Visited /catalog/admin_panel/book/2
+2024-10-28 23:07:29.205311 - admin - Visited /catalog/admin_panel/book/2
+2024-10-28 23:07:51.231400 - admin - Visited /catalog/admin_panel/book/2
+2024-10-28 23:07:53.791364 - admin - Visited /catalog/admin_panel/books/
+2024-10-28 23:07:54.473421 - admin - Visited log list, page 1
+2024-10-28 23:07:55.041911 - admin - Visited /catalog/admin_panel/books/
+2024-10-28 23:07:56.346267 - admin - Visited book: 1984
+2024-10-28 23:08:54.847675 - admin - Visited book: 1984
+2024-10-28 23:08:55.794626 - admin - Visited book: 1984
+2024-10-28 23:08:57.793622 - admin - Visited /catalog/admin_panel/books/
+2024-10-28 23:08:58.997392 - admin - Visited book: 1984
+2024-10-28 23:09:47.847669 - admin - Visited book: 1984
+2024-10-28 23:09:48.798161 - admin - Visited book: 1984
+2024-10-28 23:09:49.644632 - admin - Visited /catalog/admin_panel/books/
+2024-10-28 23:09:50.334674 - admin - Visited log list, page 1
+2024-10-28 23:09:50.863836 - admin - Visited /catalog/admin_panel/books/
+2024-10-28 23:09:51.811655 - admin - Visited book: 1984
+2024-10-28 23:10:09.049027 - admin - Visited /catalog/admin_panel/book/2
+2024-10-28 23:11:08.811870 - admin - Visited /catalog/admin_panel/book/2
+2024-10-28 23:17:23.602509 - admin - Visited /catalog/admin_panel/books/
+2024-10-28 23:17:24.588418 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 23:17:25.795704 - admin - Visited author: 1 2
+2024-10-28 23:17:27.814321 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 23:17:28.890553 - admin - Visited author: Михаил Булгаков
+2024-10-28 23:17:35.103946 - admin - Visited /catalog/admin_zone/genre/create/
+2024-10-28 23:17:36.174163 - admin - Visited /catalog/admin_zone/language/create/
+2024-10-28 23:17:37.125832 - admin - Visited /catalog/admin_panel/languages/
+2024-10-28 23:17:38.148407 - admin - Visited book: Дубровский
+2024-10-28 23:17:45.182703 - admin - Visited /catalog/admin_panel/languages/
+2024-10-28 23:17:46.462235 - admin - Visited /catalog/admin_panel/languages/
+2024-10-28 23:19:31.075634 - admin - Visited /catalog/admin_panel/languages/
+2024-10-28 23:19:33.371213 - admin - Visited /catalog/admin_panel/books/
+2024-10-28 23:19:33.970395 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 23:19:34.651665 - admin - Visited /catalog/admin_panel/languages/
+2024-10-28 23:20:56.205369 - admin - Visited /catalog/admin_panel/languages/
+2024-10-28 23:21:23.339398 - admin - Visited /catalog/admin_panel/languages/
+2024-10-28 23:21:34.814576 - admin - Visited language: Английский
+2024-10-28 23:21:38.530388 - admin - Visited language: Русский
+2024-10-28 23:21:46.442049 - admin - Visited /catalog/admin_zone/genre/create/
+2024-10-28 23:22:32.761591 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 23:22:34.215371 - admin - Visited /catalog/admin_panel/books/
+2024-10-28 23:22:38.720946 - admin - Visited /catalog/admin_panel/languages/
+2024-10-28 23:22:39.565124 - admin - Visited language: Китайский
+2024-10-28 23:22:41.321952 - admin - Visited /catalog/admin_zone/language/5/update/
+2024-10-28 23:23:22.861266 - admin - Visited /catalog/admin_zone/language/5/update/
+2024-10-28 23:23:22.904209 - admin - Visited language: Китайский-традиционный
+2024-10-28 23:23:28.721399 - admin - Visited /catalog/admin_panel/languages/
+2024-10-28 23:23:31.013492 - admin - Visited language: Китайский-традиционный
+2024-10-28 23:25:49.966402 - admin - Visited /catalog/admin_panel/books/
+2024-10-28 23:25:51.659491 - admin - Visited book: Белая гвардия
+2024-10-28 23:26:01.331060 - admin - Visited book: 1984
+2024-10-28 23:26:11.079580 - admin - Visited book: Белая гвардия
+2024-10-28 23:26:12.976404 - admin - Visited /catalog/book/10/update/
+2024-10-28 23:26:21.127325 - admin - Visited /catalog/book/10/update/
+2024-10-28 23:26:21.172639 - admin - Visited book: Белая гвардия
+2024-10-28 23:26:23.374839 - admin - Visited /catalog/book/10/update/
+2024-10-28 23:26:28.522531 - admin - Visited /catalog/book/10/update/
+2024-10-28 23:26:28.569932 - admin - Visited book: Белая гвардия
+2024-10-28 23:26:30.404427 - admin - Visited /catalog/admin_panel/books/
+2024-10-28 23:26:35.615519 - admin - Visited /catalog/admin_panel/books/
+2024-10-28 23:27:43.770041 - admin - Visited /catalog/admin_panel/books/
+2024-10-28 23:27:44.586339 - admin - Visited /catalog/admin_panel/books/
+2024-10-28 23:28:11.426354 - admin - Visited /catalog/admin_panel/books/
+2024-10-28 23:28:42.473149 - admin - Visited /catalog/admin_panel/books/
+2024-10-28 23:28:44.643535 - admin - Visited /catalog/admin_panel/books/
+2024-10-28 23:29:42.233939 - admin - Visited /catalog/admin_panel/books/
+2024-10-28 23:32:22.413025 - admin - Visited /catalog/admin_panel/books/
+2024-10-28 23:33:38.251433 - admin - Visited /catalog/admin_panel/books/
+2024-10-28 23:33:40.275177 - admin - Visited log list, page 1
+2024-10-28 23:33:40.853882 - admin - Visited /catalog/admin_panel/books/
+2024-10-28 23:33:43.430236 - admin - Visited log list, page 1
+2024-10-28 23:40:19.172554 - admin - Visited log list, page 81
+2024-10-28 23:40:20.794984 - admin - Visited log list, page 80
+2024-10-28 23:44:37.696685 - admin - Visited log list, page 80
+2024-10-28 23:44:55.299307 - admin - Visited log list, page 80
+2024-10-28 23:48:47.871345 - admin - Visited log list, page 80
+2024-10-28 23:49:00.193594 - admin - Visited log list, page 1
+2024-10-28 23:49:10.833238 - admin - Visited log list, page 1
+2024-10-28 23:49:11.764748 - admin - Visited log list, page 1
+2024-10-28 23:49:13.725811 - admin - Visited log list, page 2
+2024-10-28 23:49:15.360425 - admin - Visited log list, page 81
+2024-10-28 23:49:16.831499 - admin - Visited log list, page 80
+2024-10-28 23:49:23.414445 - admin - Visited log list, page 50
+2024-10-28 23:49:31.299825 - admin - Visited log list, page 1
+2024-10-28 23:52:02.744900 - admin - Visited log list, page 1
+2024-10-28 23:52:36.810783 - admin - Visited log list, page 1
+2024-10-28 23:52:40.747819 - admin - Visited log list, page 1
+2024-10-28 23:52:41.586656 - admin - Visited log list, page 1
+2024-10-28 23:52:42.281636 - admin - Visited log list, page 1
+2024-10-28 23:52:42.800459 - admin - Visited log list, page 1
+2024-10-28 23:52:48.602125 - admin - Visited log list, page 1
+2024-10-28 23:58:03.996991 - admin - Visited log list, page 82
+2024-10-28 23:58:05.527591 - admin - Visited log list, page 81
+2024-10-28 23:58:07.931242 - admin - Visited log list, page 82
+2024-10-28 23:58:35.105178 - admin - Visited /catalog/admin_panel/languages/
+2024-10-28 23:58:50.050662 - admin - Visited /catalog/admin_panel/languages/
+2024-10-28 23:58:50.785375 - admin - Visited /catalog/admin_zone/genre/create/
+2024-10-28 23:58:51.459501 - admin - Visited /catalog/admin_panel/authors/
+2024-10-28 23:58:54.336116 - admin - Visited /catalog/admin_panel/languages/
+2024-10-28 23:59:19.536244 - admin - Visited /catalog/admin_panel/languages/
+2024-10-28 23:59:38.926717 - admin - Visited /catalog/admin_panel/languages/
+2024-10-29 00:02:40.662828 - admin - Visited /catalog/admin_panel/languages/
+2024-10-29 00:02:41.597184 - admin - Visited /catalog/admin_panel/books/
+2024-10-29 00:02:42.503383 - admin - Visited /catalog/admin_panel/authors/
+2024-10-29 00:06:14.006320 - admin - Visited /catalog/
+2024-10-29 00:06:17.091030 - admin - Visited /catalog/
+2024-10-29 00:06:18.199343 - admin - Visited /
+2024-10-29 00:06:18.250878 - admin - Visited /catalog/
+2024-10-29 00:06:27.614358 - admin - Visited /accounts/login/
+2024-10-29 00:06:40.582933 - TestUser - Visited /accounts/login/
+2024-10-29 00:06:40.632235 - TestUser - Visited /
+2024-10-29 00:06:40.755938 - TestUser - Visited /catalog/
+2024-10-29 00:07:21.192436 - TestUser - Visited /catalog/
+2024-10-29 00:07:23.312705 - TestUser - Visited book list, page 1
+2024-10-29 00:07:24.334522 - TestUser - Visited book list, page 1
+2024-10-29 00:07:30.463277 - TestUser - Visited /catalog/
+2024-10-29 00:07:32.610619 - TestUser - Visited author list, page 1
+2024-10-29 00:07:35.136654 - TestUser - Visited /catalog/genres/
+2024-10-29 00:07:37.833033 - TestUser - Visited language list, page 1
+2024-10-29 00:07:40.637242 - TestUser - Visited author list, page 1
+2024-10-29 00:07:42.440935 - TestUser - Visited book list, page 1
+2024-10-29 00:07:44.924301 - TestUser - Visited book: 1984
+2024-10-29 00:09:04.639330 - TestUser - Visited book: 1984
+2024-10-29 00:09:42.677342 - TestUser - Visited author: Джордж Оруэлл
+2024-10-29 00:12:56.792719 - TestUser - Visited author: Джордж Оруэлл
+2024-10-29 00:13:34.817137 - TestUser - Visited author: Джордж Оруэлл
+2024-10-29 00:13:35.782488 - TestUser - Visited author: Джордж Оруэлл
+2024-10-29 00:13:44.661288 - TestUser - Visited author: Джордж Оруэлл
+2024-10-29 00:14:09.614493 - TestUser - Visited author: Джордж Оруэлл
+2024-10-29 00:14:13.212704 - TestUser - Visited book list, page 1
+2024-10-29 00:14:16.841959 - TestUser - Visited author list, page 1
+2024-10-29 00:14:18.857317 - TestUser - Visited author: Михаил Булгаков
+2024-10-29 00:14:35.999187 - TestUser - Visited author: Михаил Булгаков
+2024-10-29 00:17:26.731039 - admin - Visited /catalog/admin_zone/login/
+2024-10-29 00:17:26.785187 - admin - Visited /catalog/admin_panel/
+2024-10-29 00:17:28.841497 - admin - Visited log list, page 1
+2024-10-29 00:17:29.827392 - admin - Visited /catalog/admin_panel/books/
+2024-10-29 00:17:31.707086 - admin - Visited book: 1984
+2024-10-29 00:17:33.124500 - admin - Visited /catalog/admin_panel/books/
+2024-10-29 00:17:34.170966 - admin - Visited book: 1984
+2024-10-29 00:19:36.296807 - admin - Visited book: 1984
+2024-10-29 00:20:23.803283 - admin - Visited book: 1984
+2024-10-29 00:20:24.675507 - admin - Visited book: 1984
+2024-10-29 00:20:25.860823 - admin - Visited /catalog/admin_panel/books/
+2024-10-29 00:20:27.264400 - admin - Visited book: 1984
+2024-10-29 00:20:36.451691 - admin - Visited /catalog/admin_panel/book/2
+2024-10-29 00:23:16.596422 - admin - Visited /catalog/admin_panel/book/2
+2024-10-29 00:23:19.048191 - admin - Visited /catalog/admin_panel/authors/
+2024-10-29 00:23:19.765017 - admin - Visited /catalog/admin_panel/books/
+2024-10-29 00:23:20.740858 - admin - Visited book: 1984
+2024-10-29 00:31:37.968843 - admin - Visited book: 1984
+2024-10-29 00:31:38.778372 - admin - Visited book: 1984
+2024-10-29 00:31:39.734465 - admin - Visited /catalog/admin_panel/books/
+2024-10-29 00:31:40.975164 - admin - Visited book: 1984
+2024-10-29 00:33:03.808903 - admin - Visited /catalog/admin_zone/login/
+2024-10-29 00:33:04.582917 - admin - Visited /accounts/login/
+2024-10-29 00:33:06.189611 - admin - Visited /accounts/login/
+2024-10-29 00:33:07.147396 - admin - Visited /accounts/login/
+2024-10-29 00:33:12.593608 - TestUser - Visited /accounts/login/
+2024-10-29 00:33:12.644669 - TestUser - Visited /
+2024-10-29 00:33:12.692703 - TestUser - Visited /catalog/
+2024-10-29 00:33:15.477269 - TestUser - Visited book list, page 1
+2024-10-29 00:33:17.054068 - TestUser - Visited book: 1984
+2024-10-29 00:33:33.123595 - admin - Visited /catalog/admin_zone/login/
+2024-10-29 00:33:33.169742 - admin - Visited /catalog/admin_panel/
+2024-10-29 00:33:34.883544 - admin - Visited /catalog/admin_panel/books/
+2024-10-29 00:33:35.965702 - admin - Visited book: 1984
+2024-10-29 00:38:03.756203 - admin - Visited /catalog/admin_panel/books/
+2024-10-29 00:38:09.086666 - admin - Visited /catalog/admin_panel/authors/
+2024-10-29 00:38:11.567336 - admin - Visited author: 1 2
+2024-10-29 00:38:14.262491 - admin - Visited /catalog/admin_panel/languages/
+2024-10-29 00:38:15.358319 - admin - Visited language: Английский
+2024-10-29 00:38:22.471513 - admin - Visited language: Английский
+2024-10-29 00:38:26.066846 - admin - Visited /catalog/admin_panel/authors/
+2024-10-29 00:38:27.012499 - admin - Visited author: 1 2
+2024-10-29 01:11:41.117159 - admin - Visited /catalog/admin_panel/authors/
+2024-10-29 01:11:42.078879 - admin - Visited /catalog/admin_panel/languages/
+2024-10-29 01:11:44.171240 - admin - Visited /catalog/admin_panel/languages/
+2024-10-29 01:11:45.184274 - admin - Visited /catalog/admin_panel/authors/
+2024-10-29 01:11:45.966828 - admin - Visited /catalog/admin_panel/books/
+2024-10-29 01:11:48.562588 - admin - Visited book: 1984
+2024-10-29 01:12:03.139474 - admin - Visited /catalog/admin_panel/book/2
+2024-10-29 01:13:24.475280 - admin - Visited /catalog/admin_panel/books/
+2024-10-29 01:13:25.771817 - admin - Visited book: 1984
+2024-10-29 01:15:44.601527 - admin - Visited log list, page 1
+2024-10-29 01:15:46.724735 - admin - Visited /catalog/admin_panel/books/
+2024-10-29 01:15:47.992134 - admin - Visited log list, page 1
+2024-10-29 01:15:48.712373 - admin - Visited /catalog/admin_panel/books/
+2024-10-29 01:15:50.523832 - admin - Visited book: 1984
+2024-10-29 01:16:59.406043 - admin - Visited book: 1984
+2024-10-29 01:17:41.260810 - admin - Visited book: 1984
+2024-10-29 01:17:42.605708 - admin - Visited book: 1984
+2024-10-29 01:18:31.861368 - admin - Visited book: 1984
+2024-10-29 01:19:18.293966 - admin - Visited /catalog/admin_panel/books/
+2024-10-29 01:19:33.333840 - admin - Visited log list, page 1
+2024-10-29 01:19:34.367978 - admin - Visited /catalog/admin_panel/books/
+2024-10-29 01:22:12.965666 - admin - Visited /catalog/admin_panel/books/
+2024-10-29 01:22:14.525803 - admin - Visited /catalog/admin_panel/book/2
+2024-10-29 01:23:03.547952 - admin - Visited /catalog/admin_panel/book/2
+2024-10-29 01:23:04.667370 - admin - Visited /catalog/admin_panel/book/2
+2024-10-29 01:23:25.174875 - admin - Visited /catalog/admin_panel/book/2
+2024-10-29 01:23:44.143866 - admin - Visited /catalog/admin_panel/book/2
+2024-10-29 01:23:55.747349 - admin - Visited /catalog/admin_panel/book/2
+2024-10-29 01:24:15.483602 - admin - Visited /catalog/admin_panel/book/2
+2024-10-29 01:24:16.249503 - admin - Visited /catalog/admin_panel/book/2
+2024-10-29 01:24:25.820786 - admin - Visited /catalog/admin_panel/book/2
+2024-10-29 01:24:45.227270 - admin - Visited /catalog/admin_panel/book/2
+2024-10-29 01:25:15.566716 - admin - Visited /catalog/admin_panel/book/2
+2024-10-29 01:25:18.646991 - admin - Visited log list, page 1
+2024-10-29 01:25:19.546330 - admin - Visited /catalog/admin_panel/authors/
+2024-10-29 01:25:20.204552 - admin - Visited /catalog/admin_panel/books/
+2024-10-29 01:25:21.911909 - admin - Visited /catalog/admin_panel/book/2
+2024-10-29 01:29:00.423878 - admin - Visited /catalog/admin_panel/book/2
+2024-10-29 01:29:01.151630 - admin - Visited /catalog/admin_panel/book/2
+2024-10-29 01:30:09.349343 - admin - Visited /catalog/admin_panel/book/2
+2024-10-29 01:30:11.663637 - admin - Visited /catalog/admin_panel/books/
+2024-10-29 01:30:12.807673 - admin - Visited /catalog/admin_panel/book/2
+2024-10-29 01:30:14.482966 - admin - Visited /catalog/admin_panel/books/
+2024-10-29 01:30:15.768623 - admin - Visited /catalog/admin_panel/book/5
+2024-10-29 01:30:17.232487 - admin - Visited /catalog/admin_panel/books/
+2024-10-29 01:30:18.861154 - admin - Visited /catalog/admin_panel/book/4
+2024-10-29 01:30:48.103713 - admin - Visited /catalog/admin_panel/book/4
+2024-10-29 01:30:51.475316 - admin - Visited /catalog/admin_panel/books/
+2024-10-29 01:30:52.705732 - admin - Visited /catalog/admin_panel/book/2
+2024-10-29 01:30:54.529475 - admin - Visited /catalog/book/2/update/
+2024-10-29 01:30:59.334873 - admin - Visited /catalog/admin_panel/books/
+2024-10-29 01:31:32.868288 - admin - Visited /catalog/
+2024-10-29 01:31:37.888499 - admin - Visited /
+2024-10-29 01:31:37.944313 - admin - Visited /catalog/
+2024-10-29 01:31:40.314530 - admin - Visited /accounts/login/
+2024-10-29 01:31:46.557479 - TestUser - Visited /accounts/login/
+2024-10-29 01:31:46.613182 - TestUser - Visited /
+2024-10-29 01:31:46.668181 - TestUser - Visited /catalog/
+2024-10-29 01:31:49.076638 - TestUser - Visited book list, page 1
+2024-10-29 01:31:51.579409 - TestUser - Visited book: 1984
+2024-10-29 01:32:04.911021 - TestUser - Visited book: 1984
+2024-10-29 01:32:09.086433 - TestUser - Visited book list, page 1
+2024-10-29 01:32:11.354204 - TestUser - Visited book: 1984
+2024-10-29 01:32:57.159611 - TestUser - Visited book list, page 1
+2024-10-29 01:34:07.694687 - TestUser - Visited book list, page 1
+2024-10-29 01:34:10.453987 - TestUser - Visited book: KGBT+
+2024-10-29 01:34:13.775384 - TestUser - Visited book: KGBT+
+2024-10-29 01:37:20.620055 - TestUser - Visited book: KGBT+
+2024-10-29 01:37:22.548413 - TestUser - Visited book: KGBT+
+2024-10-29 01:37:26.737211 - TestUser - Visited author list, page 1
+2024-10-29 01:37:27.978494 - TestUser - Visited book list, page 1
+2024-10-29 01:37:30.252242 - TestUser - Visited book: KGBT+
+2024-10-29 01:37:44.606155 - admin - Visited /catalog/admin_zone/login/
+2024-10-29 01:37:44.661688 - admin - Visited /catalog/admin_panel/
+2024-10-29 01:37:46.368466 - admin - Visited log list, page 1
+2024-10-29 01:37:47.530809 - admin - Visited /catalog/admin_panel/books/
+2024-10-29 01:37:48.749429 - admin - Visited /catalog/admin_panel/book/2
+2024-10-29 01:41:10.894931 - admin - Visited /catalog/admin_panel/book/2
+2024-10-29 01:41:12.626506 - admin - Visited /catalog/admin_panel/books/
+2024-10-29 01:41:13.304746 - admin - Visited /catalog/admin_panel/authors/
+2024-10-29 01:41:13.975294 - admin - Visited /catalog/admin_panel/books/
+2024-10-29 01:41:14.940563 - admin - Visited /catalog/admin_panel/book/2
+2024-10-29 01:42:14.837383 - admin - Visited /catalog/
+2024-10-29 01:42:23.727829 - TestUser - Visited /accounts/login/
+2024-10-29 01:42:23.779844 - TestUser - Visited /
+2024-10-29 01:42:23.831617 - TestUser - Visited /catalog/
+2024-10-29 01:42:26.562905 - TestUser - Visited /catalog/admin_panel/book/2
+2024-10-29 01:42:31.383091 - TestUser - Visited /catalog/admin_panel/books/
+2024-10-29 01:42:33.420409 - TestUser - Visited /catalog/admin_panel/book/2
+2024-10-29 01:42:40.073370 - TestUser - Visited author: Джордж Оруэлл
+2024-10-29 01:42:46.406936 - TestUser - Visited book list, page 1
+2024-10-29 01:42:48.933622 - TestUser - Visited book: KGBT+
+2024-10-29 01:43:29.173248 - TestUser - Visited author list, page 1
+2024-10-29 01:43:30.778671 - TestUser - Visited author: 1 2
+2024-10-29 01:43:35.695871 - TestUser - Visited author: Михаил Булгаков
+2024-10-29 01:44:10.929879 - TestUser - Visited author: Михаил Булгаков
+2024-10-29 01:44:21.986244 - TestUser - Visited author: Михаил Булгаков
+2024-10-29 01:44:36.670061 - admin - Visited /catalog/admin_zone/login/
+2024-10-29 01:44:36.724552 - admin - Visited /catalog/admin_panel/
+2024-10-29 01:44:38.459517 - admin - Visited /catalog/admin_panel/books/
+2024-10-29 01:44:40.303488 - admin - Visited /catalog/admin_panel/authors/
+2024-10-29 01:44:41.513827 - admin - Visited author: Михаил Булгаков
+2024-10-29 01:45:12.924994 - admin - Visited author: Михаил Булгаков
+2024-10-29 01:45:13.829387 - admin - Visited author: Михаил Булгаков
+2024-10-29 01:45:14.751842 - admin - Visited /catalog/admin_panel/authors/
+2024-10-29 01:45:16.161862 - admin - Visited author: Михаил Булгаков
+2024-10-29 01:46:13.313181 - admin - Visited author: Михаил Булгаков
+2024-10-29 01:47:44.245730 - admin - Visited author: Михаил Булгаков
+2024-10-29 01:47:45.327114 - admin - Visited log list, page 1
+2024-10-29 01:47:46.174083 - admin - Visited /catalog/admin_panel/books/
+2024-10-29 01:48:58.231137 - admin - Visited /catalog/admin_panel/books/
+2024-10-29 01:48:59.664801 - admin - Visited /catalog/admin_panel/book/2
+2024-10-29 01:49:02.529063 - admin - Visited /catalog/admin_panel/authors/
+2024-10-29 01:49:05.164032 - admin - Visited author: Михаил Булгаков
+2024-10-29 01:51:30.144397 - admin - Visited /catalog/admin_panel/books/
+2024-10-29 01:51:31.205300 - admin - Visited /catalog/admin_panel/languages/
+2024-10-29 01:51:31.806055 - admin - Visited /catalog/admin_panel/authors/
+2024-10-29 01:51:32.859170 - admin - Visited /catalog/admin_panel/authors/
+2024-10-29 01:51:33.940977 - admin - Visited /catalog/admin_panel/authors/
+2024-10-29 01:52:28.853580 - admin - Visited /catalog/admin_panel/authors/
+2024-10-29 01:54:52.555169 - admin - Visited /catalog/admin_panel/authors/
+2024-10-29 01:54:54.273321 - admin - Visited /catalog/admin_panel/author/5
+2024-10-29 01:54:55.673223 - admin - Visited /catalog/admin_panel/books/
+2024-10-29 01:54:56.209433 - admin - Visited /catalog/admin_panel/authors/
+2024-10-29 01:54:57.265059 - admin - Visited /catalog/admin_panel/author/5
+2024-10-29 01:55:44.682109 - admin - Visited /catalog/admin_panel/author/5
+2024-10-29 01:55:47.024190 - admin - Visited /catalog/admin_panel/books/
+2024-10-29 01:55:47.752434 - admin - Visited /catalog/admin_panel/authors/
+2024-10-29 01:55:48.962070 - admin - Visited /catalog/admin_panel/author/5
+2024-10-29 02:00:27.748281 - admin - Visited /catalog/admin_panel/languages/
+2024-10-29 02:00:29.082419 - admin - Visited /catalog/admin_panel/books/
+2024-10-29 02:00:30.412806 - admin - Visited /catalog/admin_panel/book/2
+2024-10-29 02:00:31.443250 - admin - Visited /catalog/book/2/delete/
+2024-10-29 02:00:46.420592 - admin - Visited /catalog/book/2/delete/
+2024-10-29 02:00:51.902431 - admin - Visited /catalog/admin_panel/books/
+2024-10-29 02:00:53.722937 - admin - Visited /catalog/admin_panel/book/8
+2024-10-29 02:00:55.450200 - admin - Visited /catalog/book/8/delete/
+2024-10-29 02:00:56.765564 - admin - Visited /catalog/book/8/delete/
+2024-10-29 02:02:27.669326 - admin - Visited /catalog/admin_panel/authors/
+2024-10-29 02:02:29.205352 - admin - Visited /catalog/admin_panel/author/7
+2024-10-29 02:02:30.370743 - admin - Visited /catalog/admin_zone/author/7/delete/
+2024-10-29 02:02:31.736170 - admin - Visited /catalog/admin_zone/author/7/delete/
+2024-10-29 02:02:31.793533 - admin - Visited author list, page 1
+2024-10-29 02:02:34.804860 - admin - Visited /catalog/admin_panel/books/
+2024-10-29 02:02:35.586776 - admin - Visited /catalog/admin_panel/authors/
+2024-10-29 02:03:58.146845 - admin - Visited /catalog/admin_zone/author/create/
+2024-10-29 02:05:44.270290 - admin - Visited /catalog/book/create/
+2024-10-29 02:05:45.136695 - admin - Visited /catalog/admin_zone/author/create/
+2024-10-29 02:05:45.977209 - admin - Visited /catalog/admin_zone/author/create/
+2024-10-29 02:05:53.617045 - admin - Visited /catalog/admin_zone/author/create/
+2024-10-29 02:06:02.168877 - admin - Visited /catalog/admin_zone/author/create/
+2024-10-29 02:06:34.613667 - admin - Visited /catalog/admin_zone/author/create/
+2024-10-29 02:06:49.480602 - admin - Visited /catalog/admin_zone/author/create/
+2024-10-29 02:06:55.385764 - admin - Visited /catalog/admin_zone/author/create/
+2024-10-29 02:08:43.898791 - admin - Visited /catalog/book/create/
+2024-10-29 02:08:44.687483 - admin - Visited /catalog/admin_zone/language/create/
+2024-10-29 02:08:48.327557 - admin - Visited /catalog/admin_zone/language/create/
+2024-10-29 02:08:48.382887 - admin - Visited language: Влад
+2024-10-29 02:08:54.354080 - admin - Visited /catalog/admin_zone/language/13/delete/
+2024-10-29 02:08:55.911741 - admin - Visited /catalog/admin_zone/language/13/delete/
+2024-10-29 02:08:55.976556 - admin - Visited language list, page 1
+2024-10-29 02:16:21.541878 - admin - Visited language list, page 1
+2024-10-29 02:16:23.228570 - admin - Visited /catalog/admin_panel/languages/
+2024-10-29 02:16:24.432409 - admin - Visited language: Английский
+2024-10-29 02:17:48.804196 - admin - Visited language: Английский
+2024-10-29 02:18:09.145211 - admin - Visited language: Английский
+2024-10-29 02:18:09.946470 - admin - Visited language: Английский
+2024-10-29 02:18:33.997050 - admin - Visited language: Английский
+2024-10-29 02:18:51.558651 - admin - Visited language: Английский
+2024-10-29 02:18:58.112868 - admin - Visited /catalog/admin_panel/books/
+2024-10-29 02:18:58.879485 - admin - Visited /catalog/admin_panel/authors/
+2024-10-29 02:18:59.570748 - admin - Visited /catalog/admin_panel/languages/
+2024-10-29 02:19:01.283726 - admin - Visited language: Английский
+2024-10-29 02:19:34.782515 - admin - Visited language: Английский
+2024-10-29 02:20:08.905339 - TestUser - Visited /accounts/login/
+2024-10-29 02:20:08.963646 - TestUser - Visited /
+2024-10-29 02:20:09.019424 - TestUser - Visited /catalog/
+2024-10-29 02:20:11.016229 - TestUser - Visited language list, page 1
+2024-10-29 02:20:12.544935 - TestUser - Visited language: Английский
+2024-10-29 02:20:25.601930 - admin - Visited /accounts/login/
+2024-10-29 02:20:25.655937 - admin - Visited /
+2024-10-29 02:20:25.710503 - admin - Visited /catalog/
+2024-10-29 02:20:26.944906 - admin - Visited log list, page 1
+2024-10-29 02:20:30.142278 - admin - Visited /catalog/admin_panel/languages/
+2024-10-29 02:20:31.316606 - admin - Visited language: Английский
+2024-10-29 02:22:25.868252 - admin - Visited /catalog/admin_panel/languages/
+2024-10-29 02:22:27.152412 - admin - Visited language: Английский
+2024-10-29 02:23:02.322154 - admin - Visited language: Английский
+2024-10-29 02:23:04.807496 - admin - Visited /catalog/admin_panel/languages/
+2024-10-29 02:23:05.915110 - admin - Visited /catalog/admin_zone/language/2
+2024-10-29 02:31:53.271120 - admin - Visited /catalog/admin_zone/language/2
+2024-10-29 02:31:54.571416 - admin - Visited /catalog/admin_panel/genres/
+2024-10-29 02:31:55.379803 - admin - Visited /catalog/admin_panel/genres/
+2024-10-29 02:31:55.701521 - admin - Visited /catalog/admin_panel/genres/
+2024-10-29 02:35:49.499078 - admin - Visited /catalog/admin_panel/genres/
+2024-10-29 02:36:20.059113 - admin - Visited /catalog/admin_panel/genres/
+2024-10-29 02:36:56.985093 - admin - Visited /catalog/admin_panel/genres/
+2024-10-29 02:37:00.441658 - admin - Visited /catalog/admin_panel/genres/
+2024-10-29 02:37:16.891795 - admin - Visited /catalog/admin_panel/genres/
+2024-10-29 02:37:19.033821 - admin - Visited /catalog/admin_panel/genres/
+2024-10-29 02:37:43.022889 - admin - Visited /catalog/admin_panel/genres/
+2024-10-29 02:38:33.073676 - admin - Visited /catalog/admin_panel/genres/
+2024-10-29 02:38:35.592970 - admin - Visited /catalog/genre/1
+2024-10-29 02:38:40.012355 - admin - Visited /catalog/admin_panel/authors/
+2024-10-29 02:38:40.942308 - admin - Visited /catalog/admin_panel/books/
+2024-10-29 02:38:42.639424 - admin - Visited /catalog/admin_panel/genres/
+2024-10-29 02:40:00.082447 - admin - Visited /catalog/admin_panel/genres/
+2024-10-29 02:41:29.121850 - admin - Visited /catalog/admin_panel/genres/
+2024-10-29 02:41:32.547253 - admin - Visited /catalog/admin_panel/genres/
+2024-10-29 02:41:35.883288 - admin - Visited /catalog/admin_panel/genres/?page=2
+2024-10-29 02:41:37.988702 - admin - Visited /catalog/admin_panel/genres/?page=1
+2024-10-29 02:42:29.955721 - admin - Visited /catalog/admin_panel/genres/?page=1
+2024-10-29 02:43:04.765992 - admin - Visited /catalog/admin_panel/genres/?page=1
+2024-10-29 02:43:29.894352 - admin - Visited /catalog/admin_panel/genres/?page=1
+2024-10-29 02:52:07.432243 - admin - Visited /catalog/admin_panel/genres/?page=1
+2024-10-29 02:52:08.273496 - admin - Visited /catalog/admin_panel/genres/?page=1
+2024-10-29 02:53:02.131266 - admin - Visited /catalog/admin_panel/genres/?page=1
+2024-10-29 02:53:15.769412 - admin - Visited /catalog/admin_panel/genres/?page=1
+2024-10-29 02:53:37.979113 - admin - Visited /catalog/admin_panel/genres/?page=1
+2024-10-29 02:53:59.727154 - admin - Visited /catalog/admin_panel/genres/?page=1
+2024-10-29 15:04:23.919974 - admin - Visited /catalog/admin_panel/genres/?page=1
+2024-10-29 15:04:24.738860 - admin - Visited /catalog/admin_panel/genres/?page=1
+2024-10-29 15:04:37.697662 - admin - Visited /catalog/admin_zone/login/
+2024-10-29 15:04:38.896454 - admin - Visited /catalog/
+2024-10-29 15:04:48.756725 - TestUser - Visited /accounts/login/
+2024-10-29 15:04:48.813007 - TestUser - Visited /
+2024-10-29 15:04:48.865924 - TestUser - Visited /catalog/
+2024-10-29 15:04:51.597277 - TestUser - Visited /catalog/genres/
+2024-10-29 15:04:55.268170 - TestUser - Visited /catalog/genre/2
+2024-10-29 15:05:14.403512 - admin - Visited /accounts/login/
+2024-10-29 15:05:14.459984 - admin - Visited /
+2024-10-29 15:05:14.515766 - admin - Visited /catalog/
+2024-10-29 15:05:16.053479 - admin - Visited log list, page 1
+2024-10-29 15:05:17.903116 - admin - Visited /catalog/admin_panel/books/
+2024-10-29 15:05:18.688783 - admin - Visited /catalog/admin_panel/genres/
+2024-10-29 15:10:28.344362 - admin - Visited /catalog/admin_panel/genres/
+2024-10-29 15:11:01.708888 - admin - Visited /catalog/admin_panel/genres/
+2024-10-29 15:11:03.385460 - admin - Visited /catalog/admin_zone/language/2
+2024-10-29 15:11:11.102185 - admin - Visited /catalog/admin_zone/language/5
+2024-10-29 15:11:22.495502 - admin - Visited /catalog/
+2024-10-29 15:11:36.876334 - TestUser - Visited /accounts/login/
+2024-10-29 15:11:36.929435 - TestUser - Visited /
+2024-10-29 15:11:36.985306 - TestUser - Visited /catalog/
+2024-10-29 15:11:39.592497 - TestUser - Visited /catalog/genres/
+2024-10-29 15:11:41.211073 - TestUser - Visited /catalog/genre/2
+2024-10-29 15:12:39.698627 - TestUser - Visited /catalog/genres/
+2024-10-29 15:12:43.698985 - TestUser - Visited /catalog/
+2024-10-29 15:12:50.317976 - TestUser - Visited /admin/
+2024-10-29 15:12:50.464180 - TestUser - Visited /admin/login/?next=/admin/
+2024-10-29 15:16:08.920876 - TestUser - Visited /catalog/admin_zone/login/
+2024-10-29 15:19:40.758927 - admin - Visited /catalog/admin_zone/login/
+2024-10-29 15:19:40.833159 - admin - Visited /catalog/admin_panel/
+2024-10-29 15:19:45.464596 - admin - Visited /catalog/admin_zone/login/
+2024-10-29 15:19:51.270011 - admin - Visited /catalog/admin_zone/login/
+2024-10-29 15:19:56.166408 - admin - Visited /catalog/
+2024-10-29 16:39:11.353192 - admin - Visited /catalog/admin_zone/login/
+2024-10-29 16:39:11.431766 - admin - Visited /catalog/admin_panel/
+2024-10-29 16:39:13.756230 - admin - Visited log list, page 1
+2024-10-29 16:39:16.233433 - admin - Visited /catalog/admin_panel/books/
+2024-10-29 16:39:24.169756 - admin - Visited /catalog/admin_zone/genre/create/
+2024-10-29 16:39:24.855669 - admin - Visited /catalog/admin_zone/language/create/
+2024-10-29 16:39:25.511424 - admin - Visited /catalog/admin_zone/author/create/
+2024-10-29 16:39:26.824799 - admin - Visited /catalog/book/create/
+2024-10-29 16:39:27.945216 - admin - Visited /catalog/admin_panel/genres/
+2024-10-29 16:39:29.552100 - admin - Visited /catalog/admin_zone/language/2
+2024-10-29 16:39:31.671427 - admin - Visited log list, page 1
+2024-10-29 16:41:07.785113 - admin - Visited /catalog/admin_panel/genres/
+2024-10-29 16:41:10.480270 - admin - Visited /catalog/admin_zone/language/11
+2024-10-29 16:41:30.900689 - admin - Visited /catalog/admin_zone/language/11
+2024-10-29 16:41:33.538510 - admin - Visited /catalog/admin_panel/genres/
+2024-10-29 16:41:34.481602 - admin - Visited /catalog/admin_zone/language/2
+2024-10-29 16:41:36.425072 - admin - Visited /catalog/admin_panel/languages/
+2024-10-29 16:41:37.890217 - admin - Visited /catalog/admin_zone/language/4
+2024-10-29 16:42:04.007547 - admin - Visited /catalog/admin_zone/language/4
+2024-10-29 16:42:05.631573 - admin - Visited log list, page 1
+2024-10-29 16:42:11.255944 - admin - Visited /catalog/
+2024-10-29 16:42:19.500655 - TestUser - Visited /accounts/login/
+2024-10-29 16:42:19.556881 - TestUser - Visited /
+2024-10-29 16:42:27.717880 - TestUser - Visited /catalog/
+2024-10-29 16:42:32.656577 - TestUser - Visited book list, page 1
+2024-10-29 16:42:34.776561 - TestUser - Visited language list, page 1
+2024-10-29 16:42:36.428481 - TestUser - Visited /catalog/genres/
+2024-10-29 16:42:37.805444 - TestUser - Visited /catalog/genre/2
+2024-10-29 23:34:59.206794 - TestUser - Visited /catalog/genre/2
+2024-10-29 23:35:01.348240 - TestUser - Visited book list, page 1
+2024-10-29 23:35:43.874167 - admin - Visited /accounts/login/
+2024-10-29 23:35:43.937705 - admin - Visited /
+2024-10-29 23:35:48.378629 - admin - Visited /catalog/admin_zone/login/
+2024-10-29 23:35:50.889139 - admin - Visited /catalog/admin_zone/login/
+2024-10-29 23:35:52.286329 - admin - Visited log list, page 1
+2024-10-29 23:35:55.375107 - admin - Visited /catalog/admin_panel/books/
+2024-10-29 23:36:00.408994 - admin - Visited /catalog/admin_panel/book/10
+2024-10-29 23:36:01.411443 - admin - Visited /catalog/book/10/update/
+2024-10-29 23:36:11.778621 - admin - Visited /catalog/admin_panel/book/10
+2024-10-29 23:36:13.017938 - admin - Visited /catalog/book/10/update/
+2024-10-29 23:36:16.524119 - admin - Visited /catalog/book/10/update/
+2024-10-29 23:36:16.624126 - admin - Visited book: Белая гвардия
+2024-10-29 23:36:18.427076 - admin - Visited /catalog/admin_panel/books/
+2024-10-29 23:38:53.227154 - admin - Visited /catalog/admin_panel/books/
+2024-10-29 23:39:12.508818 - admin - Visited /catalog/admin_panel/books/
+2024-10-29 23:40:44.075939 - admin - Visited /catalog/admin_panel/books/
+2024-10-29 23:41:03.875950 - admin - Visited /catalog/admin_panel/books/
+2024-10-29 23:41:11.205847 - admin - Visited /catalog/admin_panel/books/
+2024-10-29 23:41:17.964781 - admin - Visited /catalog/admin_panel/books/
+2024-10-29 23:42:02.510730 - admin - Visited /catalog/admin_panel/books/
+2024-10-29 23:42:19.625373 - admin - Visited /catalog/admin_panel/books/
+2024-10-29 23:42:25.548577 - admin - Visited /catalog/
+2024-10-29 23:42:25.838385 - admin - Visited /catalog/
+2024-10-29 23:42:34.806653 - TestUser - Visited /accounts/login/
+2024-10-29 23:42:34.864155 - TestUser - Visited /
+2024-10-29 23:42:39.702334 - TestUser - Visited /catalog/
+2024-10-29 23:42:42.868866 - TestUser - Visited book list, page 1
+2024-10-29 23:43:13.465167 - TestUser - Visited book list, page 1
+2024-10-29 23:43:31.018442 - TestUser - Visited book list, page 1
+2024-10-29 23:43:39.231382 - TestUser - Visited book list, page 2
+2024-10-29 23:49:15.801686 - TestUser - Visited book list, page 2
+2024-10-29 23:49:16.717417 - TestUser - Visited book list, page 2
+2024-10-29 23:49:19.083893 - TestUser - Visited /catalog/
+2024-10-29 23:49:58.581695 - TestUser - Visited /catalog/
+2024-10-29 23:50:00.041901 - TestUser - Visited /catalog/
+2024-10-29 23:50:00.630147 - TestUser - Visited book list, page 1
+2024-10-29 23:50:01.405300 - TestUser - Visited author list, page 1
+2024-10-29 23:50:02.003500 - TestUser - Visited /catalog/genres/
+2024-10-29 23:52:01.735729 - TestUser - Visited /catalog/genres/
+2024-10-29 23:52:02.896799 - TestUser - Visited /catalog/
+2024-10-29 23:52:03.674292 - TestUser - Visited book list, page 1
+2024-10-29 23:52:04.518319 - TestUser - Visited author list, page 1
+2024-10-29 23:52:05.097373 - TestUser - Visited /catalog/genres/
+2024-10-29 23:52:05.691980 - TestUser - Visited language list, page 1
+2024-10-29 23:52:16.572631 - TestUser - Visited book list, page 1
+2024-10-29 23:52:21.352220 - TestUser - Visited author list, page 1
+2024-10-29 23:52:22.125241 - TestUser - Visited /catalog/genres/
+2024-10-29 23:52:22.921680 - TestUser - Visited /catalog/
+2024-10-29 23:52:35.348266 - TestUser - Visited /catalog/genres/
+2024-10-29 23:54:06.496153 - TestUser - Visited /catalog/genres/
+2024-10-29 23:54:07.290102 - TestUser - Visited book list, page 1
+2024-10-29 23:54:07.993116 - TestUser - Visited author list, page 1
+2024-10-29 23:54:19.953406 - TestUser - Visited author list, page 1
+2024-10-29 23:54:20.909741 - TestUser - Visited book list, page 1
+2024-10-29 23:54:21.592253 - TestUser - Visited /catalog/genres/
+2024-10-29 23:54:24.694777 - TestUser - Visited /catalog/
+2024-10-29 23:54:27.654153 - TestUser - Visited author list, page 1
+2024-10-29 23:54:37.273473 - TestUser - Visited author list, page 1
+2024-10-29 23:54:39.348793 - TestUser - Visited book list, page 1
+2024-10-29 23:55:06.035011 - TestUser - Visited book list, page 1
+2024-10-29 23:55:18.920292 - TestUser - Visited book list, page 1
+2024-10-29 23:55:40.902836 - TestUser - Visited book list, page 1
+2024-10-29 23:57:32.012135 - TestUser - Visited book list, page 1
+2024-10-29 23:57:33.041442 - TestUser - Visited book list, page 1
+2024-10-29 23:57:35.727693 - TestUser - Visited book list, page 2
+2024-10-29 23:57:37.668712 - TestUser - Visited book list, page 3
+2024-10-29 23:57:39.464938 - TestUser - Visited author list, page 1
+2024-10-29 23:57:41.263191 - TestUser - Visited /catalog/genres/
+2024-10-29 23:58:18.825712 - TestUser - Visited /catalog/genres/
+2024-10-29 23:58:20.556632 - TestUser - Visited book list, page 1
+2024-10-29 23:58:27.960843 - TestUser - Visited book list, page 1
+2024-10-29 23:58:28.477113 - TestUser - Visited /catalog/
+2024-10-30 00:00:58.506003 - TestUser - Visited /catalog/
+2024-10-30 00:00:59.916457 - TestUser - Visited book list, page 1
+2024-10-30 00:01:10.018916 - TestUser - Visited book list, page 2
+2024-10-30 00:01:11.368638 - TestUser - Visited book list, page 3
+2024-10-30 00:01:13.903891 - TestUser - Visited book list, page 2
+2024-10-30 00:01:15.320674 - TestUser - Visited book list, page 3
+2024-10-30 00:01:31.101032 - TestUser - Visited book list, page 4
+2024-10-30 00:07:00.766004 - TestUser - Visited book list, page 4
+2024-10-30 00:07:01.837252 - TestUser - Visited book list, page 1
+2024-10-30 00:07:02.520754 - TestUser - Visited author list, page 1
+2024-10-30 00:07:04.657621 - TestUser - Visited /catalog/genres/
+2024-10-30 00:07:05.444853 - TestUser - Visited language list, page 1
+2024-10-30 00:07:08.832683 - TestUser - Visited /catalog/genres/
+2024-10-30 00:07:09.604436 - TestUser - Visited author list, page 1
+2024-10-30 00:08:38.019589 - TestUser - Visited author list, page 1
+2024-10-30 00:08:39.338875 - TestUser - Visited author list, page 1
+2024-10-30 00:08:51.726089 - TestUser - Visited author list, page 1
+2024-10-30 00:08:54.936021 - TestUser - Visited /catalog/
+2024-10-30 00:08:56.374098 - TestUser - Visited book list, page 1
+2024-10-30 00:08:59.261827 - TestUser - Visited book: 1984
+2024-10-30 00:09:03.041685 - TestUser - Visited book: 1984
+2024-10-30 00:09:09.129408 - TestUser - Visited author list, page 1
+2024-10-30 00:09:10.282539 - TestUser - Visited /catalog/genres/
+2024-10-30 00:09:11.969695 - TestUser - Visited book list, page 1
+2024-10-30 00:09:16.894146 - TestUser - Visited language list, page 1
+2024-10-30 00:09:19.473976 - TestUser - Visited language: Английский
+2024-10-30 00:09:21.482470 - TestUser - Visited /catalog/genres/
+2024-10-30 00:09:22.340863 - TestUser - Visited /catalog/genre/2
+2024-10-30 00:09:23.750910 - TestUser - Visited author list, page 1
+2024-10-30 00:09:24.558162 - TestUser - Visited author list, page 1
+2024-10-30 00:09:27.038988 - TestUser - Visited author list, page 1
+2024-10-30 00:09:27.830514 - TestUser - Visited author list, page 1
+2024-10-30 00:09:30.623501 - TestUser - Visited author list, page 2
+2024-10-30 00:09:31.316243 - TestUser - Visited author list, page 2
+2024-10-30 00:09:33.781432 - TestUser - Visited book list, page 1
+2024-10-30 00:14:16.989972 - TestUser - Visited book list, page 1
+2024-10-30 00:14:25.774925 - TestUser - Visited book list, page 1
+2024-10-30 00:14:33.789454 - TestUser - Visited book list, page 2
+2024-10-30 00:15:10.241358 - TestUser - Visited book list, page 2
+2024-10-30 00:15:17.722199 - TestUser - Visited book list, page 1
+2024-10-30 00:18:41.482193 - TestUser - Visited book list, page 1
+2024-10-30 00:19:58.395718 - TestUser - Visited book list, page 1
+2024-10-30 00:20:08.711284 - TestUser - Visited book list, page 1
+2024-10-30 00:20:34.795013 - TestUser - Visited book: 1984
+2024-10-30 00:20:37.639859 - TestUser - Visited book: 1984
+2024-10-30 00:21:09.545367 - TestUser - Visited book: 1984
+2024-10-30 00:21:11.941509 - TestUser - Visited book: 1984
+2024-10-30 00:21:43.665657 - TestUser - Visited book list, page 1
+2024-10-30 00:21:44.843833 - TestUser - Visited book: 1984
+2024-10-30 00:21:47.040076 - TestUser - Visited book: 1984
+2024-10-30 00:25:10.669144 - TestUser - Visited book list, page 1
+2024-10-30 00:25:41.743309 - TestUser - Visited book list, page 1
+2024-10-30 00:31:44.094186 - TestUser - Visited book list, page 1
+2024-10-30 00:31:49.025115 - TestUser - Visited book: 1984
+2024-10-30 00:31:53.305737 - TestUser - Visited book: 1984
+2024-10-30 00:32:03.969498 - TestUser - Visited book list, page 2
+2024-10-30 00:32:06.955446 - TestUser - Visited book list, page 1
+2024-10-30 00:32:08.201916 - TestUser - Visited /catalog/genres/
+2024-10-30 00:35:33.158342 - TestUser - Visited /catalog/
+2024-10-30 00:35:33.783813 - TestUser - Visited book list, page 1
+2024-10-30 00:40:03.346368 - TestUser - Visited book list, page 1
+2024-10-30 00:40:04.887463 - TestUser - Visited book: 1984
+2024-10-30 00:40:55.558878 - TestUser - Visited book: 1984
+2024-10-30 00:40:57.293748 - TestUser - Visited book list, page 1
+2024-10-30 00:40:58.889826 - TestUser - Visited book: 1984
+2024-10-30 00:52:45.774537 - TestUser - Visited book: 1984
+2024-10-30 00:52:50.278125 - TestUser - Visited book: 1984
+2024-10-30 00:52:54.277220 - TestUser - Visited book: 1984
+2024-10-30 00:53:33.350445 - TestUser - Visited book: 1984
+2024-10-30 00:53:45.622428 - TestUser - Visited book: 1984
+2024-10-30 00:53:46.559193 - TestUser - Visited book: 1984
+2024-10-30 00:54:03.777017 - TestUser - Visited book: 1984
+2024-10-30 00:54:09.477100 - TestUser - Visited book: 1984
+2024-10-30 00:54:13.536210 - TestUser - Visited book: 1984
+2024-10-30 00:54:15.205210 - TestUser - Visited book: 1984
+2024-10-30 00:59:56.706238 - TestUser - Visited book: 1984
+2024-10-30 01:00:01.099486 - TestUser - Visited book list, page 1
+2024-10-30 01:00:24.506497 - TestUser - Visited book: 1984
+2024-10-30 01:05:07.123606 - TestUser - Visited book: 1984
+2024-10-30 01:11:24.625798 - TestUser - Visited book: 1984
+2024-10-30 01:11:26.524508 - TestUser - Visited book list, page 1
+2024-10-30 01:11:29.222365 - TestUser - Visited book list, page 1
+2024-10-30 01:11:42.880154 - TestUser - Visited book list, page 1
+2024-10-30 01:18:01.696074 - TestUser - Visited book list, page 1
+2024-10-30 01:18:46.477464 - TestUser - Visited book list, page 1
+2024-10-30 01:19:01.065725 - TestUser - Visited book list, page 1
+2024-10-30 01:20:07.946397 - TestUser - Visited book list, page 1
+2024-10-30 01:22:58.458239 - TestUser - Visited book list, page 1
+2024-10-30 01:22:59.675812 - TestUser - Visited book list, page 1
+2024-10-30 01:23:00.620249 - TestUser - Visited book list, page 1
+2024-10-30 01:25:02.490139 - TestUser - Visited book list, page 1
+2024-10-30 01:25:04.669487 - TestUser - Visited book list, page 1
+2024-10-30 01:25:09.013541 - TestUser - Visited book list, page 1
+2024-10-30 01:25:11.128762 - TestUser - Visited author list, page 1
+2024-10-30 01:25:11.931608 - TestUser - Visited book list, page 1
+2024-10-30 01:26:13.151037 - TestUser - Visited book list, page 1
+2024-10-30 01:26:18.306098 - TestUser - Visited book: 1984
+2024-10-30 01:26:22.301196 - TestUser - Visited book list, page 2
+2024-10-30 01:26:25.548452 - TestUser - Visited book list, page 1
+2024-10-30 01:29:13.605119 - TestUser - Visited book list, page 1
+2024-10-30 01:29:33.096146 - TestUser - Visited book list, page 1
+2024-10-30 01:29:47.733995 - TestUser - Visited book list, page 1
+2024-10-30 01:29:50.414762 - TestUser - Visited book list, page 2
+2024-10-30 01:32:33.526660 - TestUser - Visited book list, page 3
+2024-10-30 01:32:41.726120 - TestUser - Visited author list, page 1
+2024-10-30 01:33:51.654132 - TestUser - Visited author list, page 1
+2024-10-30 01:33:53.094668 - TestUser - Visited book list, page 1
+2024-10-30 01:33:54.740350 - TestUser - Visited /catalog/
+2024-10-30 01:33:55.989061 - TestUser - Visited book list, page 1
+2024-10-30 01:34:01.875678 - TestUser - Visited book: 1984
+2024-10-30 01:34:04.634935 - TestUser - Visited book: 1984
+2024-10-30 01:42:28.981983 - TestUser - Visited book list, page 1
+2024-10-30 01:42:31.691936 - TestUser - Visited book: 1984
+2024-10-30 01:43:04.083436 - TestUser - Visited book: 1984
+2024-10-30 01:43:09.426724 - TestUser - Visited /catalog/books/2/add_rating/
+2024-10-30 01:43:47.496954 - TestUser - Visited book: 1984
+2024-10-30 01:43:51.274243 - TestUser - Visited /catalog/books/2/add_rating/
+2024-10-30 01:43:52.782865 - TestUser - Visited /catalog/books/2/add_rating/
+2024-10-30 01:43:55.041442 - TestUser - Visited /catalog/books/2/add_rating/
+2024-10-30 01:43:55.984995 - TestUser - Visited /catalog/books/2/add_rating/
+2024-10-30 01:43:56.214185 - TestUser - Visited /catalog/books/2/add_rating/
+2024-10-30 01:44:00.302206 - TestUser - Visited book list, page 1
+2024-10-30 01:44:14.149391 - TestUser - Visited language list, page 1
+2024-10-30 01:44:15.348101 - TestUser - Visited book list, page 1
+2024-10-30 01:44:16.355335 - TestUser - Visited author list, page 1
+2024-10-30 01:44:19.735861 - TestUser - Visited book list, page 1
+2024-10-30 03:21:26.305224 - TestUser - Visited book: 1984
+2024-10-30 03:21:33.921244 - TestUser - Visited /catalog/books/2/add_rating/
+2024-10-30 03:21:35.133711 - TestUser - Visited /catalog/books/2/add_rating/
+2024-10-30 03:24:47.770616 - TestUser - Visited book: 1984
+2024-10-30 03:24:52.478927 - TestUser - Visited /catalog/books/2/add_rating/
+2024-10-30 03:24:53.583578 - TestUser - Visited /catalog/books/2/add_rating/
+2024-10-30 03:24:53.788708 - TestUser - Visited /catalog/books/2/add_rating/
+2024-10-30 03:24:54.015616 - TestUser - Visited /catalog/books/2/add_rating/
+2024-10-30 03:25:07.790390 - TestUser - Visited /catalog/
+2024-10-30 03:25:26.708111 - admin - Visited /accounts/login/
+2024-10-30 03:25:26.769458 - admin - Visited /
+2024-10-30 03:25:26.858185 - admin - Visited /catalog/
+2024-10-30 03:25:32.864957 - admin - Visited log list, page 1
+2024-10-30 03:28:01.453664 - admin - Visited log list, page 1
+2024-10-30 03:28:19.307689 - TestUser - Visited /accounts/login/
+2024-10-30 03:28:19.372541 - TestUser - Visited /
+2024-10-30 03:28:19.430707 - TestUser - Visited /catalog/
+2024-10-30 03:28:55.311488 - TestUser - Visited /catalog/
+2024-10-30 13:49:32.369277 - TestUser - Visited /accounts/login/
+2024-10-30 13:49:39.592851 - admin - Visited /accounts/login/
+2024-10-30 13:49:39.673815 - admin - Visited /
+2024-10-30 13:49:39.807058 - admin - Visited /catalog/
+2024-10-30 13:49:44.207052 - admin - Visited log list, page 1
+2024-10-30 13:49:45.175967 - admin - Visited /catalog/admin_panel/books/
+2024-10-30 13:49:46.134236 - admin - Visited /catalog/admin_panel/authors/
+2024-10-30 13:49:47.018468 - admin - Visited /catalog/admin_panel/genres/
+2024-10-30 13:49:48.429462 - admin - Visited /catalog/admin_zone/genre/create/
+2024-10-30 13:49:50.697261 - admin - Visited /catalog/admin_panel/genres/
+2024-10-30 14:09:27.044113 - admin - Visited /catalog/admin_panel/books/
+2024-10-30 14:09:28.529675 - admin - Visited /catalog/admin_panel/authors/
+2024-10-30 14:09:29.102461 - admin - Visited /catalog/admin_panel/languages/
+2024-10-30 14:09:29.610928 - admin - Visited /catalog/admin_panel/genres/
+2024-10-30 14:21:23.331373 - admin - Visited /catalog/admin_panel/genres/
+2024-10-30 14:52:03.623799 - admin - Visited /catalog/admin_panel/genres/
+2024-10-30 14:52:04.482506 - admin - Visited log list, page 1
+2024-10-30 14:52:08.710697 - admin - Visited log list, page 1
+2024-10-30 14:52:11.332527 - admin - Visited log list, page 112
+2024-10-30 14:52:15.371355 - admin - Visited /catalog/admin_zone/genre/create/
+2024-10-30 14:53:02.204920 - admin - Visited /catalog/admin_zone/genre/create/
+2024-10-30 14:53:02.981641 - admin - Visited log list, page 1
+2024-10-30 14:53:05.331082 - admin - Visited log list, page 1
+2024-10-30 14:53:50.597792 - admin - Visited log list, page 1
+2024-10-30 14:53:52.685812 - admin - Visited log list, page 1
+2024-10-30 14:55:16.514126 - admin - Visited log list, page 1
+2024-10-30 14:55:19.049560 - admin - Visited log list, page 1
+2024-10-30 15:04:30.029756 - admin - Visited log list, page 2
+2024-10-30 15:07:34.047048 - admin - Visited log list, page 2
+2024-10-30 15:07:36.951338 - admin - Visited log list, page 1
+2024-10-30 15:07:40.262388 - admin - Visited log list, page 1
+2024-10-30 15:07:43.485677 - admin - Visited log list, page 2
+2024-10-30 15:07:48.485539 - admin - Visited log list, page 2
+2024-10-30 15:07:51.771946 - admin - Visited log list, page 1
+2024-10-30 15:07:55.175358 - admin - Visited log list, page 113
+2024-10-30 15:07:56.632178 - admin - Visited log list, page 112
+2024-10-30 15:08:02.563049 - admin - Visited log list, page 1
+2024-10-30 15:08:07.437087 - admin - Visited log list, page 113
+2024-10-30 15:18:55.777173 - admin - Visited log list, page 113
+2024-10-30 15:18:58.287396 - admin - Visited log list, page 1
+2024-10-30 15:19:00.717577 - admin - Visited log list, page 1
+2024-10-30 15:19:01.517563 - admin - Visited log list, page 1
+2024-10-30 15:19:04.056564 - admin - Visited log list, page 1
+2024-10-30 15:19:06.474703 - admin - Visited log list, page 2
+2024-10-30 15:21:46.825720 - admin - Visited log list, page 2
+2024-10-30 15:21:49.556843 - admin - Visited log list, page 1
+2024-10-30 15:24:30.301485 - admin - Visited log list, page 1
+2024-10-30 15:24:44.436057 - admin - Visited book list, page 1
+2024-10-30 15:24:45.764286 - admin - Visited log list, page 1
+2024-10-30 15:24:48.882166 - admin - Visited log list, page 1
+2024-10-30 15:24:53.731603 - admin - Visited log list, page 1
+2024-10-30 15:38:24.623091 - admin - Visited log list, page 1
+2024-10-30 15:38:29.185477 - admin - Visited log list, page 1
+2024-10-30 15:38:34.790870 - admin - Visited log list, page 1
+2024-10-30 15:38:45.008762 - admin - Visited log list, page 1
+2024-10-30 15:38:54.712955 - admin - Visited log list, page 1
+2024-10-30 15:38:55.873081 - admin - Visited log list, page 1
+2024-10-30 15:38:56.452450 - admin - Visited log list, page 1
+2024-10-30 15:38:56.902116 - admin - Visited log list, page 1
+2024-10-30 15:38:58.782025 - admin - Visited /catalog/admin_panel/authors/
+2024-10-30 15:38:59.528257 - admin - Visited /catalog/admin_panel/languages/
+2024-10-30 15:39:00.605708 - admin - Visited /catalog/admin_panel/books/
+2024-10-30 15:39:03.333308 - admin - Visited log list, page 1
+2024-10-30 15:40:15.907814 - admin - Visited log list, page 1
+2024-10-30 15:40:18.020316 - admin - Visited /catalog/admin_panel/books/
+2024-10-30 15:40:18.739694 - admin - Visited log list, page 1
+2024-10-30 15:40:39.520620 - admin - Visited log list, page 1
+2024-10-30 15:40:40.882233 - admin - Visited log list, page 1
+2024-10-30 15:40:48.087343 - admin - Visited log list, page 1
+2024-10-30 15:41:08.768612 - admin - Visited log list, page 1
+2024-10-30 15:41:38.480881 - admin - Visited log list, page 1
+2024-10-30 15:41:40.745172 - admin - Visited log list, page 1
+2024-10-30 15:41:41.955910 - admin - Visited log list, page 1
+2024-10-30 15:42:01.869942 - admin - Visited log list, page 1
+2024-10-30 15:42:12.930086 - admin - Visited log list, page 1
+2024-10-30 15:42:21.566746 - admin - Visited log list, page 50
+2024-10-30 15:42:37.705056 - admin - Visited log list, page 50
+2024-10-30 15:42:51.184064 - admin - Visited log list, page 50
+2024-10-30 15:43:25.666675 - admin - Visited log list, page 50
+2024-10-30 15:44:11.811988 - admin - Visited log list, page 50
+2024-10-30 15:44:15.523248 - admin - Visited log list, page 1
+2024-10-30 15:44:50.510275 - admin - Visited log list, page 50
+2024-10-30 15:45:38.861115 - admin - Visited log list, page 50
+2024-10-30 15:45:44.735342 - admin - Visited log list, page 1
+2024-10-30 15:51:20.983670 - admin - Visited log list, page 1
+2024-10-30 15:51:25.409599 - admin - Visited log list, page 1
+2024-10-30 15:51:35.069932 - admin - Visited log list, page 1
+2024-10-30 15:51:37.716103 - admin - Visited log list, page 2
+2024-10-30 15:51:39.152504 - admin - Visited log list, page 231
+2024-10-30 15:51:40.636986 - admin - Visited log list, page 230
+2024-10-30 15:51:43.597930 - admin - Visited log list, page 229
+2024-10-30 15:51:45.000146 - admin - Visited log list, page 228
+2024-10-30 15:51:46.482047 - admin - Visited log list, page 227
+2024-10-30 15:51:47.930401 - admin - Visited log list, page 226
+2024-10-30 15:51:49.884045 - admin - Visited log list, page 225
+2024-10-30 15:51:53.212762 - admin - Visited log list, page 1
+2024-10-30 15:51:55.757096 - admin - Visited log list, page 2
+2024-10-30 15:52:03.109761 - admin - Visited log list, page 1
+2024-10-30 15:52:10.206604 - admin - Visited log list, page 1
+2024-10-30 15:54:56.461995 - admin - Visited log list, page 1
+2024-10-30 15:55:04.890115 - admin - Visited log list, page 1
+2024-10-30 15:55:07.768642 - admin - Visited log list, page 2
+2024-10-30 15:55:09.205431 - admin - Visited log list, page 3
+2024-10-30 15:55:18.129156 - admin - Visited log list, page 1
+2024-10-30 15:55:19.773860 - admin - Visited log list, page 2
+2024-10-30 15:55:21.467091 - admin - Visited log list, page 3
+2024-10-30 15:55:23.135163 - admin - Visited log list, page 4
+2024-10-30 15:55:26.965679 - admin - Visited log list, page 1
+2024-10-30 15:55:39.237198 - admin - Visited /catalog/admin_panel/genres/
+2024-10-30 15:55:42.471412 - admin - Visited /catalog/admin_panel/genres/?page=2
+2024-10-30 15:55:44.262665 - admin - Visited /catalog/admin_panel/books/
+2024-10-30 15:55:46.459436 - admin - Visited /catalog/admin_panel/books/?page=2
+2024-10-30 15:59:39.929495 - admin - Visited /catalog/admin_panel/books/?page=1
+2024-10-30 15:59:57.970539 - admin - Visited /catalog/book/create/
+2024-10-30 16:01:19.848323 - admin - Visited /catalog/book/create/
+2024-10-30 16:01:38.838047 - admin - Visited /catalog/book/create/
+2024-10-30 16:01:57.324965 - admin - Visited /catalog/book/create/
+2024-10-30 16:02:21.999180 - admin - Visited /catalog/admin_panel/genres/
+2024-10-30 16:02:24.040846 - admin - Visited /catalog/admin_zone/author/create/
+2024-10-30 16:02:25.192684 - admin - Visited /catalog/book/create/
+2024-10-30 16:02:27.596873 - admin - Visited /catalog/admin_zone/language/create/
+2024-10-30 16:02:29.513289 - admin - Visited /catalog/book/create/
+2024-10-30 17:05:08.238243 - admin - Visited /catalog/book/create/
+2024-10-30 17:06:47.268427 - admin - Visited /catalog/book/create/
+2024-10-30 17:06:54.300950 - admin - Visited /catalog/admin_panel/books/
+2024-10-30 17:06:55.121433 - admin - Visited /catalog/admin_panel/authors/
+2024-10-30 17:07:22.937398 - admin - Visited /catalog/admin_panel/languages/
+2024-10-30 17:07:23.881444 - admin - Visited /catalog/admin_panel/genres/
+2024-10-30 17:07:24.595691 - admin - Visited /catalog/admin_panel/languages/
+2024-10-30 17:07:26.891705 - admin - Visited /catalog/admin_zone/language/10
+2024-10-30 17:08:36.752868 - admin - Visited /catalog/book/create/
+2024-10-30 17:08:53.703597 - admin - Visited /catalog/book/create/
+2024-10-30 17:10:14.793634 - admin - Visited /catalog/admin_panel/books/
+2024-10-30 17:10:16.026483 - admin - Visited /catalog/admin_panel/book/2
+2024-10-30 17:10:17.345114 - admin - Visited /catalog/book/2/update/
+2024-10-30 17:10:51.079658 - admin - Visited /catalog/book/2/update/
+2024-10-30 17:11:03.043659 - admin - Visited /catalog/admin_panel/authors/
+2024-10-30 17:11:05.284639 - admin - Visited /catalog/admin_panel/books/
+2024-10-30 17:13:34.566874 - admin - Visited /catalog/admin_panel/books/
+2024-10-30 17:13:37.161018 - admin - Visited /catalog/admin_panel/book/8
+2024-10-30 17:13:39.560029 - admin - Visited /catalog/book/8/update/
+2024-10-30 17:13:56.540285 - admin - Visited /catalog/book/8/update/
+2024-10-30 17:13:56.661351 - admin - Visited book: Дар
+2024-10-30 17:14:04.899592 - admin - Visited /catalog/
+2024-10-30 17:14:10.050191 - admin - Visited /catalog/admin_panel/books/
+2024-10-30 17:14:26.252444 - admin - Visited /catalog/admin_panel/books/?page=2
+2024-10-30 17:16:13.352128 - admin - Visited /catalog/admin_panel/book/9
+2024-10-30 17:16:14.729862 - admin - Visited /catalog/book/9/update/
+2024-10-30 17:16:31.215580 - admin - Visited /catalog/book/9/update/
+2024-10-30 17:16:31.280270 - admin - Visited book: Собачье сердце
+2024-10-30 17:16:33.209210 - admin - Visited /catalog/
+2024-10-30 17:16:38.961110 - admin - Visited /catalog/admin_panel/books/
+2024-10-30 17:16:40.541859 - admin - Visited /catalog/admin_panel/books/?page=2
+2024-10-30 17:26:07.776613 - admin - Visited /catalog/admin_panel/books/?page=2
+2024-10-30 17:26:15.447799 - admin - Visited /catalog/admin_panel/books/
+2024-10-30 17:26:18.048653 - admin - Visited /catalog/admin_panel/book/2
+2024-10-30 17:26:21.538107 - admin - Visited /catalog/book/2/update/
+2024-10-30 17:26:24.516671 - admin - Visited /catalog/admin_panel/books/
+2024-10-30 17:26:28.097364 - admin - Visited /catalog/admin_panel/books/?page=2
+2024-10-30 17:26:29.523498 - admin - Visited /catalog/admin_panel/book/1
+2024-10-30 17:26:45.641091 - admin - Visited /catalog/admin_panel/book/1
+2024-10-30 17:26:49.079253 - admin - Visited /catalog/book/1/update/
+2024-10-30 17:28:58.171387 - admin - Visited /catalog/book/1/update/
+2024-10-30 17:28:58.239138 - admin - Visited book: Евгений Онегин
+2024-10-30 17:29:23.515990 - admin - Visited /catalog/
+2024-10-30 17:29:25.548610 - admin - Visited /catalog/admin_panel/authors/
+2024-10-30 17:29:26.957721 - admin - Visited /catalog/admin_panel/genres/
+2024-10-30 17:29:27.985439 - admin - Visited /catalog/admin_zone/author/create/
+2024-10-30 17:29:30.666597 - admin - Visited /catalog/admin_panel/genres/
+2024-10-30 17:29:33.691042 - admin - Visited /catalog/admin_zone/language/12
+2024-10-30 17:29:43.199597 - admin - Visited /catalog/admin_zone/language/1
+2024-10-30 17:29:47.296924 - admin - Visited /catalog/admin_zone/language/2
+2024-10-30 17:30:08.194211 - admin - Visited /catalog/admin_zone/language/2
+2024-10-30 17:30:12.899740 - admin - Visited /catalog/admin_zone/language/2
+2024-10-30 17:31:47.001389 - admin - Visited /catalog/admin_zone/language/2
+2024-10-30 17:31:48.948267 - admin - Visited /catalog/admin_panel/books/
+2024-10-30 17:31:49.688558 - admin - Visited /catalog/admin_panel/authors/
+2024-10-30 17:31:50.258379 - admin - Visited /catalog/admin_panel/languages/
+2024-10-30 17:31:52.637374 - admin - Visited /catalog/admin_zone/language/2
+2024-10-30 17:31:54.092134 - admin - Visited /catalog/admin_panel/languages/
+2024-10-30 17:31:54.654564 - admin - Visited /catalog/admin_panel/genres/
+2024-10-30 17:31:55.643598 - admin - Visited /catalog/admin_zone/language/2
+2024-10-30 17:32:45.839420 - admin - Visited /catalog/admin_zone/language/2
+2024-10-30 17:32:47.737980 - admin - Visited /catalog/admin_panel/languages/
+2024-10-30 17:32:49.418747 - admin - Visited /catalog/admin_panel/genres/
+2024-10-30 17:34:09.697063 - admin - Visited /catalog/admin_panel/genres/
+2024-10-30 17:34:42.306703 - admin - Visited /catalog/admin_panel/genres/
+2024-10-30 17:34:44.975561 - admin - Visited /catalog/admin_zone/genre/create/
+2024-10-30 17:34:45.625529 - admin - Visited /catalog/admin_panel/genres/
+2024-10-30 17:34:47.677813 - admin - Visited /catalog/admin_panel/genres/?page=2
+2024-10-30 17:34:48.345287 - admin - Visited /catalog/admin_panel/genres/?page=1
+2024-10-30 17:35:54.503842 - admin - Visited /catalog/admin_panel/genres/?page=1
+2024-10-30 17:36:07.802121 - admin - Visited /catalog/admin_panel/genres/?page=1
+2024-10-30 17:37:26.159013 - admin - Visited /catalog/admin_panel/genres/?page=1
+2024-10-30 17:38:24.086206 - admin - Visited /catalog/admin_panel/genres/?page=1
+2024-10-30 17:38:25.990708 - admin - Visited log list, page 1
+2024-10-30 17:38:31.206618 - admin - Visited /catalog/admin_zone/language/create/
+2024-10-30 17:38:32.302594 - admin - Visited /catalog/admin_panel/genres/
+2024-10-30 17:38:34.719676 - admin - Visited /catalog/admin_panel/languages/
+2024-10-30 17:38:37.423051 - admin - Visited /catalog/admin_zone/language/5
+2024-10-30 17:38:40.830058 - admin - Visited /catalog/admin_panel/books/
+2024-10-30 17:38:50.868829 - admin - Visited /catalog/admin_panel/genres/
+2024-10-30 17:39:34.699578 - admin - Visited /catalog/admin_panel/genres/
+2024-10-30 17:39:54.926919 - admin - Visited /catalog/admin_panel/genres/
+2024-10-30 17:41:45.954518 - admin - Visited /catalog/admin_panel/genres/
+2024-10-30 17:41:47.224372 - admin - Visited /catalog/admin_panel/genres/
+2024-10-30 17:41:48.100497 - admin - Visited /catalog/admin_panel/genres/
+2024-10-30 17:41:50.224228 - admin - Visited /catalog/admin_panel/books/
+2024-10-30 17:41:51.013139 - admin - Visited /catalog/admin_panel/books/
+2024-10-30 17:41:52.124033 - admin - Visited /catalog/admin_panel/genres/
+2024-10-30 17:46:07.252366 - admin - Visited /catalog/admin_panel/genres/
+2024-10-30 17:46:08.572623 - admin - Visited /catalog/admin_panel/genres/
+2024-10-30 17:49:00.398081 - admin - Visited /catalog/admin_panel/genres/
+2024-10-30 17:49:03.060029 - admin - Visited /catalog/admin_panel/books/
+2024-10-30 17:49:03.725233 - admin - Visited /catalog/admin_panel/authors/
+2024-10-30 17:49:04.886397 - admin - Visited /catalog/admin_panel/languages/
+2024-10-30 17:49:06.447346 - admin - Visited /catalog/admin_zone/language/5
+2024-10-30 17:49:08.173074 - admin - Visited /catalog/admin_panel/books/
+2024-10-30 17:49:09.524181 - admin - Visited /catalog/admin_panel/book/2
+2024-10-30 17:51:10.848821 - admin - Visited /catalog/admin_panel/book/2
+2024-10-30 17:51:34.961235 - admin - Visited /catalog/admin_panel/book/2
+2024-10-30 17:51:35.703087 - admin - Visited /catalog/admin_panel/book/2
+2024-10-30 17:51:47.771626 - admin - Visited /catalog/admin_panel/book/2
+2024-10-30 17:52:07.599346 - admin - Visited /catalog/admin_panel/book/2
+2024-10-30 17:52:43.976843 - admin - Visited /catalog/admin_panel/book/2
+2024-10-30 17:52:45.840391 - admin - Visited /catalog/book/2/update/
+2024-10-30 17:52:53.912358 - admin - Visited /catalog/book/2/update/
+2024-10-30 17:57:05.616602 - admin - Visited /catalog/book/2/update/
+2024-10-30 17:57:08.869244 - admin - Visited /catalog/admin_panel/books/
+2024-10-30 17:57:12.034525 - admin - Visited /catalog/admin_panel/book/2
+2024-10-30 17:57:13.132572 - admin - Visited /catalog/book/2/update/
+2024-10-30 17:57:45.121816 - admin - Visited /catalog/book/2/update/
+2024-10-30 17:57:49.600349 - admin - Visited /catalog/book/2/update/
+2024-10-30 17:58:10.627611 - admin - Visited /catalog/book/2/update/
+2024-10-30 17:58:11.968142 - admin - Visited /catalog/book/2/update/
+2024-10-30 17:58:33.638690 - admin - Visited /catalog/book/2/update/
+2024-10-30 17:59:59.869981 - admin - Visited /catalog/book/2/update/
+2024-10-30 18:00:40.499513 - admin - Visited /catalog/book/2/update/
+2024-10-30 18:01:12.290950 - admin - Visited /catalog/book/2/update/
+2024-10-30 18:01:15.165996 - admin - Visited /catalog/book/2/delete/
+2024-10-30 18:01:20.341594 - admin - Visited /catalog/book/2/update/
+2024-10-30 18:03:00.595578 - admin - Visited /catalog/book/2/update/
+2024-10-30 18:03:02.579670 - admin - Visited /catalog/book/2/delete/
+2024-10-30 18:03:20.136329 - admin - Visited /catalog/book/2/delete/
+2024-10-30 18:04:55.014156 - admin - Visited /catalog/book/2/delete/
+2024-10-30 18:05:09.551218 - admin - Visited /catalog/book/2/delete/
+2024-10-30 18:05:29.608402 - admin - Visited /catalog/book/2/delete/
+2024-10-30 18:05:37.822734 - admin - Visited /catalog/book/2/delete/
+2024-10-30 18:06:23.091292 - admin - Visited /catalog/book/2/delete/
+2024-10-30 18:07:49.049786 - admin - Visited /catalog/book/2/delete/
+2024-10-30 18:08:20.304304 - admin - Visited /catalog/book/2/delete/
+2024-10-30 18:08:24.277038 - admin - Visited /catalog/book/2/delete/
+2024-10-30 18:11:31.686123 - admin - Visited /catalog/book/2/delete/
+2024-10-30 18:11:36.986377 - admin - Visited /catalog/admin_panel/languages/
+2024-10-30 18:11:38.519112 - admin - Visited /catalog/admin_zone/language/2
+2024-10-30 18:11:40.478408 - admin - Visited /catalog/admin_zone/language/2/delete/
+2024-10-30 18:12:37.471572 - admin - Visited /catalog/admin_zone/language/2/delete/
+2024-10-30 18:12:38.307409 - admin - Visited /catalog/admin_zone/language/2/delete/
+2024-10-30 18:13:12.015756 - admin - Visited /catalog/admin_zone/language/2/delete/
+2024-10-30 18:14:49.340796 - admin - Visited /catalog/admin_zone/language/2/delete/
+2024-10-30 18:14:50.220777 - admin - Visited /catalog/admin_zone/language/2/delete/
+2024-10-30 18:14:51.213742 - admin - Visited /catalog/admin_zone/language/2/delete/
+2024-10-30 18:15:20.358207 - admin - Visited /catalog/admin_zone/language/2/delete/
+2024-10-30 18:15:21.230026 - admin - Visited /catalog/admin_zone/language/2/delete/
+2024-10-30 18:16:31.395661 - admin - Visited /catalog/admin_zone/language/2/delete/
+2024-10-30 18:16:32.139202 - admin - Visited /catalog/admin_zone/language/2/delete/
+2024-10-30 18:16:32.340178 - admin - Visited /catalog/admin_zone/language/2/delete/
+2024-10-30 18:16:32.774435 - admin - Visited /catalog/admin_zone/language/2/delete/
+2024-10-30 18:17:55.983195 - admin - Visited /catalog/admin_zone/language/2/delete/
+2024-10-30 18:17:59.221701 - admin - Visited /catalog/admin_panel/books/
+2024-10-30 18:18:01.069134 - admin - Visited /catalog/admin_panel/book/2
+2024-10-30 18:18:02.246844 - admin - Visited /catalog/book/2/delete/
+2024-10-30 18:18:05.238934 - admin - Visited /catalog/admin_panel/authors/
+2024-10-30 18:18:06.691393 - admin - Visited /catalog/admin_panel/author/9
+2024-10-30 18:18:08.205376 - admin - Visited /catalog/admin_zone/author/9/delete/
+2024-10-30 18:18:13.708066 - admin - Visited /catalog/admin_panel/languages/
+2024-10-30 18:18:15.034519 - admin - Visited /catalog/admin_zone/language/2
+2024-10-30 18:18:16.835350 - admin - Visited /catalog/admin_zone/language/2/delete/
+2024-10-30 18:18:49.681197 - admin - Visited /catalog/admin_zone/language/2/delete/
+2024-10-30 18:18:54.220426 - admin - Visited /catalog/admin_panel/genres/
+2024-10-31 00:52:35.549105 - admin - Visited /catalog/admin_zone/language/2
+2024-10-31 00:52:36.484164 - admin - Visited /catalog/admin_zone/language/2
+2024-10-31 01:03:13.882956 - admin - Visited /accounts/login/
+2024-10-31 01:03:13.969690 - admin - Visited /
+2024-10-31 01:03:14.047364 - admin - Visited /catalog/
+2024-10-31 01:03:16.360951 - admin - Visited /accounts/login/
+2024-10-31 01:03:21.043070 - admin - Visited /accounts/login/
+2024-10-31 01:03:24.004173 - admin - Visited /accounts/logout/
+2024-10-31 01:03:25.386955 - admin - Visited /catalog/admin_zone/language/2
+2024-10-31 01:21:43.149301 - admin - Visited /accounts/login/
+2024-10-31 01:21:43.227928 - admin - Visited /
+2024-10-31 01:21:43.299263 - admin - Visited /catalog/
+2024-10-31 01:21:52.375854 - admin - Visited /catalog/admin_panel/authors/
+2024-10-31 01:21:54.022071 - admin - Visited /catalog/admin_panel/books/
+2024-10-31 01:21:54.854275 - admin - Visited log list, page 1
+2024-10-31 01:22:00.575899 - admin - Visited log list, page 2
+2024-10-31 01:22:02.958801 - admin - Visited /catalog/admin_zone/language/create/
+2024-10-31 01:22:05.628751 - admin - Visited /catalog/admin_zone/genre/create/
+2024-10-31 01:22:08.101510 - admin - Visited /catalog/admin_panel/languages/
+2024-10-31 01:22:09.093864 - admin - Visited /catalog/admin_panel/books/
+2024-10-31 01:23:37.765605 - TestUser - Visited /accounts/login/
+2024-10-31 01:23:37.835804 - TestUser - Visited /
+2024-10-31 01:23:37.899776 - TestUser - Visited /catalog/
+2024-10-31 01:23:43.279211 - TestUser - Visited book list, page 1
+2024-10-31 01:23:51.924229 - TestUser - Visited book: 1984
+2024-10-31 01:23:55.519946 - TestUser - Visited book: Евгений Онегин
+2024-10-31 01:24:07.699216 - TestUser - Visited /catalog/books/1/add_rating/
+2024-10-31 01:24:11.763770 - TestUser - Visited /catalog/books/1/add_rating/
+2024-10-31 01:24:12.849977 - TestUser - Visited /catalog/books/1/add_rating/

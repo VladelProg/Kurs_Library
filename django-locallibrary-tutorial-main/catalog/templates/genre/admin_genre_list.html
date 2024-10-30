@@ -1,4 +1,4 @@
-{% extends "base_generic.html" %}
+{% extends "admin_panel.html" %}
 
 {% block content %}
 
@@ -9,7 +9,7 @@
 
   {% for genre in genre_list %}
     <li>
-      <a href="{{ genre.get_absolute_url }}">
+      <a href="{{ genre.get_admin_url }}">
       {{ genre }}
       </a>
     </li>

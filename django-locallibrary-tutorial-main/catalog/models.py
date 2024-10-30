@@ -6,9 +6,10 @@ from django.utils import timezone
 from django.urls import reverse  # To generate URLS by reversing URL patterns
 from django.db.models import UniqueConstraint
 from django.db.models.functions import Lower
-from decimal import Decimal
 import os
 from django.conf import settings
+import uuid  # Required for unique book instances
+from datetime import date
 
 
 class Genre(models.Model):
@@ -28,14 +29,21 @@ class Genre(models.Model):
         """Returns the url to access a particular genre instance."""
         return reverse('genre-detail', args=[str(self.id)])
 
+    def get_admin_url(self):
+        return reverse('admin-genre-detail', args=[str(self.id)])
+
+    def get_user_url(self):
+        return reverse('genre-detail', args=[str(self.id)])
+    
     class Meta:
         constraints = [
             UniqueConstraint(
                 Lower('name'),
                 name='genre_name_case_insensitive_unique',
-                violation_error_message = "Жанр уже существуeт (case insensitive match)"
+                violation_error_message="Жанр уже существуeт"
             ),
         ]
+
 
 class Language(models.Model):
     
@@ -49,6 +57,10 @@ class Language(models.Model):
     def get_absolute_url(self):
         """Returns the url to access a particular language instance."""
         return reverse('language-detail', args=[str(self.id)])
+    
+    #def get_absolute_url(self):
+    #    """Returns the url to access a particular language instance."""
+    #    return reverse('language-detail-admin', args=[str(self.id)])
 
     def __str__(self):
         """String for representing the Model object (in Admin site etc.)"""
@@ -59,10 +71,16 @@ class Language(models.Model):
             UniqueConstraint(
                 Lower('name'),
                 name='language_name_case_insensitive_unique',
-                violation_error_message = "Язык уже есть в базе"
+                violation_error_message="Язык уже есть в базе"
             ),
         ]
-from django.db.models import Avg
+    
+    def get_admin_url(self):
+        return reverse('admin-language-detail', args=[str(self.id)])
+
+    def get_user_url(self):
+        return reverse('language-detail', args=[str(self.id)])
+
 
 class Book(models.Model):
     """Модель книги (только в базе, не на руках)."""
@@ -83,9 +101,8 @@ class Book(models.Model):
     )
     path_to_file = models.CharField(
         max_length=255,
-        verbose_name="Печатная книга (расположение):"
+        verbose_name="Печатная книга"
     )
-    rating = models.IntegerField(null=True, blank=True)   # Добавляем поле для рейтинга (по сути заглушка)
     
     # Foreign Key used because book can only have one author, but authors can have multiple books.
     # Author as a string rather than object because it hasn't been declared yet in file.
@@ -98,7 +115,7 @@ class Book(models.Model):
         verbose_name="Номер ISBN",
         max_length=13,
         unique=True,
-        help_text='13 Character <a href="https://www.isbn-international.org/content/what-isbn'
+        help_text='13 символов <a href="https://www.isbn-international.org/content/what-isbn'
                                       '">ISBN number</a>')
     genre = models.ManyToManyField(
         Genre, help_text="Выберите жанр книги (возможно выбрать несколько)",
@@ -116,7 +133,6 @@ class Book(models.Model):
     
     class Meta:
         ordering = ['title', 'author']
-
     
     def display_genre(self):
         """Creates a string for the Genre. This is required to display genre in Admin."""
@@ -130,28 +146,30 @@ class Book(models.Model):
     
     display_genre.short_description = 'Genre'
 
-    def get_absolute_url(self):
-        """Returns the url to access a particular book record."""
-        return reverse('book-detail', args=[str(self.id)])
+    def get_absolute_url(self, is_admin=False):
+        if is_admin:
+            return reverse('admin-book-detail', args=[str(self.id)])
+        else:
+            return reverse('book-detail', args=[str(self.id)])
 
+    def get_admin_url(self):
+        return reverse('admin-book-detail', args=[str(self.id)])
+
+    def get_user_url(self):
+        return reverse('book-detail', args=[str(self.id)])
+    
     def __str__(self):
         """String for representing the Model object."""
         return self.title
     
 
 class Rating(models.Model):
-    book = models.ForeignKey('Book', on_delete=models.CASCADE, related_name='ratings')
-    user = models.ForeignKey(User, on_delete=models.CASCADE)
-    rating = models.IntegerField()
-    timestamp = models.DateTimeField(auto_now_add=True)
+    book = models.ForeignKey(Book, on_delete=models.CASCADE, related_name="ratings")
+    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
+    rating = models.IntegerField()  # Поле для хранения рейтинга
 
     def __str__(self):
         return f"{self.book.title} - {self.rating}"
-
-import uuid  # Required for unique book instances
-from datetime import date
-
-from django.conf import settings  # Required to assign User as a borrower
 
 
 class BookInstance(models.Model):
@@ -219,13 +237,17 @@ class Author(models.Model):
     class Meta:
         ordering = ['last_name', 'first_name']
 
-    def get_absolute_url(self):
-        """Returns the url to access a particular author instance."""
-        return reverse('author-detail', args=[str(self.id)])
+    def get_admin_url(self):
+        return reverse('admin-author-detail', args=[str(self.id)])
 
+    def get_user_url(self):
+        return reverse('author-detail', args=[str(self.id)])
+    
+    
     def __str__(self):
         """String for representing the Model object."""
         return f'{self.last_name}, {self.first_name}'
+
 
 class logs(models.Model):
     timestamp = models.DateTimeField()

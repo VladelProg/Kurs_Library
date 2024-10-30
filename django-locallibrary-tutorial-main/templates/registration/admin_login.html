@@ -1,0 +1,113 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+
+<style>
+    /* Центрирование формы на экране */
+    .form-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+    }
+    
+    /* Стили для карточки формы */
+    .form-card {
+        background-color: #f9f9f9;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 400px; /* Ограничиваем ширину формы */
+    }
+
+    /* Заголовок */
+    .form-card h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 1.5em;
+        color: #333;
+    }
+
+    /* Стили для полей ввода */
+    .form-card input[type="text"],
+    .form-card input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin: 8px 0 16px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    /* Стили для кнопки */
+    .form-card button {
+        width: 100%;
+        padding: 10px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        font-size: 1em;
+        cursor: pointer;
+    }
+
+    .form-card button:hover {
+        background-color: #0056b3;
+    }
+
+    /* Стили для сообщения о ошибке и ссылки на сброс пароля */
+    .form-card .error-message,
+    .form-card .password-reset {
+        text-align: center;
+        color: red;
+        font-size: 0.9em;
+    }
+
+    .form-card .password-reset {
+        margin-top: 10px;
+        color: #007bff;
+    }
+    
+    .form-card .password-reset:hover {
+        text-decoration: underline;
+    }
+</style>
+
+<div class="form-container">
+    <div class="form-card">
+        <h2>Вход для администратора Пидор</h2>
+
+        {% if form.errors %}
+            <p class="error-message">Логин или пароль неверные. Попробуйте ещё раз.</p>
+        {% endif %}
+
+        {% if next %}
+            {% if user.is_authenticated %}
+                <p class="error-message">Недостаточно прав для просмотра данной страницы. Зарегистрируйтесь под правами администратора.</p>
+            {% else %}
+                <p class="error-message">Пожалуйста, войдите для доступа к административной зоне.</p>
+            {% endif %}
+        {% endif %}
+
+        <form method="post" action="{% url 'admin_login' %}">
+            {% csrf_token %}
+            
+            <label for="username">Имя пользователя</label>
+            <input type="text" id="username" name="username" required>
+            
+            <label for="password">Пароль</label>
+            <input type="password" id="password" name="password" required>
+            
+            <button type="submit">Войти как администратор</button>
+            
+            <input type="hidden" name="next" value="{{ next }}">
+        </form>
+
+        <p class="password-reset">
+            <a href="{% url 'password_reset' %}">Забыли пароль?</a>
+        </p>
+    </div>
+</div>
+
+{% endblock %}

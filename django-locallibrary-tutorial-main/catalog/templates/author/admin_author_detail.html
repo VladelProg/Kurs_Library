@@ -1,9 +1,9 @@
-{% extends "base_generic.html" %}
+{% extends "admin_panel.html" %}
 
 {% block content %}
 
-<h1>Автор: {{ author }} </h1>
-<p>{{author.date_of_birth}} - {% if author.date_of_death %}{{author.date_of_death}}{% endif %}</p>
+<h1> {{ author.first_name }} {{author.last_name}} </h1>
+<p> Годы жизни: {{author.date_of_birth}} - {% if author.date_of_death %}{{author.date_of_death}}{% endif %}</p>
 
 <div style="margin-left:20px;margin-top:20px">
 <h4>Книги</h4>

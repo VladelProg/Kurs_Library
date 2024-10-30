@@ -55,6 +55,8 @@ INSTALLED_APPS = [
     'django_bootstrap5',
     # Add our new application
     'catalog.apps.CatalogConfig',  # This object was created for us in /catalog/apps.py
+    'book.apps.BookConfig',
+    'genre.apps.GenreConfig'
 ]
 
 MIDDLEWARE = [

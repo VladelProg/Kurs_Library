@@ -22,6 +22,8 @@ from django.urls import path, include
 # Переход в админ зону
 urlpatterns = [
     path('admin/', admin.site.urls),
+    #path('book/', include('book.urls')),
+    #path('genre/', include('genre.urls')),
 ]
 
 
