@@ -1516,3 +1516,342 @@
 2024-10-31 01:24:07.699216 - TestUser - Visited /catalog/books/1/add_rating/
 2024-10-31 01:24:11.763770 - TestUser - Visited /catalog/books/1/add_rating/
 2024-10-31 01:24:12.849977 - TestUser - Visited /catalog/books/1/add_rating/
+2024-10-31 02:17:20.410971 - TestUser - Visited book: Евгений Онегин
+2024-10-31 02:32:10.006456 - TestUser - Visited book list, page 1
+2024-10-31 02:32:13.077691 - TestUser - Visited book: 1984
+2024-10-31 02:33:29.660149 - TestUser - Visited book: 1984
+2024-10-31 02:33:32.250881 - TestUser - Visited book: 1984
+2024-10-31 02:35:28.332641 - TestUser - Visited book: 1984
+2024-10-31 02:36:00.935850 - TestUser - Visited book: 1984
+2024-10-31 02:36:01.978573 - TestUser - Visited book: 1984
+2024-10-31 02:38:07.198254 - TestUser - Visited book: 1984
+2024-10-31 02:38:08.267024 - TestUser - Visited book: 1984
+2024-10-31 02:39:47.911344 - TestUser - Visited book: 1984
+2024-10-31 02:39:48.874699 - TestUser - Visited book: 1984
+2024-10-31 02:40:57.000977 - TestUser - Visited book: 1984
+2024-10-31 02:40:58.116988 - TestUser - Visited book: 1984
+2024-10-31 02:42:14.265873 - TestUser - Visited book: 1984
+2024-10-31 02:43:04.860951 - TestUser - Visited book: 1984
+2024-10-31 02:43:16.369043 - TestUser - Visited book: 1984
+2024-10-31 02:44:06.154212 - TestUser - Visited book: 1984
+2024-10-31 02:47:01.370144 - TestUser - Visited book: 1984
+2024-10-31 02:47:03.139294 - TestUser - Visited book: 1984
+2024-10-31 02:47:13.533979 - TestUser - Visited book: 1984
+2024-10-31 02:47:27.391645 - TestUser - Visited book: 1984
+2024-10-31 18:09:43.526941 - TestUser - Visited book: 1984
+2024-10-31 18:09:46.471735 - TestUser - Visited book list, page 1
+2024-10-31 18:09:47.600134 - TestUser - Visited book list, page 1
+2024-10-31 18:09:50.591815 - TestUser - Visited book: 1984
+2024-11-06 02:31:01.438893 - TestUser - Visited /
+2024-11-06 02:31:01.755279 - TestUser - Visited /catalog/
+2024-11-06 02:37:54.558970 - TestUser - Visited /accounts/login/
+2024-11-06 02:37:54.636178 - TestUser - Visited /
+2024-11-06 02:37:54.705477 - TestUser - Visited /catalog/
+2024-11-06 02:56:17.725483 - TestUser - Visited /accounts/login/
+2024-11-06 02:56:17.797194 - TestUser - Visited /
+2024-11-06 02:56:17.875101 - TestUser - Visited /catalog/
+2024-11-06 02:57:30.151854 - TestUser - Visited /catalog/
+2024-11-06 02:57:31.637965 - TestUser - Visited book list, page 1
+2024-11-06 02:57:35.371073 - TestUser - Visited author list, page 1
+2024-11-06 02:57:36.852378 - TestUser - Visited /catalog/genres/
+2024-11-06 02:57:37.781500 - TestUser - Visited language list, page 1
+2024-11-06 03:00:02.065447 - TestUser - Visited language list, page 1
+2024-11-06 03:00:09.781482 - TestUser - Visited /catalog/
+2024-11-06 03:00:14.369842 - TestUser - Visited book list, page 1
+2024-11-06 03:00:21.911139 - TestUser - Visited /catalog/
+2024-11-06 03:00:24.902617 - TestUser - Visited /catalog/
+2024-11-06 03:00:28.175856 - TestUser - Visited book list, page 1
+2024-11-06 03:00:33.748326 - TestUser - Visited language list, page 1
+2024-11-06 03:00:35.045880 - TestUser - Visited /catalog/genres/
+2024-11-06 20:21:25.928060 - TestUser - Visited /catalog/
+2024-11-06 20:21:43.392613 - TestUser - Visited /accounts/login/
+2024-11-06 20:21:48.980393 - TestUser - Visited /accounts/login/
+2024-11-06 20:21:49.100321 - TestUser - Visited /
+2024-11-06 20:21:49.233893 - TestUser - Visited /catalog/
+2024-11-06 20:21:52.653864 - TestUser - Visited /catalog/
+2024-11-06 20:21:53.615264 - TestUser - Visited book list, page 1
+2024-11-06 20:21:55.443816 - TestUser - Visited author list, page 1
+2024-11-06 20:21:56.796515 - TestUser - Visited /catalog/genres/
+2024-11-06 20:21:58.045954 - TestUser - Visited language list, page 1
+2024-11-06 20:22:00.594381 - TestUser - Visited /catalog/genres/
+2024-11-06 20:22:03.161859 - TestUser - Visited /catalog/genre/10
+2024-11-06 20:22:05.502799 - TestUser - Visited language list, page 1
+2024-11-06 20:22:07.051748 - TestUser - Visited language: Китайский-традиционный
+2024-11-06 20:22:08.442568 - TestUser - Visited author list, page 1
+2024-11-06 20:22:09.250794 - TestUser - Visited book list, page 1
+2024-11-06 20:22:11.810308 - TestUser - Visited book: 1984
+2024-11-06 21:19:40.545641 - TestUser - Visited book list, page 1
+2024-11-06 21:20:34.244952 - TestUser - Visited book list, page 1
+2024-11-06 21:22:55.694018 - TestUser - Visited book list, page 1
+2024-11-06 21:23:00.415612 - TestUser - Visited book list, page 1
+2024-11-06 21:23:35.336195 - TestUser - Visited author list, page 1
+2024-11-06 21:23:36.802020 - TestUser - Visited book list, page 1
+2024-11-06 21:23:45.842334 - TestUser - Visited book list, page 2
+2024-11-06 21:23:49.844515 - TestUser - Visited book list, page 2
+2024-11-06 21:24:15.061099 - TestUser - Visited book list, page 2
+2024-11-06 21:24:18.108018 - TestUser - Visited book list, page 2
+2024-11-06 21:24:40.369965 - TestUser - Visited book list, page 2
+2024-11-06 21:29:51.614301 - TestUser - Visited book list, page 2
+2024-11-06 21:29:58.992131 - TestUser - Visited book list, page 1
+2024-11-06 21:30:23.545929 - TestUser - Visited author list, page 1
+2024-11-06 21:30:24.498520 - TestUser - Visited author list, page 1
+2024-11-06 21:30:25.276986 - TestUser - Visited author list, page 1
+2024-11-06 21:30:28.565985 - TestUser - Visited book list, page 1
+2024-11-06 21:31:55.102892 - TestUser - Visited book list, page 1
+2024-11-06 21:31:56.391075 - TestUser - Visited book list, page 1
+2024-11-06 21:31:57.636519 - TestUser - Visited book list, page 1
+2024-11-06 21:31:58.632682 - TestUser - Visited book list, page 1
+2024-11-06 21:32:00.934531 - TestUser - Visited book list, page 1
+2024-11-06 21:32:01.872568 - TestUser - Visited book list, page 1
+2024-11-06 21:36:34.708620 - TestUser - Visited book list, page 1
+2024-11-06 21:36:57.628285 - TestUser - Visited book list, page 1
+2024-11-06 21:37:38.267688 - TestUser - Visited book list, page 1
+2024-11-06 21:37:47.083012 - TestUser - Visited book list, page 2
+2024-11-06 21:38:04.226881 - TestUser - Visited book list, page 1
+2024-11-06 21:39:43.038147 - TestUser - Visited book list, page 1
+2024-11-06 21:39:44.093867 - TestUser - Visited book list, page 1
+2024-11-06 21:39:44.747589 - TestUser - Visited book list, page 1
+2024-11-06 21:39:45.671411 - TestUser - Visited book list, page 1
+2024-11-06 21:41:30.878214 - TestUser - Visited book list, page 1
+2024-11-06 21:41:40.989680 - TestUser - Visited book list, page 1
+2024-11-06 21:41:43.872853 - TestUser - Visited /catalog/genres/
+2024-11-06 21:41:44.489913 - TestUser - Visited author list, page 1
+2024-11-06 21:41:45.187806 - TestUser - Visited book list, page 1
+2024-11-06 21:43:13.139266 - TestUser - Visited book list, page 1
+2024-11-06 21:43:20.936010 - TestUser - Visited book: Евгений Онегин
+2024-11-06 21:43:23.522924 - TestUser - Visited book list, page 1
+2024-11-06 21:43:24.557373 - TestUser - Visited book list, page 1
+2024-11-06 21:46:07.838816 - TestUser - Visited book list, page 1
+2024-11-06 21:46:11.022124 - TestUser - Visited book list, page 1
+2024-11-06 21:46:14.822886 - TestUser - Visited book list, page 2
+2024-11-06 21:46:17.028854 - TestUser - Visited book list, page 1
+2024-11-06 21:46:30.069762 - TestUser - Visited book list, page 2
+2024-11-06 21:46:31.835864 - TestUser - Visited book list, page 1
+2024-11-06 21:46:38.388515 - TestUser - Visited book list, page 2
+2024-11-06 21:52:54.868209 - TestUser - Visited book list, page 2
+2024-11-06 21:52:56.250668 - TestUser - Visited /accounts/login/
+2024-11-06 21:53:01.272346 - TestUser - Visited /accounts/login/
+2024-11-06 21:53:01.339718 - TestUser - Visited /
+2024-11-06 21:53:01.454685 - TestUser - Visited /catalog/
+2024-11-06 21:53:03.522668 - TestUser - Visited language list, page 1
+2024-11-06 21:53:08.939295 - TestUser - Visited /catalog/
+2024-11-06 21:53:11.048522 - TestUser - Visited book list, page 1
+2024-11-06 21:53:22.141295 - TestUser - Visited book list, page 2
+2024-11-06 21:53:29.633817 - TestUser - Visited book list, page 2
+2024-11-06 21:54:01.338436 - TestUser - Visited book list, page 2
+2024-11-06 21:54:04.051394 - TestUser - Visited book list, page 1
+2024-11-06 21:54:08.287365 - TestUser - Visited book list, page 1
+2024-11-06 21:54:12.033620 - TestUser - Visited book list, page 1
+2024-11-06 21:57:12.386542 - TestUser - Visited book list, page 1
+2024-11-06 21:57:15.844025 - TestUser - Visited book list, page 1
+2024-11-06 21:58:25.814580 - TestUser - Visited book list, page 1
+2024-11-06 21:58:35.829237 - TestUser - Visited book list, page 1
+2024-11-06 21:58:36.792339 - TestUser - Visited book list, page 1
+2024-11-06 21:59:20.098155 - TestUser - Visited book list, page 1
+2024-11-06 21:59:22.224710 - TestUser - Visited book list, page 1
+2024-11-06 22:28:02.848280 - TestUser - Visited book list, page 1
+2024-11-06 22:28:03.663090 - TestUser - Visited book list, page 1
+2024-11-06 22:28:04.741874 - TestUser - Visited book list, page 1
+2024-11-06 22:34:30.181474 - TestUser - Visited book list, page 1
+2024-11-06 22:34:31.482763 - TestUser - Visited book list, page 1
+2024-11-06 22:34:32.180277 - TestUser - Visited book list, page 1
+2024-11-06 22:35:26.871002 - TestUser - Visited book list, page 1
+2024-11-06 22:36:13.950956 - TestUser - Visited book list, page 1
+2024-11-06 22:36:16.935958 - TestUser - Visited /accounts/login/
+2024-11-06 22:37:06.241677 - TestUser - Visited /accounts/login/
+2024-11-06 22:37:07.654180 - TestUser - Visited /accounts/login/
+2024-11-06 22:37:12.298810 - TestUser - Visited /accounts/login/
+2024-11-06 22:37:12.370892 - TestUser - Visited /
+2024-11-06 22:37:12.443444 - TestUser - Visited /catalog/
+2024-11-06 22:38:39.970347 - TestUser - Visited /catalog/
+2024-11-06 22:40:18.906384 - TestUser - Visited /catalog/
+2024-11-06 22:40:35.924607 - TestUser - Visited /catalog/
+2024-11-06 22:40:55.664795 - TestUser - Visited /catalog/admin_zone/login/
+2024-11-06 22:50:53.895102 - admin - Visited /catalog/admin_zone/login/
+2024-11-06 22:50:53.976627 - admin - Visited /catalog/admin_panel/
+2024-11-06 22:50:56.323318 - admin - Visited /catalog/admin_panel/books/
+2024-11-06 22:51:02.164018 - admin - Visited /catalog/admin_panel/languages/
+2024-11-06 22:51:03.527604 - admin - Visited /catalog/admin_panel/genres/
+2024-11-06 22:51:06.240747 - admin - Visited /catalog/admin_zone/author/create/
+2024-11-06 22:51:07.300732 - admin - Visited /catalog/book/create/
+2024-11-06 22:51:11.081198 - admin - Visited /catalog/admin_panel/languages/
+2024-11-06 22:51:12.010273 - admin - Visited /catalog/admin_panel/authors/
+2024-11-06 22:51:12.937322 - admin - Visited /catalog/admin_panel/books/
+2024-11-06 22:51:14.229672 - admin - Visited /catalog/admin_zone/genre/create/
+2024-11-06 22:51:21.700635 - admin - Visited /catalog/admin_zone/language/create/
+2024-11-06 22:51:23.117622 - admin - Visited /catalog/admin_zone/author/create/
+2024-11-06 22:51:24.192965 - admin - Visited /catalog/book/create/
+2024-11-06 22:54:29.225194 - admin - Visited /catalog/admin_zone/login/
+2024-11-06 22:54:29.301306 - admin - Visited /catalog/admin_panel/
+2024-11-06 22:54:30.856274 - admin - Visited /catalog/admin_panel/genres/
+2024-11-06 22:57:36.407706 - admin - Visited /catalog/admin_panel/
+2024-11-06 22:57:39.053555 - admin - Visited /catalog/admin_panel/books/
+2024-11-06 23:02:51.034156 - admin - Visited /catalog/admin_panel/books/
+2024-11-06 23:02:52.518644 - admin - Visited log list, page 1
+2024-11-06 23:02:55.950580 - admin - Visited log list, page 1
+2024-11-06 23:03:04.220239 - admin - Visited log list, page 1
+2024-11-06 23:03:07.359058 - admin - Visited log list, page 2
+2024-11-06 23:05:46.912003 - admin - Visited log list, page 1
+2024-11-06 23:07:39.076048 - admin - Visited log list, page 1
+2024-11-06 23:07:52.153213 - admin - Visited log list, page 1
+2024-11-06 23:07:54.741717 - admin - Visited log list, page 1
+2024-11-06 23:07:57.729721 - admin - Visited log list, page 2
+2024-11-06 23:08:01.426696 - admin - Visited log list, page 1
+2024-11-06 23:08:39.747805 - admin - Visited log list, page 1
+2024-11-06 23:08:43.180339 - admin - Visited log list, page 1
+2024-11-06 23:11:48.393954 - admin - Visited log list, page 1
+2024-11-06 23:11:52.151707 - admin - Visited log list, page 1
+2024-11-06 23:11:52.762408 - admin - Visited /catalog/admin_panel/books/
+2024-11-06 23:11:53.528295 - admin - Visited /catalog/admin_panel/authors/
+2024-11-06 23:24:31.305350 - admin - Visited /catalog/admin_panel/authors/
+2024-11-06 23:24:32.714847 - admin - Visited /catalog/admin_panel/genres/
+2024-11-06 23:28:12.550242 - admin - Visited /catalog/admin_panel/authors/
+2024-11-06 23:28:13.932193 - admin - Visited log list, page 1
+2024-11-06 23:36:27.402283 - admin - Visited log list, page 1
+2024-11-06 23:36:29.314110 - admin - Visited /catalog/admin_panel/languages/
+2024-11-06 23:36:30.513668 - admin - Visited /catalog/admin_zone/language/2
+2024-11-06 23:36:32.952812 - admin - Visited /catalog/admin_zone/language/2/update/
+2024-11-06 23:36:36.485535 - admin - Visited /catalog/admin_zone/language/2/delete/
+2024-11-06 23:36:38.966483 - admin - Visited /catalog/admin_panel/genres/
+2024-11-06 23:52:43.370394 - admin - Visited /catalog/admin_zone/language/2
+2024-11-06 23:52:44.407463 - admin - Visited log list, page 1
+2024-11-06 23:52:47.492541 - admin - Visited /catalog/admin_panel/books/
+2024-11-06 23:52:48.211571 - admin - Visited /catalog/admin_panel/authors/
+2024-11-06 23:52:48.929709 - admin - Visited /catalog/admin_panel/languages/
+2024-11-06 23:52:49.740502 - admin - Visited /catalog/admin_panel/genres/
+2024-11-06 23:53:28.886995 - admin - Visited /catalog/admin_zone/book/create/
+2024-11-07 00:15:07.205775 - admin - Visited /catalog/admin_zone/book/create/
+2024-11-07 00:15:08.692570 - admin - Visited log list, page 1
+2024-11-07 00:16:16.614476 - admin - Visited /catalog/admin_zone/author/create/
+2024-11-07 00:16:29.529024 - admin - Visited /catalog/admin_zone/author/create/
+2024-11-07 00:16:54.973551 - admin - Visited /catalog/admin_zone/author/create/
+2024-11-07 00:17:15.016705 - admin - Visited /catalog/admin_zone/author/create/
+2024-11-07 00:19:03.080092 - admin - Visited /catalog/admin_zone/author/create/
+2024-11-07 00:19:48.268799 - admin - Visited /catalog/admin_zone/author/create/
+2024-11-07 00:19:52.634683 - admin - Visited /catalog/admin_panel/authors/
+2024-11-07 00:19:54.036707 - admin - Visited /catalog/admin_panel/authors/?page=2
+2024-11-07 00:19:55.560522 - admin - Visited /catalog/admin_panel/authors/?page=3
+2024-11-07 00:19:56.492587 - admin - Visited /catalog/admin_panel/authors/?page=2
+2024-11-07 00:19:57.232719 - admin - Visited /catalog/admin_panel/authors/?page=3
+2024-11-07 00:19:57.936455 - admin - Visited /catalog/admin_panel/authors/?page=4
+2024-11-07 00:19:58.703586 - admin - Visited /catalog/admin_panel/authors/?page=5
+2024-11-07 00:19:59.398015 - admin - Visited /catalog/admin_panel/authors/?page=6
+2024-11-07 00:20:00.460106 - admin - Visited /catalog/admin_panel/authors/?page=5
+2024-11-07 00:20:01.122149 - admin - Visited /catalog/admin_panel/authors/?page=4
+2024-11-07 00:20:03.008716 - admin - Visited /catalog/admin_zone/author/create/
+2024-11-07 00:20:19.993603 - admin - Visited /catalog/admin_zone/author/create/
+2024-11-07 00:20:29.656528 - admin - Visited /catalog/admin_zone/author/create/
+2024-11-07 00:27:00.955946 - admin - Visited /catalog/admin_panel/authors/?page=4
+2024-11-07 00:27:02.642973 - admin - Visited /catalog/admin_zone/author/create/
+2024-11-07 00:27:13.686635 - admin - Visited /catalog/admin_zone/author/create/
+2024-11-07 00:30:42.678941 - admin - Visited /catalog/admin_zone/author/create/
+2024-11-07 00:30:42.780156 - admin - Visited author: Владислав Елькин
+2024-11-07 00:31:01.094801 - admin - Visited author: Владислав Елькин
+2024-11-07 00:31:02.923551 - admin - Visited /catalog/admin_zone/author/create/
+2024-11-07 00:31:03.994995 - admin - Visited /catalog/admin_zone/author/create/
+2024-11-07 00:31:11.950409 - admin - Visited /catalog/admin_zone/author/create/
+2024-11-07 00:31:12.028783 - admin - Visited /catalog/admin_panel/author/18
+2024-11-07 00:31:24.018660 - admin - Visited /catalog/admin_zone/author/18/delete/
+2024-11-07 00:31:26.613591 - admin - Visited /catalog/admin_zone/author/18/delete/
+2024-11-07 00:31:32.560721 - admin - Visited /catalog/admin_zone/author/18/delete/
+2024-11-07 00:31:35.566680 - admin - Visited /catalog/admin_panel/languages/
+2024-11-07 00:32:01.067443 - admin - Visited /catalog/admin_panel/authors/
+2024-11-07 00:32:02.348347 - admin - Visited /catalog/admin_panel/authors/?page=2
+2024-11-07 00:32:03.492126 - admin - Visited /catalog/admin_panel/author/10
+2024-11-07 00:32:04.655615 - admin - Visited /catalog/admin_zone/author/10/delete/
+2024-11-07 00:32:05.778116 - admin - Visited /catalog/admin_zone/author/10/delete/
+2024-11-07 00:32:05.867597 - admin - Visited author list, page 1
+2024-11-07 00:32:56.734280 - admin - Visited author list, page 1
+2024-11-07 00:34:07.496350 - admin - Visited /catalog/admin_zone/author/10/delete/
+2024-11-07 00:34:10.143095 - admin - Visited /catalog/admin_panel/author/10
+2024-11-07 00:34:15.550671 - admin - Visited /catalog/admin_panel/authors/
+2024-11-07 00:34:16.481510 - admin - Visited /catalog/admin_panel/authors/?page=2
+2024-11-07 00:34:17.785984 - admin - Visited /catalog/admin_panel/author/11
+2024-11-07 00:34:19.628491 - admin - Visited /catalog/admin_zone/author/11/delete/
+2024-11-07 00:34:20.935520 - admin - Visited /catalog/admin_zone/author/11/delete/
+2024-11-07 00:34:21.016100 - admin - Visited /catalog/admin_zone/author/11/delete/
+2024-11-07 00:38:17.992022 - admin - Visited /catalog/admin_panel/authors/?page=2
+2024-11-07 00:38:19.028764 - admin - Visited /catalog/admin_panel/author/12
+2024-11-07 00:38:20.856726 - admin - Visited /catalog/admin_zone/author/12/delete/
+2024-11-07 00:38:21.843760 - admin - Visited /catalog/admin_zone/author/12/delete/
+2024-11-07 00:38:21.920008 - admin - Visited /catalog/admin_panel/authors/
+2024-11-07 00:38:23.475750 - admin - Visited /catalog/admin_panel/authors/?page=2
+2024-11-07 00:38:25.147733 - admin - Visited /catalog/admin_panel/author/13
+2024-11-07 00:38:26.635127 - admin - Visited /catalog/admin_zone/author/13/delete/
+2024-11-07 00:38:27.801959 - admin - Visited /catalog/admin_zone/author/13/delete/
+2024-11-07 00:38:27.878753 - admin - Visited /catalog/admin_panel/authors/
+2024-11-07 00:38:29.200016 - admin - Visited /catalog/admin_panel/authors/?page=2
+2024-11-07 00:38:30.160126 - admin - Visited /catalog/admin_panel/author/14
+2024-11-07 00:38:31.977280 - admin - Visited /catalog/admin_zone/author/14/delete/
+2024-11-07 00:38:33.099649 - admin - Visited /catalog/admin_zone/author/14/delete/
+2024-11-07 00:38:33.173928 - admin - Visited /catalog/admin_panel/authors/
+2024-11-07 00:38:34.265398 - admin - Visited /catalog/admin_panel/authors/?page=2
+2024-11-07 00:38:36.177388 - admin - Visited /catalog/admin_panel/author/15
+2024-11-07 00:38:37.201508 - admin - Visited /catalog/admin_zone/author/15/delete/
+2024-11-07 00:38:38.687628 - admin - Visited /catalog/admin_zone/author/15/delete/
+2024-11-07 00:38:38.758684 - admin - Visited /catalog/admin_panel/authors/
+2024-11-07 00:38:39.946612 - admin - Visited /catalog/admin_panel/authors/?page=2
+2024-11-07 00:38:41.205681 - admin - Visited /catalog/admin_panel/author/16
+2024-11-07 00:38:42.106596 - admin - Visited /catalog/admin_zone/author/16/delete/
+2024-11-07 00:38:43.147667 - admin - Visited /catalog/admin_zone/author/16/delete/
+2024-11-07 00:38:43.217648 - admin - Visited /catalog/admin_panel/authors/
+2024-11-07 00:38:44.185755 - admin - Visited /catalog/admin_panel/authors/?page=2
+2024-11-07 00:38:45.072470 - admin - Visited /catalog/admin_panel/author/17
+2024-11-07 00:38:51.000138 - admin - Visited /catalog/admin_zone/author/17/delete/
+2024-11-07 00:38:52.488202 - admin - Visited /catalog/admin_zone/author/17/delete/
+2024-11-07 00:38:52.562912 - admin - Visited /catalog/admin_panel/authors/
+2024-11-07 00:38:53.842827 - admin - Visited /catalog/admin_panel/authors/?page=2
+2024-11-07 00:38:55.784032 - admin - Visited /catalog/admin_panel/authors/?page=3
+2024-11-07 00:38:56.768459 - admin - Visited /catalog/admin_panel/authors/?page=2
+2024-11-07 00:38:57.169788 - admin - Visited /catalog/admin_panel/authors/?page=1
+2024-11-07 00:38:57.888050 - admin - Visited /catalog/admin_panel/authors/?page=4
+2024-11-07 00:38:58.890740 - admin - Visited /catalog/admin_panel/authors/?page=3
+2024-11-07 00:39:00.020932 - admin - Visited /catalog/admin_panel/authors/?page=2
+2024-11-07 00:39:00.654099 - admin - Visited /catalog/admin_panel/authors/?page=1
+2024-11-07 00:40:28.380036 - admin - Visited /catalog/admin_panel/authors/?page=1
+2024-11-07 00:42:46.476979 - admin - Visited /catalog/admin_panel/authors/?page=1
+2024-11-07 00:42:48.383406 - admin - Visited /catalog/admin_panel/author/9
+2024-11-07 00:43:41.857244 - admin - Visited /catalog/admin_panel/author/9
+2024-11-07 00:44:07.683738 - admin - Visited /catalog/admin_panel/author/9
+2024-11-07 00:44:22.434577 - admin - Visited /catalog/admin_panel/author/9
+2024-11-07 00:44:39.629168 - admin - Visited /catalog/admin_panel/author/9
+2024-11-07 00:44:57.473743 - admin - Visited /catalog/admin_panel/author/9
+2024-11-07 00:45:03.600266 - admin - Visited /catalog/admin_panel/books/
+2024-11-07 00:45:04.742014 - admin - Visited log list, page 1
+2024-11-07 00:45:05.508526 - admin - Visited /catalog/admin_panel/authors/
+2024-11-07 00:45:06.497507 - admin - Visited /catalog/admin_panel/books/
+2024-11-07 00:45:08.201408 - admin - Visited /catalog/admin_panel/book/2
+2024-11-07 00:45:17.871383 - admin - Visited /catalog/admin_panel/authors/
+2024-11-07 00:45:19.323313 - admin - Visited /catalog/admin_panel/author/8
+2024-11-07 00:45:25.079474 - admin - Visited /catalog/admin_panel/books/
+2024-11-07 00:45:47.710267 - admin - Visited /catalog/admin_panel/books/
+2024-11-07 00:46:42.876894 - admin - Visited /catalog/admin_panel/book/2
+2024-11-07 00:46:53.786673 - admin - Visited /catalog/admin_panel/book/2
+2024-11-07 00:46:58.052871 - admin - Visited /catalog/admin_panel/books/
+2024-11-07 00:47:00.711566 - admin - Visited /catalog/admin_panel/book/2
+2024-11-07 00:50:24.835172 - admin - Visited /catalog/admin_panel/book/2
+2024-11-07 00:50:58.914117 - admin - Visited /catalog/admin_panel/genres/
+2024-11-07 00:52:55.283820 - admin - Visited /catalog/admin_panel/genres/
+2024-11-07 00:52:57.518198 - admin - Visited /catalog/admin_panel/genres/
+2024-11-07 00:52:58.190550 - admin - Visited /catalog/admin_panel/languages/
+2024-11-07 00:52:59.167709 - admin - Visited /catalog/admin_panel/authors/
+2024-11-07 00:52:59.876385 - admin - Visited /catalog/admin_panel/languages/
+2024-11-07 00:53:00.475209 - admin - Visited /catalog/admin_panel/genres/
+2024-11-07 00:53:01.685310 - admin - Visited /catalog/admin_zone/genre/2
+2024-11-07 00:53:55.907818 - admin - Visited /catalog/admin_zone/genre/2
+2024-11-07 00:54:24.275224 - admin - Visited /catalog/admin_panel/genres/
+2024-11-07 00:54:26.813865 - admin - Visited /catalog/admin_zone/genre/12
+2024-11-07 00:58:18.325982 - admin - Visited /catalog/admin_zone/genre/12
+2024-11-07 00:58:39.954402 - admin - Visited /catalog/admin_zone/genre/12
+2024-11-07 00:58:48.874548 - admin - Visited /catalog/admin_zone/genre/12
+2024-11-07 00:59:14.058725 - admin - Visited /catalog/admin_zone/genre/12
+2024-11-07 00:59:36.810596 - admin - Visited /catalog/admin_zone/genre/12
+2024-11-07 01:00:10.245459 - admin - Visited /catalog/admin_zone/genre/12
+2024-11-07 01:00:11.095890 - admin - Visited /catalog/admin_zone/genre/12
+2024-11-07 01:00:17.355432 - admin - Visited /catalog/admin_zone/genre/12
+2024-11-07 01:01:19.402050 - admin - Visited /catalog/admin_zone/genre/12
+2024-11-07 01:01:20.539944 - admin - Visited /catalog/admin_panel/books/
+2024-11-07 01:01:21.427545 - admin - Visited /catalog/admin_panel/authors/
+2024-11-07 01:01:22.545249 - admin - Visited /catalog/admin_panel/books/
+2024-11-07 01:01:24.143407 - admin - Visited /catalog/admin_panel/book/2
+2024-11-07 01:01:36.849211 - admin - Visited /catalog/admin_panel/book/2

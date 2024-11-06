@@ -1,4 +1,4 @@
-{% extends "base_generic.html" %}
+{% extends "admin_panel.html" %}
 
 {% block content %}
 
@@ -25,14 +25,12 @@
 
   {% if perms.catalog.change_genre or perms.catalog.delete_genre %}
   <hr>
-  <ul class="sidebar-nav">
     {% if perms.catalog.change_genre %}
-    <li><a href="{% url 'genre-update' genre.id %}">Обновить жанр</a></li>
+    <a href="{% url 'genre-update' genre.id %}">Обновить жанр</a>
     {% endif %}
     {% if not genre.book_set.all and perms.catalog.delete_genre %}
-      <li><a href="{% url 'genre-delete' genre.id %}">Удалить жанр</a></li>
+      <p><a href="{% url 'genre-delete' genre.id %}">Удалить жанр</a></p>
     {% endif %}
-    </ul>
   {% endif %}
 
 {% endblock %}

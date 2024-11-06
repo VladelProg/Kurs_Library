@@ -22,16 +22,5 @@
 {% block sidebar %}
   {{ block.super }}
 
-  {% if perms.catalog.change_language or perms.catalog.delete_language %}
-  <hr>
-  <ul class="sidebar-nav">
-    {% if perms.catalog.change_language %}
-      <li><a href="{% url 'language-update' language.id %}">Обновить язык</a></li>
-    {% endif %}
-    {% if not language.book_set.all and perms.catalog.delete_language %}
-      <li><a href="{% url 'language-delete' language.id %}">Удалить язык</a></li>
-    {% endif %}
-    </ul>
-  {% endif %}
 
 {% endblock %}

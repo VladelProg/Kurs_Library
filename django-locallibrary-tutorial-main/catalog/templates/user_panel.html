@@ -7,40 +7,72 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     {% load static %}
     <style>
-        /* Убедитесь, что боковая панель и основной контент занимают весь экран */
-        .container-fluid, .row {
-            height: 100vh;
+        /* Основные стили для верхней навигации */
+        .navbar {
+            background-color: #343a40;
         }
-        /* Стиль для боковой панели */
+        .navbar a, .navbar button {
+            color: #ffffff !important;
+        }
+        /* Добавление стилей для боковой панели */
         .sidebar {
             background-color: #f8f9fa;
             padding-top: 20px;
+            border-right: 1px solid #ddd;
         }
         /* Основной контент */
         .main-content {
-            overflow-y: auto; /* Добавить прокрутку, если контент длинный */
             padding: 20px;
+        }
+        /* Выравнивание иконки входа */
+        .login-icon {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            text-align: center;
         }
     </style>
 </head>
 <body>
+    <!-- Навигационная панель сверху -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="{% url 'index' %}">Библиотека</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="{% url 'index' %}">Главная</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'books' %}">Коллекция книг</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'authors' %}">Авторы</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'genres' %}">Жанры</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'languages' %}">Языки</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-    <h1 class="text-center">Библиотека</h1>
-    
+    <!-- Иконка входа -->
+    <div class="login-icon">
+        <img src="{% static 'images/icon-enter.png' %}" alt="Enter" width="20px">
+        <a href="{% url 'login' %}" class="d-block text-muted"><small>Вход</small></a>
+    </div>
+
     <div class="container-fluid">
         <div class="row">
             <!-- Боковая панель -->
             <div class="col-md-2 sidebar">
                 {% block sidebar %}
                 <ul class="list-unstyled">
-                    <li><a href="{% url 'index' %}">Главная страница</a></li>
+                    <li><a href="{% url 'index' %}">Главная</a></li>
                     <li><a href="{% url 'books' %}">Коллекция книг</a></li>
                     <li><a href="{% url 'authors' %}">Авторы книг</a></li>
                     <li><a href="{% url 'genres' %}">Подборка жанров</a></li>
                     <li><a href="{% url 'languages' %}">Выбор языка</a></li>
                     <form id="logout-form" method="post" action="{% url 'logout' %}">
-                      {% csrf_token %}
-                      <button type="submit" class="btn btn-link">Выйти</button>
+                        {% csrf_token %}
+                        <button type="submit" class="btn btn-link">Выйти</button>
                     </form>
                 </ul>
                 {% endblock %}
@@ -54,5 +86,7 @@
         </div>
     </div>
 
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

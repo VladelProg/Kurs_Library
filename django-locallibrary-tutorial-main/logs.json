@@ -7373,5 +7373,1700 @@
         "timestamp": "2024-10-31 01:24:12.849977",
         "user": "TestUser",
         "action": "Visited /catalog/books/1/add_rating/"
+    },
+    {
+        "timestamp": "2024-10-31 02:17:20.410971",
+        "user": "TestUser",
+        "action": "Visited book: \u0415\u0432\u0433\u0435\u043d\u0438\u0439 \u041e\u043d\u0435\u0433\u0438\u043d"
+    },
+    {
+        "timestamp": "2024-10-31 02:32:10.006456",
+        "user": "TestUser",
+        "action": "Visited book list, page 1"
+    },
+    {
+        "timestamp": "2024-10-31 02:32:13.077691",
+        "user": "TestUser",
+        "action": "Visited book: 1984"
+    },
+    {
+        "timestamp": "2024-10-31 02:33:29.660149",
+        "user": "TestUser",
+        "action": "Visited book: 1984"
+    },
+    {
+        "timestamp": "2024-10-31 02:33:32.250881",
+        "user": "TestUser",
+        "action": "Visited book: 1984"
+    },
+    {
+        "timestamp": "2024-10-31 02:35:28.332641",
+        "user": "TestUser",
+        "action": "Visited book: 1984"
+    },
+    {
+        "timestamp": "2024-10-31 02:36:00.935850",
+        "user": "TestUser",
+        "action": "Visited book: 1984"
+    },
+    {
+        "timestamp": "2024-10-31 02:36:01.978573",
+        "user": "TestUser",
+        "action": "Visited book: 1984"
+    },
+    {
+        "timestamp": "2024-10-31 02:38:07.198254",
+        "user": "TestUser",
+        "action": "Visited book: 1984"
+    },
+    {
+        "timestamp": "2024-10-31 02:38:08.267024",
+        "user": "TestUser",
+        "action": "Visited book: 1984"
+    },
+    {
+        "timestamp": "2024-10-31 02:39:47.911344",
+        "user": "TestUser",
+        "action": "Visited book: 1984"
+    },
+    {
+        "timestamp": "2024-10-31 02:39:48.874699",
+        "user": "TestUser",
+        "action": "Visited book: 1984"
+    },
+    {
+        "timestamp": "2024-10-31 02:40:57.000977",
+        "user": "TestUser",
+        "action": "Visited book: 1984"
+    },
+    {
+        "timestamp": "2024-10-31 02:40:58.116988",
+        "user": "TestUser",
+        "action": "Visited book: 1984"
+    },
+    {
+        "timestamp": "2024-10-31 02:42:14.265873",
+        "user": "TestUser",
+        "action": "Visited book: 1984"
+    },
+    {
+        "timestamp": "2024-10-31 02:43:04.860951",
+        "user": "TestUser",
+        "action": "Visited book: 1984"
+    },
+    {
+        "timestamp": "2024-10-31 02:43:16.369043",
+        "user": "TestUser",
+        "action": "Visited book: 1984"
+    },
+    {
+        "timestamp": "2024-10-31 02:44:06.154212",
+        "user": "TestUser",
+        "action": "Visited book: 1984"
+    },
+    {
+        "timestamp": "2024-10-31 02:47:01.370144",
+        "user": "TestUser",
+        "action": "Visited book: 1984"
+    },
+    {
+        "timestamp": "2024-10-31 02:47:03.139294",
+        "user": "TestUser",
+        "action": "Visited book: 1984"
+    },
+    {
+        "timestamp": "2024-10-31 02:47:13.533979",
+        "user": "TestUser",
+        "action": "Visited book: 1984"
+    },
+    {
+        "timestamp": "2024-10-31 02:47:27.391645",
+        "user": "TestUser",
+        "action": "Visited book: 1984"
+    },
+    {
+        "timestamp": "2024-10-31 18:09:43.526941",
+        "user": "TestUser",
+        "action": "Visited book: 1984"
+    },
+    {
+        "timestamp": "2024-10-31 18:09:46.471735",
+        "user": "TestUser",
+        "action": "Visited book list, page 1"
+    },
+    {
+        "timestamp": "2024-10-31 18:09:47.600134",
+        "user": "TestUser",
+        "action": "Visited book list, page 1"
+    },
+    {
+        "timestamp": "2024-10-31 18:09:50.591815",
+        "user": "TestUser",
+        "action": "Visited book: 1984"
+    },
+    {
+        "timestamp": "2024-11-06 02:31:01.438893",
+        "user": "TestUser",
+        "action": "Visited /"
+    },
+    {
+        "timestamp": "2024-11-06 02:31:01.755279",
+        "user": "TestUser",
+        "action": "Visited /catalog/"
+    },
+    {
+        "timestamp": "2024-11-06 02:37:54.558970",
+        "user": "TestUser",
+        "action": "Visited /accounts/login/"
+    },
+    {
+        "timestamp": "2024-11-06 02:37:54.636178",
+        "user": "TestUser",
+        "action": "Visited /"
+    },
+    {
+        "timestamp": "2024-11-06 02:37:54.705477",
+        "user": "TestUser",
+        "action": "Visited /catalog/"
+    },
+    {
+        "timestamp": "2024-11-06 02:56:17.725483",
+        "user": "TestUser",
+        "action": "Visited /accounts/login/"
+    },
+    {
+        "timestamp": "2024-11-06 02:56:17.797194",
+        "user": "TestUser",
+        "action": "Visited /"
+    },
+    {
+        "timestamp": "2024-11-06 02:56:17.875101",
+        "user": "TestUser",
+        "action": "Visited /catalog/"
+    },
+    {
+        "timestamp": "2024-11-06 02:57:30.151854",
+        "user": "TestUser",
+        "action": "Visited /catalog/"
+    },
+    {
+        "timestamp": "2024-11-06 02:57:31.637965",
+        "user": "TestUser",
+        "action": "Visited book list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 02:57:35.371073",
+        "user": "TestUser",
+        "action": "Visited author list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 02:57:36.852378",
+        "user": "TestUser",
+        "action": "Visited /catalog/genres/"
+    },
+    {
+        "timestamp": "2024-11-06 02:57:37.781500",
+        "user": "TestUser",
+        "action": "Visited language list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 03:00:02.065447",
+        "user": "TestUser",
+        "action": "Visited language list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 03:00:09.781482",
+        "user": "TestUser",
+        "action": "Visited /catalog/"
+    },
+    {
+        "timestamp": "2024-11-06 03:00:14.369842",
+        "user": "TestUser",
+        "action": "Visited book list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 03:00:21.911139",
+        "user": "TestUser",
+        "action": "Visited /catalog/"
+    },
+    {
+        "timestamp": "2024-11-06 03:00:24.902617",
+        "user": "TestUser",
+        "action": "Visited /catalog/"
+    },
+    {
+        "timestamp": "2024-11-06 03:00:28.175856",
+        "user": "TestUser",
+        "action": "Visited book list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 03:00:33.748326",
+        "user": "TestUser",
+        "action": "Visited language list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 03:00:35.045880",
+        "user": "TestUser",
+        "action": "Visited /catalog/genres/"
+    },
+    {
+        "timestamp": "2024-11-06 20:21:25.928060",
+        "user": "TestUser",
+        "action": "Visited /catalog/"
+    },
+    {
+        "timestamp": "2024-11-06 20:21:43.392613",
+        "user": "TestUser",
+        "action": "Visited /accounts/login/"
+    },
+    {
+        "timestamp": "2024-11-06 20:21:48.980393",
+        "user": "TestUser",
+        "action": "Visited /accounts/login/"
+    },
+    {
+        "timestamp": "2024-11-06 20:21:49.100321",
+        "user": "TestUser",
+        "action": "Visited /"
+    },
+    {
+        "timestamp": "2024-11-06 20:21:49.233893",
+        "user": "TestUser",
+        "action": "Visited /catalog/"
+    },
+    {
+        "timestamp": "2024-11-06 20:21:52.653864",
+        "user": "TestUser",
+        "action": "Visited /catalog/"
+    },
+    {
+        "timestamp": "2024-11-06 20:21:53.615264",
+        "user": "TestUser",
+        "action": "Visited book list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 20:21:55.443816",
+        "user": "TestUser",
+        "action": "Visited author list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 20:21:56.796515",
+        "user": "TestUser",
+        "action": "Visited /catalog/genres/"
+    },
+    {
+        "timestamp": "2024-11-06 20:21:58.045954",
+        "user": "TestUser",
+        "action": "Visited language list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 20:22:00.594381",
+        "user": "TestUser",
+        "action": "Visited /catalog/genres/"
+    },
+    {
+        "timestamp": "2024-11-06 20:22:03.161859",
+        "user": "TestUser",
+        "action": "Visited /catalog/genre/10"
+    },
+    {
+        "timestamp": "2024-11-06 20:22:05.502799",
+        "user": "TestUser",
+        "action": "Visited language list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 20:22:07.051748",
+        "user": "TestUser",
+        "action": "Visited language: \u041a\u0438\u0442\u0430\u0439\u0441\u043a\u0438\u0439-\u0442\u0440\u0430\u0434\u0438\u0446\u0438\u043e\u043d\u043d\u044b\u0439"
+    },
+    {
+        "timestamp": "2024-11-06 20:22:08.442568",
+        "user": "TestUser",
+        "action": "Visited author list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 20:22:09.250794",
+        "user": "TestUser",
+        "action": "Visited book list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 20:22:11.810308",
+        "user": "TestUser",
+        "action": "Visited book: 1984"
+    },
+    {
+        "timestamp": "2024-11-06 21:19:40.545641",
+        "user": "TestUser",
+        "action": "Visited book list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 21:20:34.244952",
+        "user": "TestUser",
+        "action": "Visited book list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 21:22:55.694018",
+        "user": "TestUser",
+        "action": "Visited book list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 21:23:00.415612",
+        "user": "TestUser",
+        "action": "Visited book list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 21:23:35.336195",
+        "user": "TestUser",
+        "action": "Visited author list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 21:23:36.802020",
+        "user": "TestUser",
+        "action": "Visited book list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 21:23:45.842334",
+        "user": "TestUser",
+        "action": "Visited book list, page 2"
+    },
+    {
+        "timestamp": "2024-11-06 21:23:49.844515",
+        "user": "TestUser",
+        "action": "Visited book list, page 2"
+    },
+    {
+        "timestamp": "2024-11-06 21:24:15.061099",
+        "user": "TestUser",
+        "action": "Visited book list, page 2"
+    },
+    {
+        "timestamp": "2024-11-06 21:24:18.108018",
+        "user": "TestUser",
+        "action": "Visited book list, page 2"
+    },
+    {
+        "timestamp": "2024-11-06 21:24:40.369965",
+        "user": "TestUser",
+        "action": "Visited book list, page 2"
+    },
+    {
+        "timestamp": "2024-11-06 21:29:51.614301",
+        "user": "TestUser",
+        "action": "Visited book list, page 2"
+    },
+    {
+        "timestamp": "2024-11-06 21:29:58.992131",
+        "user": "TestUser",
+        "action": "Visited book list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 21:30:23.545929",
+        "user": "TestUser",
+        "action": "Visited author list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 21:30:24.498520",
+        "user": "TestUser",
+        "action": "Visited author list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 21:30:25.276986",
+        "user": "TestUser",
+        "action": "Visited author list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 21:30:28.565985",
+        "user": "TestUser",
+        "action": "Visited book list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 21:31:55.102892",
+        "user": "TestUser",
+        "action": "Visited book list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 21:31:56.391075",
+        "user": "TestUser",
+        "action": "Visited book list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 21:31:57.636519",
+        "user": "TestUser",
+        "action": "Visited book list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 21:31:58.632682",
+        "user": "TestUser",
+        "action": "Visited book list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 21:32:00.934531",
+        "user": "TestUser",
+        "action": "Visited book list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 21:32:01.872568",
+        "user": "TestUser",
+        "action": "Visited book list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 21:36:34.708620",
+        "user": "TestUser",
+        "action": "Visited book list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 21:36:57.628285",
+        "user": "TestUser",
+        "action": "Visited book list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 21:37:38.267688",
+        "user": "TestUser",
+        "action": "Visited book list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 21:37:47.083012",
+        "user": "TestUser",
+        "action": "Visited book list, page 2"
+    },
+    {
+        "timestamp": "2024-11-06 21:38:04.226881",
+        "user": "TestUser",
+        "action": "Visited book list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 21:39:43.038147",
+        "user": "TestUser",
+        "action": "Visited book list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 21:39:44.093867",
+        "user": "TestUser",
+        "action": "Visited book list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 21:39:44.747589",
+        "user": "TestUser",
+        "action": "Visited book list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 21:39:45.671411",
+        "user": "TestUser",
+        "action": "Visited book list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 21:41:30.878214",
+        "user": "TestUser",
+        "action": "Visited book list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 21:41:40.989680",
+        "user": "TestUser",
+        "action": "Visited book list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 21:41:43.872853",
+        "user": "TestUser",
+        "action": "Visited /catalog/genres/"
+    },
+    {
+        "timestamp": "2024-11-06 21:41:44.489913",
+        "user": "TestUser",
+        "action": "Visited author list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 21:41:45.187806",
+        "user": "TestUser",
+        "action": "Visited book list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 21:43:13.139266",
+        "user": "TestUser",
+        "action": "Visited book list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 21:43:20.936010",
+        "user": "TestUser",
+        "action": "Visited book: \u0415\u0432\u0433\u0435\u043d\u0438\u0439 \u041e\u043d\u0435\u0433\u0438\u043d"
+    },
+    {
+        "timestamp": "2024-11-06 21:43:23.522924",
+        "user": "TestUser",
+        "action": "Visited book list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 21:43:24.557373",
+        "user": "TestUser",
+        "action": "Visited book list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 21:46:07.838816",
+        "user": "TestUser",
+        "action": "Visited book list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 21:46:11.022124",
+        "user": "TestUser",
+        "action": "Visited book list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 21:46:14.822886",
+        "user": "TestUser",
+        "action": "Visited book list, page 2"
+    },
+    {
+        "timestamp": "2024-11-06 21:46:17.028854",
+        "user": "TestUser",
+        "action": "Visited book list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 21:46:30.069762",
+        "user": "TestUser",
+        "action": "Visited book list, page 2"
+    },
+    {
+        "timestamp": "2024-11-06 21:46:31.835864",
+        "user": "TestUser",
+        "action": "Visited book list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 21:46:38.388515",
+        "user": "TestUser",
+        "action": "Visited book list, page 2"
+    },
+    {
+        "timestamp": "2024-11-06 21:52:54.868209",
+        "user": "TestUser",
+        "action": "Visited book list, page 2"
+    },
+    {
+        "timestamp": "2024-11-06 21:52:56.250668",
+        "user": "TestUser",
+        "action": "Visited /accounts/login/"
+    },
+    {
+        "timestamp": "2024-11-06 21:53:01.272346",
+        "user": "TestUser",
+        "action": "Visited /accounts/login/"
+    },
+    {
+        "timestamp": "2024-11-06 21:53:01.339718",
+        "user": "TestUser",
+        "action": "Visited /"
+    },
+    {
+        "timestamp": "2024-11-06 21:53:01.454685",
+        "user": "TestUser",
+        "action": "Visited /catalog/"
+    },
+    {
+        "timestamp": "2024-11-06 21:53:03.522668",
+        "user": "TestUser",
+        "action": "Visited language list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 21:53:08.939295",
+        "user": "TestUser",
+        "action": "Visited /catalog/"
+    },
+    {
+        "timestamp": "2024-11-06 21:53:11.048522",
+        "user": "TestUser",
+        "action": "Visited book list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 21:53:22.141295",
+        "user": "TestUser",
+        "action": "Visited book list, page 2"
+    },
+    {
+        "timestamp": "2024-11-06 21:53:29.633817",
+        "user": "TestUser",
+        "action": "Visited book list, page 2"
+    },
+    {
+        "timestamp": "2024-11-06 21:54:01.338436",
+        "user": "TestUser",
+        "action": "Visited book list, page 2"
+    },
+    {
+        "timestamp": "2024-11-06 21:54:04.051394",
+        "user": "TestUser",
+        "action": "Visited book list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 21:54:08.287365",
+        "user": "TestUser",
+        "action": "Visited book list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 21:54:12.033620",
+        "user": "TestUser",
+        "action": "Visited book list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 21:57:12.386542",
+        "user": "TestUser",
+        "action": "Visited book list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 21:57:15.844025",
+        "user": "TestUser",
+        "action": "Visited book list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 21:58:25.814580",
+        "user": "TestUser",
+        "action": "Visited book list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 21:58:35.829237",
+        "user": "TestUser",
+        "action": "Visited book list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 21:58:36.792339",
+        "user": "TestUser",
+        "action": "Visited book list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 21:59:20.098155",
+        "user": "TestUser",
+        "action": "Visited book list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 21:59:22.224710",
+        "user": "TestUser",
+        "action": "Visited book list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 22:28:02.848280",
+        "user": "TestUser",
+        "action": "Visited book list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 22:28:03.663090",
+        "user": "TestUser",
+        "action": "Visited book list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 22:28:04.741874",
+        "user": "TestUser",
+        "action": "Visited book list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 22:34:30.181474",
+        "user": "TestUser",
+        "action": "Visited book list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 22:34:31.482763",
+        "user": "TestUser",
+        "action": "Visited book list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 22:34:32.180277",
+        "user": "TestUser",
+        "action": "Visited book list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 22:35:26.871002",
+        "user": "TestUser",
+        "action": "Visited book list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 22:36:13.950956",
+        "user": "TestUser",
+        "action": "Visited book list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 22:36:16.935958",
+        "user": "TestUser",
+        "action": "Visited /accounts/login/"
+    },
+    {
+        "timestamp": "2024-11-06 22:37:06.241677",
+        "user": "TestUser",
+        "action": "Visited /accounts/login/"
+    },
+    {
+        "timestamp": "2024-11-06 22:37:07.654180",
+        "user": "TestUser",
+        "action": "Visited /accounts/login/"
+    },
+    {
+        "timestamp": "2024-11-06 22:37:12.298810",
+        "user": "TestUser",
+        "action": "Visited /accounts/login/"
+    },
+    {
+        "timestamp": "2024-11-06 22:37:12.370892",
+        "user": "TestUser",
+        "action": "Visited /"
+    },
+    {
+        "timestamp": "2024-11-06 22:37:12.443444",
+        "user": "TestUser",
+        "action": "Visited /catalog/"
+    },
+    {
+        "timestamp": "2024-11-06 22:38:39.970347",
+        "user": "TestUser",
+        "action": "Visited /catalog/"
+    },
+    {
+        "timestamp": "2024-11-06 22:40:18.906384",
+        "user": "TestUser",
+        "action": "Visited /catalog/"
+    },
+    {
+        "timestamp": "2024-11-06 22:40:35.924607",
+        "user": "TestUser",
+        "action": "Visited /catalog/"
+    },
+    {
+        "timestamp": "2024-11-06 22:40:55.664795",
+        "user": "TestUser",
+        "action": "Visited /catalog/admin_zone/login/"
+    },
+    {
+        "timestamp": "2024-11-06 22:50:53.895102",
+        "user": "admin",
+        "action": "Visited /catalog/admin_zone/login/"
+    },
+    {
+        "timestamp": "2024-11-06 22:50:53.976627",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/"
+    },
+    {
+        "timestamp": "2024-11-06 22:50:56.323318",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/books/"
+    },
+    {
+        "timestamp": "2024-11-06 22:51:02.164018",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/languages/"
+    },
+    {
+        "timestamp": "2024-11-06 22:51:03.527604",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/genres/"
+    },
+    {
+        "timestamp": "2024-11-06 22:51:06.240747",
+        "user": "admin",
+        "action": "Visited /catalog/admin_zone/author/create/"
+    },
+    {
+        "timestamp": "2024-11-06 22:51:07.300732",
+        "user": "admin",
+        "action": "Visited /catalog/book/create/"
+    },
+    {
+        "timestamp": "2024-11-06 22:51:11.081198",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/languages/"
+    },
+    {
+        "timestamp": "2024-11-06 22:51:12.010273",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/authors/"
+    },
+    {
+        "timestamp": "2024-11-06 22:51:12.937322",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/books/"
+    },
+    {
+        "timestamp": "2024-11-06 22:51:14.229672",
+        "user": "admin",
+        "action": "Visited /catalog/admin_zone/genre/create/"
+    },
+    {
+        "timestamp": "2024-11-06 22:51:21.700635",
+        "user": "admin",
+        "action": "Visited /catalog/admin_zone/language/create/"
+    },
+    {
+        "timestamp": "2024-11-06 22:51:23.117622",
+        "user": "admin",
+        "action": "Visited /catalog/admin_zone/author/create/"
+    },
+    {
+        "timestamp": "2024-11-06 22:51:24.192965",
+        "user": "admin",
+        "action": "Visited /catalog/book/create/"
+    },
+    {
+        "timestamp": "2024-11-06 22:54:29.225194",
+        "user": "admin",
+        "action": "Visited /catalog/admin_zone/login/"
+    },
+    {
+        "timestamp": "2024-11-06 22:54:29.301306",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/"
+    },
+    {
+        "timestamp": "2024-11-06 22:54:30.856274",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/genres/"
+    },
+    {
+        "timestamp": "2024-11-06 22:57:36.407706",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/"
+    },
+    {
+        "timestamp": "2024-11-06 22:57:39.053555",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/books/"
+    },
+    {
+        "timestamp": "2024-11-06 23:02:51.034156",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/books/"
+    },
+    {
+        "timestamp": "2024-11-06 23:02:52.518644",
+        "user": "admin",
+        "action": "Visited log list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 23:02:55.950580",
+        "user": "admin",
+        "action": "Visited log list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 23:03:04.220239",
+        "user": "admin",
+        "action": "Visited log list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 23:03:07.359058",
+        "user": "admin",
+        "action": "Visited log list, page 2"
+    },
+    {
+        "timestamp": "2024-11-06 23:05:46.912003",
+        "user": "admin",
+        "action": "Visited log list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 23:07:39.076048",
+        "user": "admin",
+        "action": "Visited log list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 23:07:52.153213",
+        "user": "admin",
+        "action": "Visited log list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 23:07:54.741717",
+        "user": "admin",
+        "action": "Visited log list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 23:07:57.729721",
+        "user": "admin",
+        "action": "Visited log list, page 2"
+    },
+    {
+        "timestamp": "2024-11-06 23:08:01.426696",
+        "user": "admin",
+        "action": "Visited log list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 23:08:39.747805",
+        "user": "admin",
+        "action": "Visited log list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 23:08:43.180339",
+        "user": "admin",
+        "action": "Visited log list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 23:11:48.393954",
+        "user": "admin",
+        "action": "Visited log list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 23:11:52.151707",
+        "user": "admin",
+        "action": "Visited log list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 23:11:52.762408",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/books/"
+    },
+    {
+        "timestamp": "2024-11-06 23:11:53.528295",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/authors/"
+    },
+    {
+        "timestamp": "2024-11-06 23:24:31.305350",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/authors/"
+    },
+    {
+        "timestamp": "2024-11-06 23:24:32.714847",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/genres/"
+    },
+    {
+        "timestamp": "2024-11-06 23:28:12.550242",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/authors/"
+    },
+    {
+        "timestamp": "2024-11-06 23:28:13.932193",
+        "user": "admin",
+        "action": "Visited log list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 23:36:27.402283",
+        "user": "admin",
+        "action": "Visited log list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 23:36:29.314110",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/languages/"
+    },
+    {
+        "timestamp": "2024-11-06 23:36:30.513668",
+        "user": "admin",
+        "action": "Visited /catalog/admin_zone/language/2"
+    },
+    {
+        "timestamp": "2024-11-06 23:36:32.952812",
+        "user": "admin",
+        "action": "Visited /catalog/admin_zone/language/2/update/"
+    },
+    {
+        "timestamp": "2024-11-06 23:36:36.485535",
+        "user": "admin",
+        "action": "Visited /catalog/admin_zone/language/2/delete/"
+    },
+    {
+        "timestamp": "2024-11-06 23:36:38.966483",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/genres/"
+    },
+    {
+        "timestamp": "2024-11-06 23:52:43.370394",
+        "user": "admin",
+        "action": "Visited /catalog/admin_zone/language/2"
+    },
+    {
+        "timestamp": "2024-11-06 23:52:44.407463",
+        "user": "admin",
+        "action": "Visited log list, page 1"
+    },
+    {
+        "timestamp": "2024-11-06 23:52:47.492541",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/books/"
+    },
+    {
+        "timestamp": "2024-11-06 23:52:48.211571",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/authors/"
+    },
+    {
+        "timestamp": "2024-11-06 23:52:48.929709",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/languages/"
+    },
+    {
+        "timestamp": "2024-11-06 23:52:49.740502",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/genres/"
+    },
+    {
+        "timestamp": "2024-11-06 23:53:28.886995",
+        "user": "admin",
+        "action": "Visited /catalog/admin_zone/book/create/"
+    },
+    {
+        "timestamp": "2024-11-07 00:15:07.205775",
+        "user": "admin",
+        "action": "Visited /catalog/admin_zone/book/create/"
+    },
+    {
+        "timestamp": "2024-11-07 00:15:08.692570",
+        "user": "admin",
+        "action": "Visited log list, page 1"
+    },
+    {
+        "timestamp": "2024-11-07 00:16:16.614476",
+        "user": "admin",
+        "action": "Visited /catalog/admin_zone/author/create/"
+    },
+    {
+        "timestamp": "2024-11-07 00:16:29.529024",
+        "user": "admin",
+        "action": "Visited /catalog/admin_zone/author/create/"
+    },
+    {
+        "timestamp": "2024-11-07 00:16:54.973551",
+        "user": "admin",
+        "action": "Visited /catalog/admin_zone/author/create/"
+    },
+    {
+        "timestamp": "2024-11-07 00:17:15.016705",
+        "user": "admin",
+        "action": "Visited /catalog/admin_zone/author/create/"
+    },
+    {
+        "timestamp": "2024-11-07 00:19:03.080092",
+        "user": "admin",
+        "action": "Visited /catalog/admin_zone/author/create/"
+    },
+    {
+        "timestamp": "2024-11-07 00:19:48.268799",
+        "user": "admin",
+        "action": "Visited /catalog/admin_zone/author/create/"
+    },
+    {
+        "timestamp": "2024-11-07 00:19:52.634683",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/authors/"
+    },
+    {
+        "timestamp": "2024-11-07 00:19:54.036707",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/authors/?page=2"
+    },
+    {
+        "timestamp": "2024-11-07 00:19:55.560522",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/authors/?page=3"
+    },
+    {
+        "timestamp": "2024-11-07 00:19:56.492587",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/authors/?page=2"
+    },
+    {
+        "timestamp": "2024-11-07 00:19:57.232719",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/authors/?page=3"
+    },
+    {
+        "timestamp": "2024-11-07 00:19:57.936455",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/authors/?page=4"
+    },
+    {
+        "timestamp": "2024-11-07 00:19:58.703586",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/authors/?page=5"
+    },
+    {
+        "timestamp": "2024-11-07 00:19:59.398015",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/authors/?page=6"
+    },
+    {
+        "timestamp": "2024-11-07 00:20:00.460106",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/authors/?page=5"
+    },
+    {
+        "timestamp": "2024-11-07 00:20:01.122149",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/authors/?page=4"
+    },
+    {
+        "timestamp": "2024-11-07 00:20:03.008716",
+        "user": "admin",
+        "action": "Visited /catalog/admin_zone/author/create/"
+    },
+    {
+        "timestamp": "2024-11-07 00:20:19.993603",
+        "user": "admin",
+        "action": "Visited /catalog/admin_zone/author/create/"
+    },
+    {
+        "timestamp": "2024-11-07 00:20:29.656528",
+        "user": "admin",
+        "action": "Visited /catalog/admin_zone/author/create/"
+    },
+    {
+        "timestamp": "2024-11-07 00:27:00.955946",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/authors/?page=4"
+    },
+    {
+        "timestamp": "2024-11-07 00:27:02.642973",
+        "user": "admin",
+        "action": "Visited /catalog/admin_zone/author/create/"
+    },
+    {
+        "timestamp": "2024-11-07 00:27:13.686635",
+        "user": "admin",
+        "action": "Visited /catalog/admin_zone/author/create/"
+    },
+    {
+        "timestamp": "2024-11-07 00:30:42.678941",
+        "user": "admin",
+        "action": "Visited /catalog/admin_zone/author/create/"
+    },
+    {
+        "timestamp": "2024-11-07 00:30:42.780156",
+        "user": "admin",
+        "action": "Visited author: \u0412\u043b\u0430\u0434\u0438\u0441\u043b\u0430\u0432 \u0415\u043b\u044c\u043a\u0438\u043d"
+    },
+    {
+        "timestamp": "2024-11-07 00:31:01.094801",
+        "user": "admin",
+        "action": "Visited author: \u0412\u043b\u0430\u0434\u0438\u0441\u043b\u0430\u0432 \u0415\u043b\u044c\u043a\u0438\u043d"
+    },
+    {
+        "timestamp": "2024-11-07 00:31:02.923551",
+        "user": "admin",
+        "action": "Visited /catalog/admin_zone/author/create/"
+    },
+    {
+        "timestamp": "2024-11-07 00:31:03.994995",
+        "user": "admin",
+        "action": "Visited /catalog/admin_zone/author/create/"
+    },
+    {
+        "timestamp": "2024-11-07 00:31:11.950409",
+        "user": "admin",
+        "action": "Visited /catalog/admin_zone/author/create/"
+    },
+    {
+        "timestamp": "2024-11-07 00:31:12.028783",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/author/18"
+    },
+    {
+        "timestamp": "2024-11-07 00:31:24.018660",
+        "user": "admin",
+        "action": "Visited /catalog/admin_zone/author/18/delete/"
+    },
+    {
+        "timestamp": "2024-11-07 00:31:26.613591",
+        "user": "admin",
+        "action": "Visited /catalog/admin_zone/author/18/delete/"
+    },
+    {
+        "timestamp": "2024-11-07 00:31:32.560721",
+        "user": "admin",
+        "action": "Visited /catalog/admin_zone/author/18/delete/"
+    },
+    {
+        "timestamp": "2024-11-07 00:31:35.566680",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/languages/"
+    },
+    {
+        "timestamp": "2024-11-07 00:32:01.067443",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/authors/"
+    },
+    {
+        "timestamp": "2024-11-07 00:32:02.348347",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/authors/?page=2"
+    },
+    {
+        "timestamp": "2024-11-07 00:32:03.492126",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/author/10"
+    },
+    {
+        "timestamp": "2024-11-07 00:32:04.655615",
+        "user": "admin",
+        "action": "Visited /catalog/admin_zone/author/10/delete/"
+    },
+    {
+        "timestamp": "2024-11-07 00:32:05.778116",
+        "user": "admin",
+        "action": "Visited /catalog/admin_zone/author/10/delete/"
+    },
+    {
+        "timestamp": "2024-11-07 00:32:05.867597",
+        "user": "admin",
+        "action": "Visited author list, page 1"
+    },
+    {
+        "timestamp": "2024-11-07 00:32:56.734280",
+        "user": "admin",
+        "action": "Visited author list, page 1"
+    },
+    {
+        "timestamp": "2024-11-07 00:34:07.496350",
+        "user": "admin",
+        "action": "Visited /catalog/admin_zone/author/10/delete/"
+    },
+    {
+        "timestamp": "2024-11-07 00:34:10.143095",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/author/10"
+    },
+    {
+        "timestamp": "2024-11-07 00:34:15.550671",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/authors/"
+    },
+    {
+        "timestamp": "2024-11-07 00:34:16.481510",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/authors/?page=2"
+    },
+    {
+        "timestamp": "2024-11-07 00:34:17.785984",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/author/11"
+    },
+    {
+        "timestamp": "2024-11-07 00:34:19.628491",
+        "user": "admin",
+        "action": "Visited /catalog/admin_zone/author/11/delete/"
+    },
+    {
+        "timestamp": "2024-11-07 00:34:20.935520",
+        "user": "admin",
+        "action": "Visited /catalog/admin_zone/author/11/delete/"
+    },
+    {
+        "timestamp": "2024-11-07 00:34:21.016100",
+        "user": "admin",
+        "action": "Visited /catalog/admin_zone/author/11/delete/"
+    },
+    {
+        "timestamp": "2024-11-07 00:38:17.992022",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/authors/?page=2"
+    },
+    {
+        "timestamp": "2024-11-07 00:38:19.028764",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/author/12"
+    },
+    {
+        "timestamp": "2024-11-07 00:38:20.856726",
+        "user": "admin",
+        "action": "Visited /catalog/admin_zone/author/12/delete/"
+    },
+    {
+        "timestamp": "2024-11-07 00:38:21.843760",
+        "user": "admin",
+        "action": "Visited /catalog/admin_zone/author/12/delete/"
+    },
+    {
+        "timestamp": "2024-11-07 00:38:21.920008",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/authors/"
+    },
+    {
+        "timestamp": "2024-11-07 00:38:23.475750",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/authors/?page=2"
+    },
+    {
+        "timestamp": "2024-11-07 00:38:25.147733",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/author/13"
+    },
+    {
+        "timestamp": "2024-11-07 00:38:26.635127",
+        "user": "admin",
+        "action": "Visited /catalog/admin_zone/author/13/delete/"
+    },
+    {
+        "timestamp": "2024-11-07 00:38:27.801959",
+        "user": "admin",
+        "action": "Visited /catalog/admin_zone/author/13/delete/"
+    },
+    {
+        "timestamp": "2024-11-07 00:38:27.878753",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/authors/"
+    },
+    {
+        "timestamp": "2024-11-07 00:38:29.200016",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/authors/?page=2"
+    },
+    {
+        "timestamp": "2024-11-07 00:38:30.160126",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/author/14"
+    },
+    {
+        "timestamp": "2024-11-07 00:38:31.977280",
+        "user": "admin",
+        "action": "Visited /catalog/admin_zone/author/14/delete/"
+    },
+    {
+        "timestamp": "2024-11-07 00:38:33.099649",
+        "user": "admin",
+        "action": "Visited /catalog/admin_zone/author/14/delete/"
+    },
+    {
+        "timestamp": "2024-11-07 00:38:33.173928",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/authors/"
+    },
+    {
+        "timestamp": "2024-11-07 00:38:34.265398",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/authors/?page=2"
+    },
+    {
+        "timestamp": "2024-11-07 00:38:36.177388",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/author/15"
+    },
+    {
+        "timestamp": "2024-11-07 00:38:37.201508",
+        "user": "admin",
+        "action": "Visited /catalog/admin_zone/author/15/delete/"
+    },
+    {
+        "timestamp": "2024-11-07 00:38:38.687628",
+        "user": "admin",
+        "action": "Visited /catalog/admin_zone/author/15/delete/"
+    },
+    {
+        "timestamp": "2024-11-07 00:38:38.758684",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/authors/"
+    },
+    {
+        "timestamp": "2024-11-07 00:38:39.946612",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/authors/?page=2"
+    },
+    {
+        "timestamp": "2024-11-07 00:38:41.205681",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/author/16"
+    },
+    {
+        "timestamp": "2024-11-07 00:38:42.106596",
+        "user": "admin",
+        "action": "Visited /catalog/admin_zone/author/16/delete/"
+    },
+    {
+        "timestamp": "2024-11-07 00:38:43.147667",
+        "user": "admin",
+        "action": "Visited /catalog/admin_zone/author/16/delete/"
+    },
+    {
+        "timestamp": "2024-11-07 00:38:43.217648",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/authors/"
+    },
+    {
+        "timestamp": "2024-11-07 00:38:44.185755",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/authors/?page=2"
+    },
+    {
+        "timestamp": "2024-11-07 00:38:45.072470",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/author/17"
+    },
+    {
+        "timestamp": "2024-11-07 00:38:51.000138",
+        "user": "admin",
+        "action": "Visited /catalog/admin_zone/author/17/delete/"
+    },
+    {
+        "timestamp": "2024-11-07 00:38:52.488202",
+        "user": "admin",
+        "action": "Visited /catalog/admin_zone/author/17/delete/"
+    },
+    {
+        "timestamp": "2024-11-07 00:38:52.562912",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/authors/"
+    },
+    {
+        "timestamp": "2024-11-07 00:38:53.842827",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/authors/?page=2"
+    },
+    {
+        "timestamp": "2024-11-07 00:38:55.784032",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/authors/?page=3"
+    },
+    {
+        "timestamp": "2024-11-07 00:38:56.768459",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/authors/?page=2"
+    },
+    {
+        "timestamp": "2024-11-07 00:38:57.169788",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/authors/?page=1"
+    },
+    {
+        "timestamp": "2024-11-07 00:38:57.888050",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/authors/?page=4"
+    },
+    {
+        "timestamp": "2024-11-07 00:38:58.890740",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/authors/?page=3"
+    },
+    {
+        "timestamp": "2024-11-07 00:39:00.020932",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/authors/?page=2"
+    },
+    {
+        "timestamp": "2024-11-07 00:39:00.654099",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/authors/?page=1"
+    },
+    {
+        "timestamp": "2024-11-07 00:40:28.380036",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/authors/?page=1"
+    },
+    {
+        "timestamp": "2024-11-07 00:42:46.476979",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/authors/?page=1"
+    },
+    {
+        "timestamp": "2024-11-07 00:42:48.383406",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/author/9"
+    },
+    {
+        "timestamp": "2024-11-07 00:43:41.857244",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/author/9"
+    },
+    {
+        "timestamp": "2024-11-07 00:44:07.683738",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/author/9"
+    },
+    {
+        "timestamp": "2024-11-07 00:44:22.434577",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/author/9"
+    },
+    {
+        "timestamp": "2024-11-07 00:44:39.629168",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/author/9"
+    },
+    {
+        "timestamp": "2024-11-07 00:44:57.473743",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/author/9"
+    },
+    {
+        "timestamp": "2024-11-07 00:45:03.600266",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/books/"
+    },
+    {
+        "timestamp": "2024-11-07 00:45:04.742014",
+        "user": "admin",
+        "action": "Visited log list, page 1"
+    },
+    {
+        "timestamp": "2024-11-07 00:45:05.508526",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/authors/"
+    },
+    {
+        "timestamp": "2024-11-07 00:45:06.497507",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/books/"
+    },
+    {
+        "timestamp": "2024-11-07 00:45:08.201408",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/book/2"
+    },
+    {
+        "timestamp": "2024-11-07 00:45:17.871383",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/authors/"
+    },
+    {
+        "timestamp": "2024-11-07 00:45:19.323313",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/author/8"
+    },
+    {
+        "timestamp": "2024-11-07 00:45:25.079474",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/books/"
+    },
+    {
+        "timestamp": "2024-11-07 00:45:47.710267",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/books/"
+    },
+    {
+        "timestamp": "2024-11-07 00:46:42.876894",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/book/2"
+    },
+    {
+        "timestamp": "2024-11-07 00:46:53.786673",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/book/2"
+    },
+    {
+        "timestamp": "2024-11-07 00:46:58.052871",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/books/"
+    },
+    {
+        "timestamp": "2024-11-07 00:47:00.711566",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/book/2"
+    },
+    {
+        "timestamp": "2024-11-07 00:50:24.835172",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/book/2"
+    },
+    {
+        "timestamp": "2024-11-07 00:50:58.914117",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/genres/"
+    },
+    {
+        "timestamp": "2024-11-07 00:52:55.283820",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/genres/"
+    },
+    {
+        "timestamp": "2024-11-07 00:52:57.518198",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/genres/"
+    },
+    {
+        "timestamp": "2024-11-07 00:52:58.190550",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/languages/"
+    },
+    {
+        "timestamp": "2024-11-07 00:52:59.167709",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/authors/"
+    },
+    {
+        "timestamp": "2024-11-07 00:52:59.876385",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/languages/"
+    },
+    {
+        "timestamp": "2024-11-07 00:53:00.475209",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/genres/"
+    },
+    {
+        "timestamp": "2024-11-07 00:53:01.685310",
+        "user": "admin",
+        "action": "Visited /catalog/admin_zone/genre/2"
+    },
+    {
+        "timestamp": "2024-11-07 00:53:55.907818",
+        "user": "admin",
+        "action": "Visited /catalog/admin_zone/genre/2"
+    },
+    {
+        "timestamp": "2024-11-07 00:54:24.275224",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/genres/"
+    },
+    {
+        "timestamp": "2024-11-07 00:54:26.813865",
+        "user": "admin",
+        "action": "Visited /catalog/admin_zone/genre/12"
+    },
+    {
+        "timestamp": "2024-11-07 00:58:18.325982",
+        "user": "admin",
+        "action": "Visited /catalog/admin_zone/genre/12"
+    },
+    {
+        "timestamp": "2024-11-07 00:58:39.954402",
+        "user": "admin",
+        "action": "Visited /catalog/admin_zone/genre/12"
+    },
+    {
+        "timestamp": "2024-11-07 00:58:48.874548",
+        "user": "admin",
+        "action": "Visited /catalog/admin_zone/genre/12"
+    },
+    {
+        "timestamp": "2024-11-07 00:59:14.058725",
+        "user": "admin",
+        "action": "Visited /catalog/admin_zone/genre/12"
+    },
+    {
+        "timestamp": "2024-11-07 00:59:36.810596",
+        "user": "admin",
+        "action": "Visited /catalog/admin_zone/genre/12"
+    },
+    {
+        "timestamp": "2024-11-07 01:00:10.245459",
+        "user": "admin",
+        "action": "Visited /catalog/admin_zone/genre/12"
+    },
+    {
+        "timestamp": "2024-11-07 01:00:11.095890",
+        "user": "admin",
+        "action": "Visited /catalog/admin_zone/genre/12"
+    },
+    {
+        "timestamp": "2024-11-07 01:00:17.355432",
+        "user": "admin",
+        "action": "Visited /catalog/admin_zone/genre/12"
+    },
+    {
+        "timestamp": "2024-11-07 01:01:19.402050",
+        "user": "admin",
+        "action": "Visited /catalog/admin_zone/genre/12"
+    },
+    {
+        "timestamp": "2024-11-07 01:01:20.539944",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/books/"
+    },
+    {
+        "timestamp": "2024-11-07 01:01:21.427545",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/authors/"
+    },
+    {
+        "timestamp": "2024-11-07 01:01:22.545249",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/books/"
+    },
+    {
+        "timestamp": "2024-11-07 01:01:24.143407",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/book/2"
+    },
+    {
+        "timestamp": "2024-11-07 01:01:36.849211",
+        "user": "admin",
+        "action": "Visited /catalog/admin_panel/book/2"
     }
 ]

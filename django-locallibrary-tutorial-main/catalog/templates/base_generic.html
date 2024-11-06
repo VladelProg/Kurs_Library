@@ -19,7 +19,8 @@
     <!-- Контейнер для иконки с подписью в левом верхнем углу -->
     <div class="position-absolute top-0 start-0 m-3 d-flex flex-column align-items-center">
         <img src="{% static 'images/icon-enter.jpg' %}" alt="Enter" width="20px">
-        <small class="text-muted">Вход</small> <!-- Подпись под иконкой -->
+        <a href="{% url 'login' %}"><small class="text-muted">Вход</small></a>
+         <!-- Подпись под иконкой -->
     </div>
   </div>
   {% if user.is_staff %}

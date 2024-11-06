@@ -4,22 +4,25 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 
+
 {% block content %}
     <h1>Список книг</h1>
 
     <!-- Сортировка -->
-    <select id="sorting" class="form-select mb-4" style="max-width: 200px;">
-        <option value="" {% if request.GET.sort == "" %}selected{% endif %}>По умолчанию</option>
-        <option value="title" {% if request.GET.sort == "title" %}selected{% endif %}>По алфавиту</option>
-        <option value="-title" {% if request.GET.sort == "-title" %}selected{% endif %}>В обратном алфавитном порядке</option>
-        <option value="-rating" {% if request.GET.sort == "-rating" %}selected{% endif %}>По рейтингу (от лучшего к худшему)</option>
-        <option value="rating" {% if request.GET.sort == "rating" %}selected{% endif %}>По рейтингу (от худшего к лучшему)</option>
+    <a href="?sort=title">Сортировать по дате рождения</a> |
+    <a href="?sort=-title">В обратном алфавитном порядке</a> |
+    <a href="?sort=-average_rating">По рейтингу (от худшего к лучшему)</a>
+    <select class="sorting" style="max-width: 200px;">
+        <option <a href="?sort=title"> По алфавиту</a> ></option>
+        <option <a href="?sort=-title"> По алфавиту2</a>>В обратном алфавитном порядке</option>
+        <option value="-average_rating" {% if sort == "-average_rating" %}selected{% endif %}>По рейтингу (от лучшего к худшему)</option>
+        <option value="average_rating" {% if sort == "average_rating" %}selected{% endif %}>По рейтингу (от худшего к лучшему)</option>
     </select>
 
-    <!-- Сетка карточек книг -->
-    {% if page_obj.object_list %}
+    <!-- Грид карточек книг -->
+    {% if book_list %}
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
-        {% for book in page_obj.object_list %}
+        {% for book in book_list %}
         <div class="col">
             <div class="card h-100">
                 {% load static %}
@@ -32,7 +35,7 @@
 
                     <p class="card-text d-flex align-items-center">
                         <img src="{% static 'images/star.png' %}" alt="Star icon" width="20px" class="mr-2">
-                        <strong>{{  book.average_rating|floatformat:2|default:"Нет рейтинга" }}</strong>
+                        <strong>{{ book.average_rating|floatformat:2|default:"Нет рейтинга" }}</strong>
                     </p>
                 </div>
                 <div class="card-footer text-center">
@@ -47,20 +50,13 @@
     {% endif %}
 
     {% include 'pagination.html' %}
-
 {% endblock %}
 
 <script>
     document.getElementById('sorting').addEventListener('change', function() {
         const sortValue = this.value;
-        let url = window.location.href;
-
-        url = url.replace(/(\?|&)sort=[^&]+/g, '');
-
-        if (sortValue) {
-            url += url.includes('?') ? '&sort=' + sortValue : '?sort=' + sortValue;
-        }
-
-        window.location.href = url;
+        const url = new URL(window.location.href);
+        url.searchParams.set('sort', sortValue);
+        window.location.href = url.toString();
     });
 </script>

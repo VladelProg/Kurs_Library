@@ -38,6 +38,16 @@
     {% else %}
         <p>Нет оценок.</p>
     {% endif %}
+
+    <div>
+        <h3>Рейтинг:</h3>
+        <p><strong>Средний рейтинг:</strong> {{ average_rating|floatformat:2 }}</p>
+        {% if average_rating %}
+            <p><strong>Ваш рейтинг:</strong> {{ average_rating }}</p>
+        {% else %}
+            <p>Вы еще не оставили рейтинг для этой книги.</p>
+        {% endif %}
+    </div>
     <strong>{{ average_rating }}</strong>
     <div class="d-flex justify-content-start mt-1">
         <a href="javascript:history.back()" class="btn btn-secondary ms-3">Назад</a>
